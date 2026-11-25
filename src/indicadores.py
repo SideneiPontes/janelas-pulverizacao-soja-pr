@@ -30,7 +30,7 @@ Convenções adotadas (documentar na metodologia)
   são calculadas por célula ERA5: municípios na mesma célula são promediados entre si
   antes da média regional (cada célula pesa 1).
 * Fase de fungicidas: 16/dez até o último dia de fevereiro (inclui 29/fev).
-* Safra Y/Y+1: 1/set de Y a 30/abr de Y+1; safras 1995/96 a 2023/24.
+* Safra Y/Y+1: 1/set de Y a 30/abr de Y+1; safras 2000/01 a 2025/26.
 * Épocas de semeadura: ciclo de 120 dias, fases 15:30:60:35 reescaladas para 120 d
   -> inicial [0,13), desenvolvimento [13,39), florescimento/enchimento [39,90),
   maturação [90,120) DAS; dessecação pré-semeadura [-20, 0) DAS.
@@ -98,7 +98,10 @@ FASES_EP = [("Dessecação pré-semeadura", -20, 0), ("Inicial", 0, 13),
             ("Desenvolvimento", 13, 39), ("Florescimento e enchimento", 39, 90),
             ("Maturação", 90, 120)]
 EPOCAS = [(9, 25), (10, 5), (10, 15), (10, 25), (11, 5), (11, 15)]
-SAFRAS = range(1995, 2024)  # ano de início da safra
+SAFRAS = range(2000, 2026)  # ano de início da safra (2000/01 a 2025/26)
+N_SAFRAS = len(SAFRAS)
+ROTULO_SAFRAS = f"{SAFRAS[0]}/{str(SAFRAS[0] + 1)[2:]} a {SAFRAS[-1]}/{str(SAFRAS[-1] + 1)[2:]}"
+PERIODO_ERA5 = f"{SAFRAS[0]}–{SAFRAS[-1] + 1}"  # rótulo das figuras (safras set/2000-abr/2026)
 MESES_SAFRA = [9, 10, 11, 12, 1, 2, 3, 4]
 NOME_MES = {1: "Jan", 2: "Fev", 3: "Mar", 4: "Abr", 5: "Mai", 6: "Jun",
             7: "Jul", 8: "Ago", 9: "Set", 10: "Out", 11: "Nov", 12: "Dez"}
@@ -419,7 +422,7 @@ def main() -> None:
     D_all["ano"], D_all["mes"] = D_all["data"].dt.year, D_all["data"].dt.month
     D_all.to_parquet(PROC / "indicadores_diarios.parquet", index=False)
     D = calendario(D_all.copy())
-    assert D["safra"].nunique() == 29, D["safra"].nunique()
+    assert D["safra"].nunique() == N_SAFRAS, D["safra"].nunique()
 
     TAB.mkdir(parents=True, exist_ok=True)
     tabelas = {}
@@ -446,7 +449,7 @@ def main() -> None:
         print("\n" + "=" * 100 + f"\n{s}\n" + "=" * 100)
 
     T2 = tabelas["T2_dias_aptos_fase"]
-    titulo("T2 - Critério A: % do tempo apto e dias aptos por fase (média 29 safras)")
+    titulo(f"T2 - Critério A: % do tempo apto e dias aptos por fase (média {N_SAFRAS} safras)")
     print(T2.pivot(index="municipio", columns="fase", values="pct_tempo_apto").round(1).to_string())
     print("\nDias aptos (média) por fase:")
     print(T2.pivot(index="municipio", columns="fase", values="dias_aptos_media").round(1).to_string())

@@ -1,11 +1,12 @@
-"""Complementos da validação ERA5 x INMET (2010-2016, 6 estações, critério A). Não baixa nada.
+"""Complementos da validação ERA5 x INMET (safras 2000/01-2025/26, critério A). Não baixa nada.
 
 Uso:  python -I src/validacao_complementos.py
 Pré-requisito: python -I src/validacao_inmet.py (estações em data/processed/inmet/, ERA5 no ponto
 das estações em data/raw/era5_estacoes/, T12a e T13).
 
 Em todas as contas entram só as HORAS VÁLIDAS COMUNS: horas em que estação e ERA5 (no ponto da
-estação) têm todos os dados do critério A. Média das estações = média simples das 6 estações.
+estação) têm todos os dados do critério A. Só horas set-abr das estação-safras válidas (src/inventario_inmet.py).
+Média das estações = média simples das estações com >= 2 safras válidas.
 
 1. T13c: fração de horas aptas por fase operacional (estação x ERA5).
 2. T13d: período de fungicidas (16/dez - fim de fev), dia (06-20 h) x noite (20-06 h):
@@ -15,7 +16,10 @@ estação) têm todos os dados do critério A. Média das estações = média si
    (75,25 dias x 14 h de dia ou x 10 h de noite). Estações com < 30 dias no período ficam fora.
    Diferença em relação a T8: lá a noite é is_day = 0 (pôr ao nascer do sol); aqui 20-06 h.
 3. T13e: ajuste aproximado das horas aptas do Paraná (16 municípios, ERA5) por fase, com a
-   razão mensal estação/ERA5 da T13 (média das 6 estações, critério A, cenário base).
+   razão mensal estação/ERA5 da T13 (média das estações, critério A, cenário base).
+4. T13f: estabilidade da validação por período (safras que terminam em 2000-2009, 2010-2016 e
+   2017-2026): viés do vento a 10 m, calmaria noturna (u2 < 3 km/h, 20-06 h, período de
+   fungicidas), kappa do critério A (hora a hora, cenário base) e razão estação/ERA5 por fase.
 """
 from __future__ import annotations
 
@@ -28,7 +32,12 @@ import pandas as pd
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from indicadores import (AGREG, ESTADO, FATOR_U2, PROC, TAB, calendario,  # noqa: E402
                          configurar_agregados, janelas)
-from validacao_inmet import ANOS, COND, LOG, TZ, condicoes, era5_estacao  # noqa: E402
+from sklearn.metrics import cohen_kappa_score  # noqa: E402
+from indicadores import ROTULO_SAFRAS  # noqa: E402
+from validacao_inmet import (COND, IDX, LOG, SAFRA_IDX, TZ, condicoes, era5_estacao,  # noqa: E402
+                             estacoes, mascara_ativa, periodo_estacoes)
+
+PERIODOS = [("2000–2009", 2001, 2009), ("2010–2016", 2010, 2016), ("2017–2026", 2017, 2026)]
 
 FASES = ["Dessecação pré-semeadura", "Pós-emergência", "Fungicidas (R1-R5)",
          "Pré-colheita e colheita"]
@@ -49,13 +58,14 @@ def runs(m: pd.Series) -> pd.Series:
 
 
 def por_estacao(e: pd.Series):
-    idx = pd.date_range(f"{ANOS[0]}-01-01 00:00", f"{ANOS[-1]}-12-31 23:00", freq="h", tz="UTC")
+    idx = IDX
     loc = idx.tz_convert(TZ)
     est = pd.read_parquet(PROC / "inmet" / f"{e.codigo}.parquet").set_index("time_utc").reindex(idx)
     era = era5_estacao(e).set_index("time_utc").reindex(idx)
     A_s, _, vA_s, _ = condicoes(est)
     A_e, _, vA_e, _ = condicoes(era)
-    val = vA_s & vA_e
+    ativo = mascara_ativa(e.codigo)
+    val = vA_s & vA_e & ativo
     aptS = pd.Series(np.logical_and.reduce([A_s[c] for c in COND["A"]]), index=idx) & val
     aptE = pd.Series(np.logical_and.reduce([A_e[c] for c in COND["A"]]), index=idx) & val
     hora = pd.Series(loc.hour, index=idx)
@@ -88,25 +98,54 @@ def por_estacao(e: pd.Series):
         vd, vn = val & fung & diurno, val & fung & ~diurno
         linhas2[f"util_base_por_h_{fonte}"] = jan[vd].sum() / vd.sum()     # por hora diurna válida
         linhas2[f"ganho_A1_por_h_{fonte}"] = a1[vn].sum() / vn.sum()        # por hora noturna válida
-    return linhas1, linhas2
+
+    # 4. estabilidade por período (ano de término da safra)
+    fim = SAFRA_IDX + 1
+    linhas3 = []
+    for nome, a0, a1_ in PERIODOS:
+        mp = fim.between(a0, a1_)
+        v = val & mp
+        if v.sum() == 0:
+            continue
+        r = {"periodo": nome, "codigo": e.codigo, "estacao": e.estacao, "municipio": e.municipio,
+             "n_safras": int(SAFRA_IDX[v].nunique()), "horas_validas": int(v.sum())}
+        vv = ativo & mp & est["u10"].notna() & era["u10"].notna()
+        r["vies_vento10_kmh"] = (era["u10"][vv] - est["u10"][vv]).mean()
+        r["vento10_estacao_kmh"] = est["u10"][vv].mean()
+        r["vento10_era5_kmh"] = era["u10"][vv].mean()
+        vn = v & fung & ~diurno
+        for fonte, d in (("estacao", est), ("era5", era)):
+            r[f"pct_calmaria_noturna_fung_{fonte}"] = 100 * ((d["u10"] * FATOR_U2)[vn] < 3).mean()
+        r["kappa_A"] = cohen_kappa_score(aptS[v], aptE[v])
+        r["pct_aptas_estacao"] = 100 * aptS[v].mean()
+        r["pct_aptas_era5"] = 100 * aptE[v].mean()
+        for f in FASES:
+            vf = v & (fase == f)
+            r[f"razao_{f}"] = (aptS[vf].sum() / aptE[vf].sum()) if aptE[vf].sum() else np.nan
+        linhas3.append(r)
+    return linhas1, linhas2, linhas3
 
 
 def main() -> None:
     pd.set_option("display.width", 220)
-    sel = pd.read_csv(TAB / "T12a_estacoes_inmet.csv", encoding="utf-8-sig")
+    sel = estacoes()
     ms = sel[sel["selecionada"]].reset_index(drop=True)
-    L1, L2 = [], []
+    PER = periodo_estacoes(ms)
+    inc = set(ms.loc[ms["incluida_na_media"], "codigo"])
+    L1, L2, L3 = [], [], []
     for _, e in ms.iterrows():
-        a, b = por_estacao(e)
+        a, b, c = por_estacao(e)
         L1 += a
         L2.append(b)
+        L3 += c
 
     # ---------------- T13c
     t = pd.DataFrame(L1)
     t["pct_aptas_estacao"] = 100 * t["aptas_estacao"] / t["horas_validas"]
     t["pct_aptas_era5"] = 100 * t["aptas_era5"] / t["horas_validas"]
-    # média só com estações que têm >= 30 dias de horas válidas em TODAS as fases
-    t["incluida_na_media"] = t.groupby("codigo")["horas_validas"].transform("min") >= MIN_DIAS_FUNG * 24
+    # média só com estações com >= 2 safras válidas e >= 30 dias de horas válidas em TODAS as fases
+    t["incluida_na_media"] = ((t.groupby("codigo")["horas_validas"].transform("min") >= MIN_DIAS_FUNG * 24)
+                              & t["codigo"].isin(inc))
     tm = t[t["incluida_na_media"]]
     med = tm.groupby("fase")[["pct_aptas_estacao", "pct_aptas_era5"]].mean().reindex(FASES)
     med["n_estacoes"] = tm.groupby("fase").size().reindex(FASES)
@@ -115,12 +154,12 @@ def main() -> None:
     T13c["razao_estacao_era5"] = T13c["pct_aptas_estacao"] / T13c["pct_aptas_era5"]
     T13c["fase"] = pd.Categorical(T13c["fase"], FASES, ordered=True)
     T13c = T13c.sort_values(["codigo", "fase"]).round(3)
-    T13c.insert(0, "periodo_analise", f"{ANOS[0]}–{ANOS[-1]}")
+    T13c.insert(0, "periodo_analise", PER)
     T13c.to_csv(TAB / "T13c_fases_estacao_vs_era5.csv", index=False, encoding="utf-8-sig")
 
     # ---------------- T13d
     d = pd.DataFrame(L2)
-    d["incluida"] = d["dias_no_periodo"] >= MIN_DIAS_FUNG
+    d["incluida"] = (d["dias_no_periodo"] >= MIN_DIAS_FUNG) & d["codigo"].isin(inc)
     for f in ("estacao", "era5"):
         d[f"horas_utilizaveis_dia_por_safra_{f}"] = d[f"util_base_por_h_{f}"] * DIAS_FUNG * 14
         d[f"ganho_A1_h_por_safra_{f}"] = d[f"ganho_A1_por_h_{f}"] * DIAS_FUNG * 10
@@ -137,7 +176,7 @@ def main() -> None:
     T13d["ganho_A1_T8_era5_municipio"] = T13d["municipio"].map(t8)
     T13d.loc[T13d["codigo"] == "TODAS", "ganho_A1_T8_era5_municipio"] = \
         T13d.loc[T13d["incluida"] & (T13d["codigo"] != "TODAS"), "municipio"].map(t8).mean()
-    T13d.insert(0, "periodo_analise", f"{ANOS[0]}–{ANOS[-1]}")
+    T13d.insert(0, "periodo_analise", PER)
     T13d.round(3).to_csv(TAB / "T13d_noturno_estacao_vs_era5.csv", index=False, encoding="utf-8-sig")
 
     # ---------------- T13e
@@ -161,18 +200,39 @@ def main() -> None:
     T13e["pct_tempo_apto_era5"] = 100 * T13e["horas_aptas_era5"] / T13e["horas_fase"]
     T13e["pct_tempo_apto_ajustado"] = 100 * T13e["horas_aptas_ajustadas"] / T13e["horas_fase"]
     T13e["fator_medio"] = T13e["horas_aptas_ajustadas"] / T13e["horas_aptas_era5"]
-    T13e["observacao"] = ("ajuste aproximado: razão mensal estação/ERA5 (critério A, média de 6 "
-                          f"estações INMET, {ANOS[0]}–{ANOS[-1]}) aplicada às safras 1995/96–2023/24")
+    T13e["observacao"] = (f"ajuste aproximado: razão mensal estação/ERA5 (critério A, média de {len(inc)} "
+                          f"estações INMET, {PER}) aplicada às safras {ROTULO_SAFRAS}")
     T13e.round(3).to_csv(TAB / "T13e_horas_ajustadas.csv", index=False, encoding="utf-8-sig")
+
+    # ---------------- T13f
+    f = pd.DataFrame(L3)
+    f["incluida_na_media"] = f["codigo"].isin(inc)
+    lin = []
+    for nome, _, _ in PERIODOS:
+        g = f[(f["periodo"] == nome) & f["incluida_na_media"]]
+        if g.empty:
+            continue
+        w = g["horas_validas"] / g["horas_validas"].sum()
+        m = g.drop(columns=["periodo", "codigo", "estacao", "municipio", "incluida_na_media"]).mean()
+        m["kappa_A"] = (g["kappa_A"] * w).sum()           # ponderado pelas horas, como na T12
+        m["n_safras"] = g["n_safras"].sum()
+        m["horas_validas"] = g["horas_validas"].sum()
+        lin.append({"periodo": nome, "codigo": "TODAS",
+                    "estacao": f"média das estações (n={len(g)}: {', '.join(g['codigo'])})",
+                    "municipio": "", **m.to_dict(), "incluida_na_media": True})
+    T13f = pd.concat([f, pd.DataFrame(lin)], ignore_index=True)
+    T13f = T13f.rename(columns={"n_safras": "n_estacao_safras"})
+    T13f.insert(0, "periodo_analise", PER)
+    T13f.round(3).to_csv(TAB / "T13f_estabilidade_periodos.csv", index=False, encoding="utf-8-sig")
 
     # ---------------- log e resumo
     linhas = [MARCA,
-              f"Período: {ANOS[0]}–{ANOS[-1]}; estações: " + ", ".join(
+              f"Período: {PER}; estações: " + ", ".join(
                   f"{r.codigo} {r.estacao}" for r in ms.itertuples()) + "; critério A.",
               "Horas válidas comuns: estação e ERA5 (no ponto da estação) com todos os dados.",
               "T13e: AJUSTE APROXIMADO. As horas aptas do ERA5 (Paraná, 16 municípios) foram",
-              "multiplicadas pela razão mensal estação/ERA5 da T13 (média de apenas 6 estações do",
-              f"INMET, {ANOS[0]}–{ANOS[-1]}). A razão supõe que o viés do ERA5 é o mesmo em todos os",
+              f"multiplicadas pela razão mensal estação/ERA5 da T13 (média de apenas {len(inc)} estações do",
+              f"INMET, {PER}). A razão supõe que o viés do ERA5 é o mesmo em todos os",
               "municípios e safras; não é uma correção de viés validada.",
               "Razões mensais usadas: " + ", ".join(f"{m}:{r:.2f}" for m, r in raz.items())]
     txt = LOG.read_text(encoding="utf-8") if LOG.exists() else ""
@@ -198,7 +258,10 @@ def main() -> None:
     print(T13d[["codigo", "incluida", "horas_utilizaveis_dia_por_safra_estacao",
                 "horas_utilizaveis_dia_por_safra_era5", "ganho_A1_h_por_safra_estacao",
                 "ganho_A1_h_por_safra_era5", "ganho_A1_T8_era5_municipio"]].round(1).to_string(index=False))
-    titulo("T13e - Paraná: horas aptas por fase, ERA5 x ajustadas (AJUSTE APROXIMADO, 6 estações)")
+    titulo("T13f - estabilidade por período (média das estações)")
+    print(T13f[T13f["codigo"] == "TODAS"].drop(columns=["periodo_analise", "codigo", "municipio",
+                                                         "incluida_na_media"]).round(2).T.to_string())
+    titulo(f"T13e - Paraná: horas aptas por fase, ERA5 x ajustadas (AJUSTE APROXIMADO, {len(inc)} estações)")
     print(T13e.drop(columns=["regiao", "observacao"]).round(1).to_string(index=False))
     print(f"\nNota gravada em {LOG}")
 

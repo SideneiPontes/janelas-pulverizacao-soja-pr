@@ -1,105 +1,105 @@
 ﻿municipio,fase,n_safras,media_horas,tau,S,z,p_valor,sen_h_por_decada,sen_pct_media_por_decada,tendencia,significativo_5pct
-Cascavel,Dessecação pré-semeadura,29,362.2414,0.1552,63.0,1.1636,0.2446,17.9371,4.9517,no trend,False
-Toledo,Dessecação pré-semeadura,29,374.3793,0.202,82.0,1.5199,0.1285,27.2556,7.2802,no trend,False
-Assis Chateaubriand,Dessecação pré-semeadura,29,520.2069,0.0591,24.0,0.4318,0.6659,6.7949,1.3062,no trend,False
-Guarapuava,Dessecação pré-semeadura,29,310.6552,0.2635,107.0,1.9887,0.0467,32.4706,10.4523,increasing,True
-Ponta Grossa,Dessecação pré-semeadura,29,331.5172,0.2192,89.0,1.651,0.0987,26.325,7.9408,no trend,False
-Castro,Dessecação pré-semeadura,29,304.7241,0.2241,91.0,1.6885,0.0913,28.5417,9.3664,no trend,False
-Tibagi,Dessecação pré-semeadura,29,439.9655,0.1232,50.0,0.9195,0.3579,14.4974,3.2951,no trend,False
-Londrina,Dessecação pré-semeadura,29,479.1379,0.0099,4.0,0.0563,0.9551,1.1466,0.2393,no trend,False
-Cornélio Procópio,Dessecação pré-semeadura,29,430.5862,-0.3202,-130.0,-2.4198,0.0155,-29.6875,-6.8947,decreasing,True
-Campo Mourão,Dessecação pré-semeadura,29,474.1034,0.0862,35.0,0.6381,0.5234,10.2174,2.1551,no trend,False
-Ubiratã,Dessecação pré-semeadura,29,539.6207,0.0246,10.0,0.1689,0.8659,2.6795,0.4966,no trend,False
-Pato Branco,Dessecação pré-semeadura,29,360.5862,0.1601,65.0,1.2007,0.2299,21.1667,5.8701,no trend,False
-Palmas,Dessecação pré-semeadura,29,284.1379,0.1626,66.0,1.2197,0.2226,15.7353,5.5379,no trend,False
-Umuarama,Dessecação pré-semeadura,29,444.5172,0.0049,2.0,0.0188,0.985,0.4,0.09,no trend,False
-Ivaiporã,Dessecação pré-semeadura,29,502.0,0.1158,47.0,0.863,0.3881,15.9596,3.1792,no trend,False
-Maringá,Dessecação pré-semeadura,29,507.2414,-0.1207,-49.0,-0.9005,0.3678,-10.3571,-2.0419,no trend,False
-São Pedro do Iguaçu,Dessecação pré-semeadura,29,364.3448,0.1404,57.0,1.0511,0.2932,13.25,3.6367,no trend,False
-Marechal Cândido Rondon,Dessecação pré-semeadura,29,423.3448,0.064,26.0,0.4691,0.639,7.55,1.7834,no trend,False
-Medianeira,Dessecação pré-semeadura,29,438.5172,0.0197,8.0,0.1313,0.8955,3.8158,0.8702,no trend,False
-São Miguel do Iguaçu,Dessecação pré-semeadura,29,462.4828,0.0517,21.0,0.3752,0.7075,7.0726,1.5293,no trend,False
-Foz do Iguaçu,Dessecação pré-semeadura,29,502.7241,0.0,0.0,0.0,1.0,0.0,0.0,no trend,False
-Matelândia,Dessecação pré-semeadura,29,439.7931,0.0197,8.0,0.1313,0.8955,3.8421,0.8736,no trend,False
-Santa Helena,Dessecação pré-semeadura,29,419.0,0.1256,51.0,0.9381,0.3482,16.2019,3.8668,no trend,False
-Guaíra,Dessecação pré-semeadura,29,526.3448,0.1207,49.0,0.9005,0.3678,13.3333,2.5332,no trend,False
-Paraná (média),Dessecação pré-semeadura,29,416.6013,0.1084,44.0,0.8066,0.4199,11.375,2.7304,no trend,False
-Oeste (média),Dessecação pré-semeadura,29,430.4464,0.0813,33.0,0.6004,0.5483,9.6517,2.2422,no trend,False
-Cascavel,Pós-emergência,29,315.5517,0.0296,12.0,0.2063,0.8365,2.9167,0.9243,no trend,False
-Toledo,Pós-emergência,29,327.3103,0.0394,16.0,0.2814,0.7784,4.75,1.4512,no trend,False
-Assis Chateaubriand,Pós-emergência,29,376.5517,0.1059,43.0,0.788,0.4307,14.0833,3.7401,no trend,False
-Guarapuava,Pós-emergência,29,218.7931,0.0468,19.0,0.3377,0.7356,5.0,2.2853,no trend,False
-Ponta Grossa,Pós-emergência,29,228.3793,0.165,67.0,1.2387,0.2155,14.3684,6.2915,no trend,False
-Castro,Pós-emergência,29,196.5862,0.1601,65.0,1.2007,0.2299,17.1667,8.7324,no trend,False
-Tibagi,Pós-emergência,29,299.0345,0.1502,61.0,1.1257,0.2603,17.0979,5.7177,no trend,False
-Londrina,Pós-emergência,29,300.7931,0.0985,40.0,0.7318,0.4643,11.5395,3.8363,no trend,False
-Cornélio Procópio,Pós-emergência,29,289.4483,0.0567,23.0,0.4129,0.6797,3.2667,1.1286,no trend,False
-Campo Mourão,Pós-emergência,29,334.931,0.1133,46.0,0.8444,0.3984,11.0833,3.3091,no trend,False
-Ubiratã,Pós-emergência,29,387.2069,0.1749,71.0,1.3133,0.1891,20.0,5.1652,no trend,False
-Pato Branco,Pós-emergência,29,281.2759,0.1059,43.0,0.7883,0.4305,11.3942,4.0509,no trend,False
-Palmas,Pós-emergência,29,222.1724,0.1158,47.0,0.863,0.3881,11.0819,4.988,no trend,False
-Umuarama,Pós-emergência,29,353.0,0.0074,3.0,0.0375,0.9701,1.0,0.2833,no trend,False
-Ivaiporã,Pós-emergência,29,350.8276,0.1995,81.0,1.5009,0.1334,20.0,5.7008,no trend,False
-Maringá,Pós-emergência,29,370.3793,0.064,26.0,0.469,0.6391,10.0,2.6999,no trend,False
-São Pedro do Iguaçu,Pós-emergência,29,315.6897,-0.0246,-10.0,-0.1688,0.8659,-2.1875,-0.6929,no trend,False
-Marechal Cândido Rondon,Pós-emergência,29,364.1379,-0.0074,-3.0,-0.0375,0.9701,-1.7361,-0.4768,no trend,False
-Medianeira,Pós-emergência,29,371.4828,0.0394,16.0,0.2816,0.7783,3.6607,0.9854,no trend,False
-São Miguel do Iguaçu,Pós-emergência,29,381.3448,0.1034,42.0,0.7694,0.4417,13.5147,3.544,no trend,False
-Foz do Iguaçu,Pós-emergência,29,369.6207,0.1749,71.0,1.3133,0.1891,19.2857,5.2177,no trend,False
-Matelândia,Pós-emergência,29,377.3793,0.032,13.0,0.2251,0.8219,4.0404,1.0706,no trend,False
-Santa Helena,Pós-emergência,29,345.1379,0.1502,61.0,1.1257,0.2603,17.4457,5.0547,no trend,False
-Guaíra,Pós-emergência,29,367.7241,0.202,82.0,1.5199,0.1285,27.5735,7.4984,no trend,False
-Paraná (média),Pós-emergência,29,303.2651,0.0985,40.0,0.7316,0.4644,11.5597,3.8118,no trend,False
-Oeste (média),Pós-emergência,29,351.2165,0.0764,31.0,0.5628,0.5735,11.5123,3.2778,no trend,False
-Cascavel,Fungicidas (R1-R5),29,469.7931,0.2512,102.0,1.8946,0.0582,46.0833,9.8093,no trend,False
-Toledo,Fungicidas (R1-R5),29,500.7931,0.2241,91.0,1.6885,0.0913,50.625,10.109,no trend,False
-Assis Chateaubriand,Fungicidas (R1-R5),29,529.1724,0.2266,92.0,1.7076,0.0877,57.1667,10.803,no trend,False
-Guarapuava,Fungicidas (R1-R5),29,285.2759,0.2266,92.0,1.707,0.0878,37.1053,13.0068,no trend,False
-Ponta Grossa,Fungicidas (R1-R5),29,323.0,0.2438,99.0,1.8386,0.066,34.4949,10.6796,no trend,False
-Castro,Fungicidas (R1-R5),29,268.2414,0.1897,77.0,1.4259,0.1539,25.0452,9.3368,no trend,False
-Tibagi,Fungicidas (R1-R5),29,379.8621,0.1995,81.0,1.5009,0.1334,29.6014,7.7927,no trend,False
-Londrina,Fungicidas (R1-R5),29,424.9655,0.399,162.0,3.02,0.0025,79.1667,18.629,increasing,True
-Cornélio Procópio,Fungicidas (R1-R5),29,439.6207,0.335,136.0,2.5332,0.0113,70.0758,15.94,increasing,True
-Campo Mourão,Fungicidas (R1-R5),29,486.8966,0.3005,122.0,2.2697,0.0232,64.9624,13.3421,increasing,True
-Ubiratã,Fungicidas (R1-R5),29,541.069,0.2291,93.0,1.726,0.0843,58.451,10.8029,no trend,False
-Pato Branco,Fungicidas (R1-R5),29,422.7931,0.1773,72.0,1.3318,0.1829,34.0057,8.0431,no trend,False
-Palmas,Fungicidas (R1-R5),29,303.3793,0.1921,78.0,1.4444,0.1486,21.2143,6.9927,no trend,False
-Umuarama,Fungicidas (R1-R5),29,541.5862,0.202,82.0,1.5199,0.1285,42.8595,7.9137,no trend,False
-Ivaiporã,Fungicidas (R1-R5),29,484.7586,0.2734,111.0,2.0637,0.039,63.797,13.1606,increasing,True
-Maringá,Fungicidas (R1-R5),29,531.8621,0.3695,150.0,2.7959,0.0052,78.0909,14.6825,increasing,True
-São Pedro do Iguaçu,Fungicidas (R1-R5),29,477.0,0.2069,84.0,1.5582,0.1192,46.5714,9.7634,no trend,False
-Marechal Cândido Rondon,Fungicidas (R1-R5),29,583.1724,0.2315,94.0,1.7451,0.081,41.25,7.0734,no trend,False
-Medianeira,Fungicidas (R1-R5),29,555.7241,0.133,54.0,0.9942,0.3201,29.9583,5.3909,no trend,False
-São Miguel do Iguaçu,Fungicidas (R1-R5),29,583.4483,0.0862,35.0,0.6379,0.5235,23.75,4.0706,no trend,False
-Foz do Iguaçu,Fungicidas (R1-R5),29,524.5172,0.0936,38.0,0.6943,0.4875,29.07,5.5422,no trend,False
-Matelândia,Fungicidas (R1-R5),29,579.1379,0.1133,46.0,0.8441,0.3986,19.5,3.3671,no trend,False
-Santa Helena,Fungicidas (R1-R5),29,536.7586,0.2094,85.0,1.576,0.115,43.7857,8.1574,no trend,False
-Guaíra,Fungicidas (R1-R5),29,512.6207,0.1847,75.0,1.3883,0.165,41.0625,8.0103,no trend,False
-Paraná (média),Fungicidas (R1-R5),29,433.3168,0.298,121.0,2.2514,0.0244,45.9688,10.6086,increasing,True
-Oeste (média),Fungicidas (R1-R5),29,528.3927,0.1921,78.0,1.4444,0.1486,32.5278,6.156,no trend,False
-Cascavel,Pré-colheita e colheita,29,483.4483,0.0764,31.0,0.5628,0.5735,11.7708,2.4348,no trend,False
-Toledo,Pré-colheita e colheita,29,523.4828,0.0887,36.0,0.6568,0.5113,18.75,3.5818,no trend,False
-Assis Chateaubriand,Pré-colheita e colheita,29,576.8621,0.0887,36.0,0.6568,0.5113,12.4561,2.1593,no trend,False
-Guarapuava,Pré-colheita e colheita,29,298.6207,0.1404,57.0,1.0506,0.2934,21.1111,7.0695,no trend,False
-Ponta Grossa,Pré-colheita e colheita,29,347.4138,0.0,0.0,0.0,1.0,0.0,0.0,no trend,False
-Castro,Pré-colheita e colheita,29,303.6552,0.0493,20.0,0.3565,0.7214,6.0684,1.9984,no trend,False
-Tibagi,Pré-colheita e colheita,29,412.7586,-0.0567,-23.0,-0.4127,0.6798,-6.2353,-1.5106,no trend,False
-Londrina,Pré-colheita e colheita,29,516.8276,0.1576,64.0,1.1818,0.2373,23.2937,4.507,no trend,False
-Cornélio Procópio,Pré-colheita e colheita,29,518.1724,0.1404,57.0,1.0506,0.2934,22.8125,4.4025,no trend,False
-Campo Mourão,Pré-colheita e colheita,29,567.2759,0.0714,29.0,0.5253,0.5994,13.7302,2.4204,no trend,False
-Ubiratã,Pré-colheita e colheita,29,543.1034,0.0099,4.0,0.0563,0.9551,3.5147,0.6472,no trend,False
-Pato Branco,Pré-colheita e colheita,29,381.931,0.0665,27.0,0.4878,0.6257,10.8333,2.8365,no trend,False
-Palmas,Pré-colheita e colheita,29,288.4138,0.0394,16.0,0.2816,0.7783,5.1042,1.7697,no trend,False
-Umuarama,Pré-colheita e colheita,29,608.3793,0.1355,55.0,1.0131,0.311,19.0035,3.1236,no trend,False
-Ivaiporã,Pré-colheita e colheita,29,520.0,0.0591,24.0,0.4314,0.6662,13.4689,2.5902,no trend,False
-Maringá,Pré-colheita e colheita,29,604.1724,0.0567,23.0,0.4127,0.6798,11.675,1.9324,no trend,False
-São Pedro do Iguaçu,Pré-colheita e colheita,29,499.8966,0.1502,61.0,1.1257,0.2603,24.7802,4.9571,no trend,False
-Marechal Cândido Rondon,Pré-colheita e colheita,29,598.0,0.1084,44.0,0.8069,0.4197,14.3182,2.3943,no trend,False
-Medianeira,Pré-colheita e colheita,29,546.8276,0.0394,16.0,0.2814,0.7784,8.6607,1.5838,no trend,False
-São Miguel do Iguaçu,Pré-colheita e colheita,29,569.9655,0.0271,11.0,0.1876,0.8512,5.7778,1.0137,no trend,False
-Foz do Iguaçu,Pré-colheita e colheita,29,494.6897,-0.0197,-8.0,-0.1314,0.8955,-4.6471,-0.9394,no trend,False
-Matelândia,Pré-colheita e colheita,29,557.931,0.0345,14.0,0.2439,0.8073,6.5158,1.1679,no trend,False
-Santa Helena,Pré-colheita e colheita,29,538.3448,0.1478,60.0,1.1067,0.2684,20.0,3.7151,no trend,False
-Guaíra,Pré-colheita e colheita,29,521.7931,0.0665,27.0,0.4878,0.6257,10.3125,1.9764,no trend,False
-Paraná (média),Pré-colheita e colheita,29,468.4073,0.0542,22.0,0.3939,0.6936,9.1146,1.9459,no trend,False
-Oeste (média),Pré-colheita e colheita,29,531.3333,0.0246,10.0,0.1688,0.8659,10.1852,1.9169,no trend,False
+Cascavel,Dessecação pré-semeadura,26,367.6538,-0.1385,-45.0,-0.9703,0.3319,-19.2308,-5.2307,no trend,False
+Toledo,Dessecação pré-semeadura,26,380.9231,-0.1385,-45.0,-0.9703,0.3319,-19.0,-4.9879,no trend,False
+Assis Chateaubriand,Dessecação pré-semeadura,26,523.3077,-0.2431,-79.0,-1.7201,0.0854,-37.0,-7.0704,no trend,False
+Guarapuava,Dessecação pré-semeadura,26,318.6538,0.1754,57.0,1.2349,0.2169,28.8235,9.0454,no trend,False
+Ponta Grossa,Dessecação pré-semeadura,26,340.3846,0.0123,4.0,0.0661,0.9473,2.5,0.7345,no trend,False
+Castro,Dessecação pré-semeadura,26,316.1923,0.0615,20.0,0.4189,0.6753,6.4286,2.0331,no trend,False
+Tibagi,Dessecação pré-semeadura,26,445.8077,-0.0492,-16.0,-0.3307,0.7409,-8.8889,-1.9939,no trend,False
+Londrina,Dessecação pré-semeadura,26,474.9231,-0.3108,-101.0,-2.2042,0.0275,-50.7692,-10.69,decreasing,True
+Cornélio Procópio,Dessecação pré-semeadura,26,416.6154,-0.5631,-183.0,-4.0116,0.0001,-72.0,-17.2821,decreasing,True
+Campo Mourão,Dessecação pré-semeadura,26,478.8462,-0.2738,-89.0,-1.9415,0.0522,-34.1667,-7.1352,no trend,False
+Ubiratã,Dessecação pré-semeadura,26,543.1538,-0.2769,-90.0,-1.9622,0.0497,-31.25,-5.7534,decreasing,True
+Pato Branco,Dessecação pré-semeadura,26,369.7692,0.0338,11.0,0.2204,0.8255,9.2308,2.4964,no trend,False
+Palmas,Dessecação pré-semeadura,26,285.5385,0.0954,31.0,0.6616,0.5082,12.0,4.2026,no trend,False
+Umuarama,Dessecação pré-semeadura,26,448.4231,-0.4031,-131.0,-2.8668,0.0041,-50.7143,-11.3095,decreasing,True
+Ivaiporã,Dessecação pré-semeadura,26,505.1923,-0.1723,-56.0,-1.2126,0.2253,-22.5,-4.4537,no trend,False
+Maringá,Dessecação pré-semeadura,26,497.9615,-0.3446,-112.0,-2.4472,0.0144,-51.4286,-10.3278,decreasing,True
+São Pedro do Iguaçu,Dessecação pré-semeadura,26,369.8462,-0.1785,-58.0,-1.2567,0.2089,-22.9412,-6.2029,no trend,False
+Marechal Cândido Rondon,Dessecação pré-semeadura,26,426.8077,-0.2892,-94.0,-2.0504,0.0403,-40.0,-9.3719,decreasing,True
+Medianeira,Dessecação pré-semeadura,26,442.1154,-0.2492,-81.0,-1.7633,0.0778,-33.5714,-7.5934,no trend,False
+São Miguel do Iguaçu,Dessecação pré-semeadura,26,467.2308,-0.2031,-66.0,-1.433,0.1518,-32.0,-6.8489,no trend,False
+Foz do Iguaçu,Dessecação pré-semeadura,26,507.3846,-0.1692,-55.0,-1.1908,0.2337,-21.4286,-4.2233,no trend,False
+Matelândia,Dessecação pré-semeadura,26,443.1154,-0.2492,-81.0,-1.7633,0.0778,-35.0,-7.8986,no trend,False
+Santa Helena,Dessecação pré-semeadura,26,423.2308,-0.1508,-49.0,-1.058,0.2901,-25.5556,-6.0382,no trend,False
+Guaíra,Dessecação pré-semeadura,26,532.6538,-0.1662,-54.0,-1.1685,0.2426,-20.0,-3.7548,no trend,False
+Paraná (média),Dessecação pré-semeadura,26,419.5841,-0.2308,-75.0,-1.6311,0.1029,-24.5455,-5.8499,no trend,False
+Oeste (média),Dessecação pré-semeadura,26,435.3718,-0.2154,-70.0,-1.5212,0.1282,-20.5556,-4.7214,no trend,False
+Cascavel,Pós-emergência,26,313.1154,-0.0585,-19.0,-0.3967,0.6916,-9.4118,-3.0058,no trend,False
+Toledo,Pós-emergência,26,325.0,-0.0615,-20.0,-0.4189,0.6753,-11.6667,-3.5897,no trend,False
+Assis Chateaubriand,Pós-emergência,26,374.0385,0.04,13.0,0.2645,0.7914,6.6667,1.7823,no trend,False
+Guarapuava,Pós-emergência,26,217.5,0.0277,9.0,0.1764,0.86,2.5,1.1494,no trend,False
+Ponta Grossa,Pós-emergência,26,227.7308,0.0769,25.0,0.5295,0.5965,5.0,2.1956,no trend,False
+Castro,Pós-emergência,26,195.8846,0.0985,32.0,0.6835,0.4943,11.1111,5.6723,no trend,False
+Tibagi,Pós-emergência,26,300.3462,0.0554,18.0,0.3748,0.7078,5.8824,1.9585,no trend,False
+Londrina,Pós-emergência,26,297.8846,0.0462,15.0,0.3087,0.7575,7.5,2.5178,no trend,False
+Cornélio Procópio,Pós-emergência,26,284.8462,-0.0215,-7.0,-0.1323,0.8947,-2.0833,-0.7314,no trend,False
+Campo Mourão,Pós-emergência,26,331.6923,0.0369,12.0,0.2427,0.8083,3.6364,1.0963,no trend,False
+Ubiratã,Pós-emergência,26,383.9615,0.1046,34.0,0.7275,0.4669,12.5,3.2555,no trend,False
+Pato Branco,Pós-emergência,26,280.9231,0.0431,14.0,0.2867,0.7743,4.4444,1.5821,no trend,False
+Palmas,Pós-emergência,26,222.0,0.0308,10.0,0.1984,0.8427,2.7273,1.2285,no trend,False
+Umuarama,Pós-emergência,26,345.6538,-0.0246,-8.0,-0.1543,0.8774,-1.3333,-0.3857,no trend,False
+Ivaiporã,Pós-emergência,26,351.7308,0.0554,18.0,0.3748,0.7078,5.0,1.4215,no trend,False
+Maringá,Pós-emergência,26,361.2692,-0.0338,-11.0,-0.2204,0.8255,-3.3333,-0.9227,no trend,False
+São Pedro do Iguaçu,Pós-emergência,26,312.1538,-0.1077,-35.0,-0.7494,0.4536,-18.5,-5.9266,no trend,False
+Marechal Cândido Rondon,Pós-emergência,26,361.5,-0.1415,-46.0,-0.9921,0.3211,-18.3333,-5.0715,no trend,False
+Medianeira,Pós-emergência,26,366.1154,-0.0646,-21.0,-0.4413,0.659,-11.4286,-3.1216,no trend,False
+São Miguel do Iguaçu,Pós-emergência,26,377.8462,-0.0123,-4.0,-0.0661,0.9473,-2.5,-0.6616,no trend,False
+Foz do Iguaçu,Pós-emergência,26,367.7308,0.0246,8.0,0.1543,0.8774,4.2857,1.1654,no trend,False
+Matelândia,Pós-emergência,26,372.6923,-0.0862,-28.0,-0.5953,0.5517,-14.2857,-3.8331,no trend,False
+Santa Helena,Pós-emergência,26,343.2308,0.0492,16.0,0.3307,0.7409,6.6667,1.9423,no trend,False
+Guaíra,Pós-emergência,26,368.2308,0.0523,17.0,0.3528,0.7242,10.5882,2.8754,no trend,False
+Paraná (média),Pós-emergência,26,300.8486,0.0031,1.0,0.0,1.0,0.0521,0.0173,no trend,False
+Oeste (média),Pós-emergência,26,348.6902,-0.0308,-10.0,-0.1984,0.8427,-6.4646,-1.854,no trend,False
+Cascavel,Fungicidas (R1-R5),26,494.8077,0.0892,29.0,0.6172,0.5371,17.2222,3.4806,no trend,False
+Toledo,Fungicidas (R1-R5),26,525.1154,0.0923,30.0,0.6394,0.5226,20.6667,3.9356,no trend,False
+Assis Chateaubriand,Fungicidas (R1-R5),26,555.4231,0.1138,37.0,0.7939,0.4273,35.5556,6.4015,no trend,False
+Guarapuava,Fungicidas (R1-R5),26,301.5,0.0492,16.0,0.3307,0.7409,9.4118,3.1216,no trend,False
+Ponta Grossa,Fungicidas (R1-R5),26,337.8846,0.0862,28.0,0.5953,0.5517,9.1667,2.713,no trend,False
+Castro,Fungicidas (R1-R5),26,279.5385,0.0462,15.0,0.3087,0.7575,5.4167,1.9377,no trend,False
+Tibagi,Fungicidas (R1-R5),26,399.2308,0.0154,5.0,0.0882,0.9297,2.8571,0.7157,no trend,False
+Londrina,Fungicidas (R1-R5),26,450.9615,0.2185,71.0,1.5429,0.1229,52.6316,11.671,no trend,False
+Cornélio Procópio,Fungicidas (R1-R5),26,465.0,0.1969,64.0,1.389,0.1648,38.75,8.3333,no trend,False
+Campo Mourão,Fungicidas (R1-R5),26,515.9231,0.16,52.0,1.1244,0.2608,36.6667,7.107,no trend,False
+Ubiratã,Fungicidas (R1-R5),26,569.0,0.1231,40.0,0.8598,0.3899,36.6667,6.4441,no trend,False
+Pato Branco,Fungicidas (R1-R5),26,438.1923,0.0338,11.0,0.2204,0.8255,4.2857,0.978,no trend,False
+Palmas,Fungicidas (R1-R5),26,311.3462,0.0831,27.0,0.5731,0.5666,8.75,2.8104,no trend,False
+Umuarama,Fungicidas (R1-R5),26,562.3846,0.0769,25.0,0.5293,0.5966,17.5,3.1117,no trend,False
+Ivaiporã,Fungicidas (R1-R5),26,513.7308,0.1231,40.0,0.8598,0.3899,33.3333,6.4885,no trend,False
+Maringá,Fungicidas (R1-R5),26,560.1538,0.2062,67.0,1.4554,0.1455,48.1818,8.6015,no trend,False
+São Pedro do Iguaçu,Fungicidas (R1-R5),26,499.1154,0.0646,21.0,0.441,0.6592,18.5714,3.7209,no trend,False
+Marechal Cândido Rondon,Fungicidas (R1-R5),26,607.9615,0.1446,47.0,1.0144,0.3104,20.0,3.2897,no trend,False
+Medianeira,Fungicidas (R1-R5),26,577.4615,-0.0092,-3.0,-0.0441,0.9648,-3.0,-0.5195,no trend,False
+São Miguel do Iguaçu,Fungicidas (R1-R5),26,600.5769,-0.0092,-3.0,-0.0441,0.9648,-2.3529,-0.3918,no trend,False
+Foz do Iguaçu,Fungicidas (R1-R5),26,538.1154,0.0338,11.0,0.2205,0.8255,6.25,1.1615,no trend,False
+Matelândia,Fungicidas (R1-R5),26,602.3846,-0.0338,-11.0,-0.2204,0.8255,-7.0,-1.162,no trend,False
+Santa Helena,Fungicidas (R1-R5),26,556.1923,0.0615,20.0,0.4189,0.6753,13.0,2.3373,no trend,False
+Guaíra,Fungicidas (R1-R5),26,528.5769,0.08,26.0,0.5512,0.5815,19.0909,3.6118,no trend,False
+Paraná (média),Fungicidas (R1-R5),26,455.012,0.1354,44.0,0.948,0.3431,20.5859,4.5243,no trend,False
+Oeste (média),Fungicidas (R1-R5),26,548.9316,0.0523,17.0,0.3527,0.7243,14.9259,2.7191,no trend,False
+Cascavel,Pré-colheita e colheita,26,491.8846,-0.0923,-30.0,-0.6394,0.5226,-13.0,-2.6429,no trend,False
+Toledo,Pré-colheita e colheita,26,536.2692,-0.08,-26.0,-0.5512,0.5815,-11.1765,-2.0841,no trend,False
+Assis Chateaubriand,Pré-colheita e colheita,26,587.5769,-0.0492,-16.0,-0.3307,0.7409,-9.0909,-1.5472,no trend,False
+Guarapuava,Pré-colheita e colheita,26,304.3077,0.0738,24.0,0.5071,0.6121,8.5714,2.8167,no trend,False
+Ponta Grossa,Pré-colheita e colheita,26,360.0769,-0.1262,-41.0,-0.8817,0.378,-10.0,-2.7772,no trend,False
+Castro,Pré-colheita e colheita,26,315.5769,-0.1415,-46.0,-0.9921,0.3211,-14.1667,-4.4891,no trend,False
+Tibagi,Pré-colheita e colheita,26,416.3077,-0.2462,-80.0,-1.7417,0.0816,-24.1176,-5.7932,no trend,False
+Londrina,Pré-colheita e colheita,26,528.1538,0.0185,6.0,0.1102,0.9122,2.0833,0.3945,no trend,False
+Cornélio Procópio,Pré-colheita e colheita,26,527.1154,0.0,0.0,0.0,1.0,0.0,0.0,no trend,False
+Campo Mourão,Pré-colheita e colheita,26,580.8077,-0.0246,-8.0,-0.1543,0.8774,-3.3333,-0.5739,no trend,False
+Ubiratã,Pré-colheita e colheita,26,551.7692,-0.0954,-31.0,-0.6612,0.5085,-23.3333,-4.2288,no trend,False
+Pato Branco,Pré-colheita e colheita,26,387.2308,0.0031,1.0,0.0,1.0,0.0,0.0,no trend,False
+Palmas,Pré-colheita e colheita,26,294.7692,0.0308,10.0,0.1986,0.8426,2.0,0.6785,no trend,False
+Umuarama,Pré-colheita e colheita,26,618.4231,-0.0862,-28.0,-0.5953,0.5517,-12.5,-2.0213,no trend,False
+Ivaiporã,Pré-colheita e colheita,26,530.6538,0.0154,5.0,0.0882,0.9297,7.1429,1.346,no trend,False
+Maringá,Pré-colheita e colheita,26,608.3077,-0.0677,-22.0,-0.463,0.6434,-13.8462,-2.2762,no trend,False
+São Pedro do Iguaçu,Pré-colheita e colheita,26,509.7308,-0.0062,-2.0,-0.022,0.9824,-0.9091,-0.1783,no trend,False
+Marechal Cândido Rondon,Pré-colheita e colheita,26,608.0385,-0.0708,-23.0,-0.4851,0.6276,-8.75,-1.4391,no trend,False
+Medianeira,Pré-colheita e colheita,26,553.9615,-0.1692,-55.0,-1.1902,0.234,-30.0,-5.4155,no trend,False
+São Miguel do Iguaçu,Pré-colheita e colheita,26,575.8462,-0.1877,-61.0,-1.3231,0.1858,-26.4286,-4.5895,no trend,False
+Foz do Iguaçu,Pré-colheita e colheita,26,502.6154,-0.2554,-83.0,-1.8083,0.0706,-38.5714,-7.6741,no trend,False
+Matelândia,Pré-colheita e colheita,26,565.9615,-0.1846,-60.0,-1.3008,0.1933,-30.0,-5.3007,no trend,False
+Santa Helena,Pré-colheita e colheita,26,545.0,-0.0308,-10.0,-0.1984,0.8427,-5.7143,-1.0485,no trend,False
+Guaíra,Pré-colheita e colheita,26,527.0,-0.1292,-42.0,-0.9039,0.366,-26.8421,-5.0934,no trend,False
+Paraná (média),Pré-colheita e colheita,26,477.4519,-0.0585,-19.0,-0.3967,0.6916,-7.1467,-1.4969,no trend,False
+Oeste (média),Pré-colheita e colheita,26,539.594,-0.1877,-61.0,-1.3225,0.186,-14.0404,-2.602,no trend,False

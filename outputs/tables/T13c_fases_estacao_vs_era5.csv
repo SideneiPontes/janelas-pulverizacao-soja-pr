@@ -1,29 +1,33 @@
 ﻿periodo_analise,codigo,estacao,municipio,fase,horas_validas,aptas_estacao,aptas_era5,pct_aptas_estacao,pct_aptas_era5,incluida_na_media,n_estacoes,razao_estacao_era5
-2010–2016,A819,CASTRO,Castro,Dessecação pré-semeadura,7059.0,1190.0,1538.0,16.858,21.788,True,,0.774
-2010–2016,A819,CASTRO,Castro,Pós-emergência,6812.0,1415.0,1181.0,20.772,17.337,True,,1.198
-2010–2016,A819,CASTRO,Castro,Fungicidas (R1-R5),8758.0,1720.0,1439.0,19.639,16.431,True,,1.195
-2010–2016,A819,CASTRO,Castro,Pré-colheita e colheita,8520.0,1597.0,1848.0,18.744,21.69,True,,0.864
-2010–2016,A820,MAL. CANDIDO RONDON,Marechal Cândido Rondon,Dessecação pré-semeadura,9151.0,1331.0,2839.0,14.545,31.024,True,,0.469
-2010–2016,A820,MAL. CANDIDO RONDON,Marechal Cândido Rondon,Pós-emergência,7188.0,1487.0,2488.0,20.687,34.613,True,,0.598
-2010–2016,A820,MAL. CANDIDO RONDON,Marechal Cândido Rondon,Fungicidas (R1-R5),10227.0,1849.0,2914.0,18.08,28.493,True,,0.635
-2010–2016,A820,MAL. CANDIDO RONDON,Marechal Cândido Rondon,Pré-colheita e colheita,10062.0,2211.0,4068.0,21.974,40.429,True,,0.544
-2010–2016,A835,MARINGA,Maringá,Dessecação pré-semeadura,9231.0,2369.0,3181.0,25.664,34.46,True,,0.745
-2010–2016,A835,MARINGA,Maringá,Pós-emergência,6958.0,2445.0,2357.0,35.139,33.875,True,,1.037
-2010–2016,A835,MARINGA,Maringá,Fungicidas (R1-R5),11598.0,3745.0,3449.0,32.29,29.738,True,,1.086
-2010–2016,A835,MARINGA,Maringá,Pré-colheita e colheita,9468.0,3608.0,3890.0,38.107,41.086,True,,0.928
-2010–2016,A842,NOVA FATIMA,Cornélio Procópio,Dessecação pré-semeadura,9009.0,1783.0,2969.0,19.791,32.956,True,,0.601
-2010–2016,A842,NOVA FATIMA,Cornélio Procópio,Pós-emergência,6596.0,1812.0,1829.0,27.471,27.729,True,,0.991
-2010–2016,A842,NOVA FATIMA,Cornélio Procópio,Fungicidas (R1-R5),11297.0,3543.0,2471.0,31.362,21.873,True,,1.434
-2010–2016,A842,NOVA FATIMA,Cornélio Procópio,Pré-colheita e colheita,9843.0,3156.0,3138.0,32.063,31.881,True,,1.006
-2010–2016,A846,FOZ DO IGUACU,Foz do Iguaçu,Dessecação pré-semeadura,8750.0,1853.0,3129.0,21.177,35.76,True,,0.592
-2010–2016,A846,FOZ DO IGUACU,Foz do Iguaçu,Pós-emergência,6833.0,1199.0,2248.0,17.547,32.899,True,,0.533
-2010–2016,A846,FOZ DO IGUACU,Foz do Iguaçu,Fungicidas (R1-R5),9695.0,1692.0,2660.0,17.452,27.437,True,,0.636
-2010–2016,A846,FOZ DO IGUACU,Foz do Iguaçu,Pré-colheita e colheita,6757.0,1371.0,2233.0,20.29,33.047,True,,0.614
-2010–2016,B803,CAMPINA DA LAGOA,Ubiratã,Dessecação pré-semeadura,1439.0,437.0,535.0,30.368,37.179,False,,0.817
-2010–2016,B803,CAMPINA DA LAGOA,Ubiratã,Pós-emergência,1080.0,330.0,388.0,30.556,35.926,False,,0.851
-2010–2016,B803,CAMPINA DA LAGOA,Ubiratã,Fungicidas (R1-R5),379.0,74.0,61.0,19.525,16.095,False,,1.213
-2010–2016,B803,CAMPINA DA LAGOA,Ubiratã,Pré-colheita e colheita,0.0,0.0,0.0,,,False,,
-2010–2016,TODAS,média das estações,,Dessecação pré-semeadura,,,,19.607,31.198,,5.0,0.628
-2010–2016,TODAS,média das estações,,Pós-emergência,,,,24.323,29.291,,5.0,0.83
-2010–2016,TODAS,média das estações,,Fungicidas (R1-R5),,,,23.765,24.794,,5.0,0.958
-2010–2016,TODAS,média das estações,,Pré-colheita e colheita,,,,26.236,33.627,,5.0,0.78
+"safras 2006/07–2025/26 (set–abr, estação-safras válidas)",A816,NOVO HORIZONTE,Pato Branco,Dessecação pré-semeadura,20014.0,4430.0,5143.0,22.135,25.697,True,,0.861
+"safras 2006/07–2025/26 (set–abr, estação-safras válidas)",A816,NOVO HORIZONTE,Pato Branco,Pós-emergência,17123.0,4981.0,4548.0,29.09,26.561,True,,1.095
+"safras 2006/07–2025/26 (set–abr, estação-safras válidas)",A816,NOVO HORIZONTE,Pato Branco,Fungicidas (R1-R5),24011.0,7202.0,5899.0,29.995,24.568,True,,1.221
+"safras 2006/07–2025/26 (set–abr, estação-safras válidas)",A816,NOVO HORIZONTE,Pato Branco,Pré-colheita e colheita,17897.0,6328.0,4952.0,35.358,27.669,True,,1.278
+"safras 2006/07–2025/26 (set–abr, estação-safras válidas)",A819,CASTRO,Castro,Dessecação pré-semeadura,18673.0,3113.0,4087.0,16.671,21.887,True,,0.762
+"safras 2006/07–2025/26 (set–abr, estação-safras válidas)",A819,CASTRO,Castro,Pós-emergência,15332.0,3457.0,2866.0,22.548,18.693,True,,1.206
+"safras 2006/07–2025/26 (set–abr, estação-safras válidas)",A819,CASTRO,Castro,Fungicidas (R1-R5),22639.0,4807.0,3693.0,21.233,16.313,True,,1.302
+"safras 2006/07–2025/26 (set–abr, estação-safras válidas)",A819,CASTRO,Castro,Pré-colheita e colheita,20183.0,3950.0,4477.0,19.571,22.182,True,,0.882
+"safras 2006/07–2025/26 (set–abr, estação-safras válidas)",A820,MAL. CANDIDO RONDON,Marechal Cândido Rondon,Dessecação pré-semeadura,23289.0,3400.0,6628.0,14.599,28.46,True,,0.513
+"safras 2006/07–2025/26 (set–abr, estação-safras válidas)",A820,MAL. CANDIDO RONDON,Marechal Cândido Rondon,Pós-emergência,19659.0,3865.0,6588.0,19.66,33.511,True,,0.587
+"safras 2006/07–2025/26 (set–abr, estação-safras válidas)",A820,MAL. CANDIDO RONDON,Marechal Cândido Rondon,Fungicidas (R1-R5),30917.0,5102.0,10126.0,16.502,32.752,True,,0.504
+"safras 2006/07–2025/26 (set–abr, estação-safras válidas)",A820,MAL. CANDIDO RONDON,Marechal Cândido Rondon,Pré-colheita e colheita,26887.0,5641.0,11139.0,20.98,41.429,True,,0.506
+"safras 2006/07–2025/26 (set–abr, estação-safras válidas)",A835,MARINGA,Maringá,Dessecação pré-semeadura,21929.0,6052.0,7463.0,27.598,34.033,True,,0.811
+"safras 2006/07–2025/26 (set–abr, estação-safras válidas)",A835,MARINGA,Maringá,Pós-emergência,16069.0,5585.0,5606.0,34.756,34.887,True,,0.996
+"safras 2006/07–2025/26 (set–abr, estação-safras válidas)",A835,MARINGA,Maringá,Fungicidas (R1-R5),27414.0,10035.0,8768.0,36.605,31.984,True,,1.145
+"safras 2006/07–2025/26 (set–abr, estação-safras válidas)",A835,MARINGA,Maringá,Pré-colheita e colheita,19721.0,7645.0,7983.0,38.766,40.48,True,,0.958
+"safras 2006/07–2025/26 (set–abr, estação-safras válidas)",A842,NOVA FATIMA,Cornélio Procópio,Dessecação pré-semeadura,17007.0,3388.0,5757.0,19.921,33.851,True,,0.589
+"safras 2006/07–2025/26 (set–abr, estação-safras válidas)",A842,NOVA FATIMA,Cornélio Procópio,Pós-emergência,12281.0,3196.0,3480.0,26.024,28.336,True,,0.918
+"safras 2006/07–2025/26 (set–abr, estação-safras válidas)",A842,NOVA FATIMA,Cornélio Procópio,Fungicidas (R1-R5),20090.0,6145.0,4630.0,30.587,23.046,True,,1.327
+"safras 2006/07–2025/26 (set–abr, estação-safras válidas)",A842,NOVA FATIMA,Cornélio Procópio,Pré-colheita e colheita,17776.0,5634.0,6022.0,31.694,33.877,True,,0.936
+"safras 2006/07–2025/26 (set–abr, estação-safras válidas)",A846,FOZ DO IGUACU,Foz do Iguaçu,Dessecação pré-semeadura,16065.0,3371.0,5340.0,20.984,33.24,True,,0.631
+"safras 2006/07–2025/26 (set–abr, estação-safras válidas)",A846,FOZ DO IGUACU,Foz do Iguaçu,Pós-emergência,12861.0,2664.0,4537.0,20.714,35.277,True,,0.587
+"safras 2006/07–2025/26 (set–abr, estação-safras válidas)",A846,FOZ DO IGUACU,Foz do Iguaçu,Fungicidas (R1-R5),22328.0,4381.0,6636.0,19.621,29.721,True,,0.66
+"safras 2006/07–2025/26 (set–abr, estação-safras válidas)",A846,FOZ DO IGUACU,Foz do Iguaçu,Pré-colheita e colheita,15651.0,3320.0,5336.0,21.213,34.094,True,,0.622
+"safras 2006/07–2025/26 (set–abr, estação-safras válidas)",B803,CAMPINA DA LAGOA,Ubiratã,Dessecação pré-semeadura,3183.0,799.0,1071.0,25.102,33.648,True,,0.746
+"safras 2006/07–2025/26 (set–abr, estação-safras válidas)",B803,CAMPINA DA LAGOA,Ubiratã,Pós-emergência,4279.0,1322.0,1502.0,30.895,35.102,True,,0.88
+"safras 2006/07–2025/26 (set–abr, estação-safras válidas)",B803,CAMPINA DA LAGOA,Ubiratã,Fungicidas (R1-R5),7163.0,2024.0,2260.0,28.256,31.551,True,,0.896
+"safras 2006/07–2025/26 (set–abr, estação-safras válidas)",B803,CAMPINA DA LAGOA,Ubiratã,Pré-colheita e colheita,5772.0,1967.0,1893.0,34.078,32.796,True,,1.039
+"safras 2006/07–2025/26 (set–abr, estação-safras válidas)",TODAS,média das estações,,Dessecação pré-semeadura,,,,21.001,30.116,,7.0,0.697
+"safras 2006/07–2025/26 (set–abr, estação-safras válidas)",TODAS,média das estações,,Pós-emergência,,,,26.241,30.338,,7.0,0.865
+"safras 2006/07–2025/26 (set–abr, estação-safras válidas)",TODAS,média das estações,,Fungicidas (R1-R5),,,,26.114,27.133,,7.0,0.962
+"safras 2006/07–2025/26 (set–abr, estação-safras válidas)",TODAS,média das estações,,Pré-colheita e colheita,,,,28.809,33.218,,7.0,0.867

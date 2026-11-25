@@ -29,6 +29,9 @@ from sklearn.cluster import KMeans
 from sklearn.metrics import silhouette_samples, silhouette_score
 from sklearn.preprocessing import StandardScaler
 
+import sys  # noqa: E402
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from indicadores import N_SAFRAS, ROTULO_SAFRAS  # noqa: E402
 from indicadores import (AGREG, CELULA, ESTADO, FASES_OP, MESES_SAFRA, MOTIVOS_A, NOME_MES,
                          OESTE, calendario, configurar_agregados, media_por_celula)
 
@@ -123,7 +126,7 @@ def mann_kendall(D: pd.DataFrame, muns: list[str]) -> pd.DataFrame:
     linhas = []
     for (mun, fase), g in s.groupby(["municipio", "fase"]):
         g = g.sort_values("safra_ini")
-        assert len(g) == 29, (mun, fase, len(g))
+        assert len(g) == N_SAFRAS, (mun, fase, len(g))
         r = mk.original_test(g["horas_aptas_A"].to_numpy())
         media = g["horas_aptas_A"].mean()
         linhas.append({
@@ -372,7 +375,7 @@ def fig_F2(T1):
     ax.set_xlabel("Decêndio")
     ax.grid(axis="y")
     ax.legend(loc="lower left", fontsize=7.5, ncol=1)
-    ax.set_title("Horas aptas para pulverização por decêndio, safras 1995/96 a 2023/24",
+    ax.set_title(f"Horas aptas para pulverização por decêndio, safras {ROTULO_SAFRAS}",
                  loc="left")
     salvar(fig, "F2_horas_aptas_decendio")
 
@@ -405,7 +408,7 @@ def fig_F3(T1, t7):
     for b in (5.5, 10.0, 17.5):
         ax.axvline(b, color=SURF, lw=2)
     cb = fig.colorbar(im, ax=ax, pad=0.09, fraction=0.03)
-    cb.set_label("Horas aptas por decêndio (média 29 safras)")
+    cb.set_label(f"Horas aptas por decêndio (média {N_SAFRAS} safras)")
     cb.outline.set_visible(False)
     ax.set_title("Horas aptas para pulverização por município e decêndio (set–abr)", loc="left")
     salvar(fig, "F3_heatmap_municipio_decendio")
@@ -479,7 +482,7 @@ def fig_F5(uf, mun, sel, pts, T6):
     # legenda abaixo do mapa: não encosta no rótulo de Palmas nem em outros rótulos
     ax.legend(handles=leg, loc="upper left", bbox_to_anchor=(0, 0.02), ncol=2, fontsize=8,
               columnspacing=2.0, handletextpad=0.6)
-    ax.set_title("Tendência de horas aptas no período de fungicidas (16/dez–fev), 1995/96–2023/24",
+    ax.set_title(f"Tendência de horas aptas no período de fungicidas (16/dez–fev), {ROTULO_SAFRAS.replace(' a ', '–')}",
                  loc="left", fontsize=9.5)
     salvar(fig, "F5_mapa_tendencia_fungicidas")
 

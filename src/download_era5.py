@@ -1,13 +1,16 @@
 """Baixa dados HORÁRIOS da reanálise ERA5 via API histórica do Open-Meteo.
 
-- Período: 1995-01-01 a 2024-12-31, em blocos de 5 anos por município.
+- Período: 2000-01-01 a 2026-05-01 (safras 2000/01 a 2025/26: 1º/set/2000 a 30/abr/2026,
+  com folga para a chuva das 3 h seguintes), em blocos de 5 anos (o último, 2025-01-01 a
+  2026-05-01) por município.
 - Variáveis: ver VARIAVEIS.
 - timezone=America/Sao_Paulo, wind_speed_unit=kmh, models=era5.
 - Pausa de 1 s entre chamadas; até 5 tentativas com espera crescente
   em caso de HTTP 429 ou erro de rede.
 - Cada bloco é salvo em data/raw/_blocos/ (permite retomar sem perder
-  progresso); ao completar os 6 blocos, gera data/raw/<cod_ibge>_<slug>.parquet.
-- Se o parquet final já existir, o município é pulado.
+  progresso); ao completar os blocos, gera data/raw/<cod_ibge>_<slug>.parquet.
+- Se o parquet final já existir e cobrir o período, o município é pulado; senão é refeito
+  a partir dos blocos (só os que faltam são baixados).
 
 O tempo é pedido em unixtime (UTC) para evitar ambiguidade nas horas de
 horário de verão (vigente no Brasil até 2019). O parquet guarda
@@ -37,7 +40,7 @@ VARIAVEIS = [
     "wind_speed_10m", "wind_gusts_10m", "shortwave_radiation", "is_day",
 ]
 TZ = "America/Sao_Paulo"
-PERIODOS = [(f"{a}-01-01", f"{a + 4}-12-31") for a in range(1995, 2025, 5)]
+PERIODOS = [(f"{a}-01-01", f"{a + 4}-12-31") for a in range(2000, 2025, 5)] + [("2025-01-01", "2026-05-01")]
 PAUSA_S = 1.0
 MAX_TENTATIVAS = 5
 ESPERA_BASE_S = 30  # 30, 60, 120, 240 s entre tentativas
@@ -114,8 +117,11 @@ def main() -> None:
     for _, mun in muns.iterrows():
         final = RAW / f"{mun.cod_ibge}_{slug(mun.municipio)}.parquet"
         if final.exists():
-            print(f"[pula] {mun.municipio}: {final.name} já existe", flush=True)
-            continue
+            t = pd.read_parquet(final, columns=["time_local"])["time_local"]
+            if (t.min().strftime("%Y-%m-%d") == PERIODOS[0][0]
+                    and t.max().strftime("%Y-%m-%d") == PERIODOS[-1][1]):
+                print(f"[pula] {mun.municipio}: {final.name} já cobre o período", flush=True)
+                continue
         print(f"[baixa] {mun.municipio} ({mun.lat:.4f}, {mun.lon:.4f})", flush=True)
         partes = []
         for inicio, fim in PERIODOS:

@@ -1,0 +1,23 @@
+﻿periodo_analise,periodo,codigo,estacao,municipio,n_estacao_safras,horas_validas,vies_vento10_kmh,vento10_estacao_kmh,vento10_era5_kmh,pct_calmaria_noturna_fung_estacao,pct_calmaria_noturna_fung_era5,kappa_A,pct_aptas_estacao,pct_aptas_era5,razao_Dessecação pré-semeadura,razao_Pós-emergência,razao_Fungicidas (R1-R5),razao_Pré-colheita e colheita,incluida_na_media
+"safras 2006/07–2025/26 (set–abr, estação-safras válidas)",2000–2009,A835,MARINGA,Maringá,1.0,5730.0,1.055,7.974,9.029,33.377,10.775,0.198,37.644,31.728,0.879,0.997,1.579,1.195,True
+"safras 2006/07–2025/26 (set–abr, estação-safras válidas)",2010–2016,A835,MARINGA,Maringá,7.0,36176.0,1.327,7.454,8.781,36.832,11.114,0.257,33.293,34.752,0.788,1.065,1.076,0.928,True
+"safras 2006/07–2025/26 (set–abr, estação-safras válidas)",2017–2026,A835,MARINGA,Maringá,8.0,43227.0,1.524,7.272,8.796,40.165,8.455,0.24,34.969,35.695,0.821,0.947,1.148,0.955,True
+"safras 2006/07–2025/26 (set–abr, estação-safras válidas)",2000–2009,A819,CASTRO,Castro,3.0,17176.0,4.47,6.52,10.99,42.722,7.457,0.2,21.402,18.543,0.826,1.473,1.725,0.881,True
+"safras 2006/07–2025/26 (set–abr, estação-safras válidas)",2010–2016,A819,CASTRO,Castro,7.0,32585.0,5.524,5.326,10.85,67.59,11.265,0.173,18.726,19.135,0.793,1.196,1.178,0.864,True
+"safras 2006/07–2025/26 (set–abr, estação-safras válidas)",2017–2026,A819,CASTRO,Castro,5.0,27066.0,4.693,5.869,10.562,57.364,9.809,0.188,20.502,21.071,0.675,1.093,1.219,0.903,True
+"safras 2006/07–2025/26 (set–abr, estação-safras válidas)",2000–2009,A820,MAL. CANDIDO RONDON,Marechal Cândido Rondon,2.0,11547.0,-1.914,11.697,9.783,27.038,8.615,0.297,22.179,36.624,0.627,0.782,0.572,0.539,True
+"safras 2006/07–2025/26 (set–abr, estação-safras válidas)",2010–2016,A820,MAL. CANDIDO RONDON,Marechal Cândido Rondon,7.0,36599.0,-1.966,11.969,10.003,20.307,9.906,0.299,19.389,33.053,0.552,0.633,0.642,0.544,True
+"safras 2006/07–2025/26 (set–abr, estação-safras válidas)",2017–2026,A820,MAL. CANDIDO RONDON,Marechal Cândido Rondon,10.0,52606.0,1.116,8.694,9.81,48.285,7.274,0.234,15.875,34.511,0.448,0.516,0.422,0.472,True
+"safras 2006/07–2025/26 (set–abr, estação-safras válidas)",2000–2009,A846,FOZ DO IGUACU,Foz do Iguaçu,1.0,3472.0,-0.868,9.223,8.355,29.257,8.393,0.297,20.19,38.882,0.43,0.46,0.533,0.564,True
+"safras 2006/07–2025/26 (set–abr, estação-safras válidas)",2010–2016,A846,FOZ DO IGUACU,Foz do Iguaçu,6.0,30548.0,-0.331,9.386,9.055,35.571,11.883,0.318,19.533,31.194,0.602,0.638,0.658,0.614,True
+"safras 2006/07–2025/26 (set–abr, estação-safras válidas)",2017–2026,A846,FOZ DO IGUACU,Foz do Iguaçu,7.0,32885.0,0.593,8.282,8.875,40.621,8.169,0.324,21.493,33.359,0.698,0.561,0.672,0.644,True
+"safras 2006/07–2025/26 (set–abr, estação-safras válidas)",2017–2026,B803,CAMPINA DA LAGOA,Ubiratã,4.0,20397.0,-2.173,11.147,8.975,7.358,6.957,0.377,29.965,32.975,0.746,0.88,0.896,1.039,True
+"safras 2006/07–2025/26 (set–abr, estação-safras válidas)",2000–2009,A816,NOVO HORIZONTE,Pato Branco,1.0,4359.0,-2.725,11.775,9.05,5.348,10.027,0.271,31.246,29.755,1.5,1.0,1.012,1.102,True
+"safras 2006/07–2025/26 (set–abr, estação-safras válidas)",2010–2016,A816,NOVO HORIZONTE,Pato Branco,7.0,36161.0,-1.262,11.327,10.065,9.637,12.233,0.298,26.307,24.728,0.788,1.045,1.192,1.26,True
+"safras 2006/07–2025/26 (set–abr, estação-safras válidas)",2017–2026,A816,NOVO HORIZONTE,Pato Branco,8.0,38525.0,-0.533,10.574,10.042,11.2,9.326,0.336,31.32,26.744,0.932,1.143,1.272,1.342,True
+"safras 2006/07–2025/26 (set–abr, estação-safras válidas)",2000–2009,A842,NOVA FATIMA,Cornélio Procópio,2.0,10056.0,-3.283,12.346,9.063,17.147,15.023,0.231,27.476,30.3,0.585,0.743,1.369,0.989,True
+"safras 2006/07–2025/26 (set–abr, estação-safras válidas)",2010–2016,A842,NOVA FATIMA,Cornélio Procópio,7.0,36545.0,-2.595,11.22,8.625,26.311,18.849,0.245,28.904,27.96,0.664,1.079,1.475,1.006,True
+"safras 2006/07–2025/26 (set–abr, estação-safras válidas)",2017–2026,A842,NOVA FATIMA,Cornélio Procópio,4.0,20553.0,-3.252,12.077,8.824,21.672,14.853,0.28,24.507,32.229,0.477,0.763,1.071,0.798,True
+"safras 2006/07–2025/26 (set–abr, estação-safras válidas)",2000–2009,TODAS,"média das estações (n=6: A835, A819, A820, A846, A816, A842)",,10.0,52340.0,-0.544,9.923,9.378,25.815,10.048,0.24,26.689,30.972,0.808,0.909,1.132,0.879,True
+"safras 2006/07–2025/26 (set–abr, estação-safras válidas)",2010–2016,TODAS,"média das estações (n=6: A835, A819, A820, A846, A816, A842)",,41.0,208614.0,0.116,9.447,9.563,32.708,12.541,0.265,24.359,28.47,0.698,0.943,1.037,0.869,True
+"safras 2006/07–2025/26 (set–abr, estação-safras válidas)",2017–2026,TODAS,"média das estações (n=7: A835, A819, A820, A846, B803, A816, A842)",,46.0,235259.0,0.281,9.131,9.412,32.381,9.263,0.275,25.519,30.941,0.685,0.843,0.957,0.879,True

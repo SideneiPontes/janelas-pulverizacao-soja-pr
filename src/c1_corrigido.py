@@ -2,11 +2,12 @@
 
 Recalcula o ganho de horas utilizáveis no período de fungicidas (16/dez - fim de fev) de cada
 alternativa A1-A5 com as MESMAS regras de src/ahp_topsis.py (T8), usando:
-  - as 5 estações do INMET com >= 30 dias em todas as fases (T13c: incluida_na_media), 2010-2016;
+  - as estações do INMET incluídas nas médias (T13c: incluida_na_media = >= 2 safras válidas e
+    >= 30 dias em todas as fases), só nas horas set-abr das estação-safras válidas (2000/01-2025/26);
   - o ERA5 NOS MESMOS PONTOS (data/raw/era5_estacoes) e nas MESMAS horas válidas
     (horas em que estação e ERA5 têm T, UR, vento e chuva t+1h..t+3h).
 Ganho por safra = (horas utilizáveis com a alternativa - horas-base) / horas válidas no período
-x 1806 h (75,25 dias x 24 h). Média simples das 5 estações.
+x 1806 h (75,25 dias x 24 h). Média simples das estações.
 Razão = ganho médio estação / ganho médio ERA5 (mesmos pontos), aplicada ao C1 do Paraná e do
 Oeste da T8. A6 = 0.
 
@@ -26,7 +27,7 @@ import pandas as pd
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from indicadores import ESTADO, FATOR_U2, OESTE, PROC, RAW, TAB, bulbo_umido_stull, janelas  # noqa: E402
-from validacao_inmet import ANOS, TZ, era5_estacao  # noqa: E402
+from validacao_inmet import IDX, TZ, era5_estacao, estacoes, mascara_ativa, periodo_estacoes  # noqa: E402
 
 H_FUNG_SAFRA = 75.25 * 24
 ALTS = ["A1", "A2", "A3", "A4", "A5"]
@@ -49,7 +50,7 @@ def is_day_solar(t_utc: pd.DatetimeIndex, lat: float, lon: float) -> np.ndarray:
 
 
 def checar_is_day() -> float:
-    """Concordância do is_day solar com o is_day do Open-Meteo (Cascavel, 1995-2024)."""
+    """Concordância do is_day solar com o is_day do Open-Meteo (Cascavel, 2000-2026)."""
     df = pd.read_parquet(next(RAW.glob("4104808_*.parquet")), columns=["time_utc", "is_day"])
     muns = pd.read_csv(PROC / "municipios.csv", encoding="utf-8").set_index("cod_ibge")
     lat, lon = muns.loc[4104808, ["lat", "lon"]]
@@ -88,11 +89,11 @@ def ganhos(h: pd.DataFrame, val: pd.Series, fung: pd.Series) -> dict:
 
 
 def calcular_T8b(T8: pd.DataFrame) -> tuple[pd.DataFrame, pd.DataFrame, float]:
-    sel = pd.read_csv(TAB / "T12a_estacoes_inmet.csv", encoding="utf-8-sig")
+    sel = estacoes()
     t13c = pd.read_csv(TAB / "T13c_fases_estacao_vs_era5.csv", encoding="utf-8-sig")
     ok = set(t13c.loc[t13c["incluida_na_media"] == True, "codigo"])  # noqa: E712
     ms = sel[sel["selecionada"] & sel["codigo"].isin(ok)].reset_index(drop=True)
-    idx = pd.date_range(f"{ANOS[0]}-01-01 00:00", f"{ANOS[-1]}-12-31 23:00", freq="h", tz="UTC")
+    idx = IDX
     loc = idx.tz_convert(TZ)
     fung = pd.Series(((loc.month == 12) & (loc.day >= 16)) | (loc.month == 1) | (loc.month == 2),
                      index=idx)
@@ -102,7 +103,7 @@ def calcular_T8b(T8: pd.DataFrame) -> tuple[pd.DataFrame, pd.DataFrame, float]:
         era = era5_estacao(e).set_index("time_utc").reindex(idx)
         hs, he = quadro(est, idx, e.lat, e.lon), quadro(era, idx, e.lat, e.lon)
         cols = ["T", "UR", "u2", "p_t1", "p_t2", "p_t3"]
-        val = hs[cols].notna().all(axis=1) & he[cols].notna().all(axis=1)
+        val = hs[cols].notna().all(axis=1) & he[cols].notna().all(axis=1) & mascara_ativa(e.codigo)
         nv = int((val & fung).sum())
         gs, ge = ganhos(hs, val, fung), ganhos(he, val, fung)
         for a in ALTS + ["base"]:
@@ -128,7 +129,7 @@ def calcular_T8b(T8: pd.DataFrame) -> tuple[pd.DataFrame, pd.DataFrame, float]:
     t["sinal_concorda"] = np.sign(t["ganho_estacao_h_safra"]) == np.sign(t["ganho_era5_mesmos_pontos_h_safra"])
     t["n_estacoes"] = len(ms)
     t["estacoes"] = ", ".join(ms["codigo"])
-    t["periodo_validacao"] = f"{ANOS[0]}–{ANOS[-1]}"
+    t["periodo_validacao"] = periodo_estacoes(ms)
     t = t.reset_index()
     t.round(3).to_csv(TAB / "T8b_C1_corrigido.csv", index=False, encoding="utf-8-sig")
     por_est.round(3).to_csv(PROC / "c1_por_estacao.csv", index=False, encoding="utf-8-sig")

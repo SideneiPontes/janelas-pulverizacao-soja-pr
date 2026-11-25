@@ -7,7 +7,9 @@ data/processed/indicadores_diarios.parquet (motivo principal por município). N�
 as malhas do IBGE vêm de src/malhas.py (cache local em data/processed/malhas).
 
 Saídas
-  outputs/mymaps_pontos.csv                       (municípios + 6 estações INMET)
+  outputs/mymaps_pontos.csv                       (municípios + estações INMET usadas)
+  outputs/mymaps/municipios.csv, estacoes_inmet.csv (simplificados: números já como texto,
+                                                   vírgula decimal; UTF-8 com BOM)
   outputs/figures/F8_mapa_apresentacao.png        (16:9, 300 dpi)
   outputs/mapa_interativo.html                    (folium)
   outputs/figures/F1_mapa_clusters.png, F5_mapa_tendencia_fungicidas.png (refeitas)
@@ -23,15 +25,20 @@ import pandas as pd
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import estatistica as E  # noqa: E402  (estilo, paleta, malhas, F1, F5)
-from indicadores import (FASES_OP, MOTIVOS_A, PROC, TAB, calendario,  # noqa: E402
-                         configurar_agregados)
+from indicadores import (FASES_OP, MOTIVOS_A, PERIODO_ERA5, PROC, ROTULO_SAFRAS, TAB,  # noqa: E402
+                         calendario, configurar_agregados)
+from validacao_inmet import estacoes, periodo_estacoes  # noqa: E402
 
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "outputs"
 FUNG = "Fungicidas (R1-R5)"
-NOTA = ("ERA5 1995–2024; validado com 6 estações INMET (2010–2016); diferenças entre "
+_INV = estacoes()
+_USADAS = _INV[_INV["selecionada"]]
+N_EST = int(_USADAS["incluida_na_media"].sum())
+PER_EST = periodo_estacoes(_USADAS).split(" (")[0].replace("safras ", "safras ")
+NOTA = (f"ERA5 {PERIODO_ERA5}; validado com {N_EST} estações INMET ({PER_EST}); diferenças entre "
         "municípios no período de fungicidas não confirmadas pelas estações")
-FONTE = ("Fonte: ERA5 (ECMWF) via Open-Meteo, 1995–2024, critério A de aptidão; "
+FONTE = (f"Fonte: ERA5 (ECMWF) via Open-Meteo, safras {ROTULO_SAFRAS}, critério A de aptidão; "
          "malhas IBGE 2020 (geobr).")
 MOTIVO_TXT = {
     "DeltaT baixo": "Delta T baixo (< 2 °C, ar úmido)", "DeltaT alto": "Delta T alto (> 8 °C)",
@@ -81,8 +88,7 @@ def dados_municipios() -> pd.DataFrame:
 
 
 def dados_estacoes() -> pd.DataFrame:
-    sel = pd.read_csv(TAB / "T12a_estacoes_inmet.csv", encoding="utf-8-sig")
-    sel = sel[sel["selecionada"]]
+    sel = _USADAS
     t13c = pd.read_csv(TAB / "T13c_fases_estacao_vs_era5.csv", encoding="utf-8-sig")
     t13c = t13c[t13c["codigo"] != "TODAS"]
     curto = {"Dessecação pré-semeadura": "dessecacao", "Pós-emergência": "pos_emergencia",
@@ -90,14 +96,18 @@ def dados_estacoes() -> pd.DataFrame:
     linhas = []
     for _, e in sel.iterrows():
         r = {"codigo_estacao": e.codigo, "estacao": " ".join(w if w in ("do", "da", "de") else w.capitalize() for w in e.estacao.lower().split()), "lat": e.lat, "lon": e.lon,
-             "municipio_associado": e.municipio, "dist_km": round(e.dist_km, 1)}
+             "municipio_associado": e.municipio, "dist_km": round(e.dist_km, 1), "uf": e.uf,
+             "n_safras_validas": int(e.n_safras_validas),
+             "safras_validas_periodo": f"{int(e.safra_ini_valida)}/{str(int(e.safra_ini_valida) + 1)[2:]}–"
+                                       f"{int(e.safra_fim_valida)}/{str(int(e.safra_fim_valida) + 1)[2:]}"}
         t = t13c[t13c["codigo"] == e.codigo].set_index("fase")
         for f, c in curto.items():
             r[f"pct_aptas_estacao_{c}"] = t["pct_aptas_estacao"].get(f, np.nan)
             r[f"pct_aptas_era5_{c}"] = t["pct_aptas_era5"].get(f, np.nan)
         inc = bool(t["incluida_na_media"].iloc[0]) if len(t) else False
-        r["observacao"] = ("" if inc else "cobertura parcial (dados só de ago-dez/2016); "
-                           "fora das médias de validação")
+        r["observacao"] = "" if inc else "menos de 2 safras válidas; fora das médias de validação"
+        if inc and e.n_safras_validas < 6:
+            r["observacao"] = f"só {int(e.n_safras_validas)} safras válidas"
         linhas.append(r)
     return pd.DataFrame(linhas)
 
@@ -115,7 +125,8 @@ def csv_mymaps(dm: pd.DataFrame, de: pd.DataFrame) -> pd.DataFrame:
               "pct_tempo_apto_fungicidas", "dias_aptos_fungicidas", "melhor_epoca_semeadura",
               "tendencia_sen_h_decada", "tendencia_significativa_5pct",
               "principal_motivo_perda_janela", "pct_horas_inaptas_motivo", "estrategia_prioritaria",
-              "codigo_estacao", "municipio_associado", "dist_km"]
+              "codigo_estacao", "municipio_associado", "dist_km", "n_safras_validas",
+              "safras_validas_periodo"]
              + [c for c in out.columns if c.startswith("pct_aptas_")] + ["observacao", "nota"])
     out = out[ordem]
     num = [c for c in out.select_dtypes("number").columns if c not in ("latitude", "longitude")]
@@ -123,6 +134,45 @@ def csv_mymaps(dm: pd.DataFrame, de: pd.DataFrame) -> pd.DataFrame:
     out[["latitude", "longitude"]] = out[["latitude", "longitude"]].round(5)
     out.to_csv(OUT / "mymaps_pontos.csv", index=False, encoding="utf-8")
     return out
+
+
+def _v(x, nd=1):
+    return f"{x:.{nd}f}".replace(".", ",")
+
+
+def csv_mymaps_simples(dm: pd.DataFrame, de: pd.DataFrame):
+    """Versões simplificadas: cada indicador já escrito como texto (vírgula decimal)."""
+    d = OUT / "mymaps"
+    d.mkdir(exist_ok=True)
+    m = pd.DataFrame({
+        "nome": dm["municipio"], "latitude": dm["lat"].round(5), "longitude": dm["lon"].round(5),
+        "grupo": dm["grupo"],
+        "horas_aptas_fungicidas": [f"{h:.0f} h por safra ({_v(p, 0)}% do tempo)" for h, p in
+                                   zip(dm["horas_aptas_fungicidas_h_safra"], dm["pct_tempo_apto_fungicidas"])],
+        "dias_aptos_fungicidas": [f"{x:.0f} de 75 dias" for x in dm["dias_aptos_fungicidas"]],
+        "tendencia": [f"{'+' if x >= 0 else '−'}{abs(x):.0f} h por década "
+                      f"({'significativa' if sg == 'sim' else 'não significativa'})"
+                      for x, sg in zip(dm["tendencia_sen_h_decada"], dm["tendencia_significativa_5pct"])],
+        "melhor_epoca_semeadura": dm["melhor_epoca_semeadura"],
+        "principal_motivo_perda": [f"{mt} ({_v(p, 0)}% das horas inaptas)" for mt, p in
+                                   zip(dm["principal_motivo_perda_janela"], dm["pct_horas_inaptas_motivo"])],
+        "estrategia_prioritaria": dm["estrategia_prioritaria"],
+        "nota": NOTA})
+    m.to_csv(d / "municipios.csv", index=False, encoding="utf-8-sig")
+    fases = [("dessecacao", "dessecacao"), ("pos_emergencia", "pos_emergencia"),
+             ("fungicidas", "fungicidas"), ("pre_colheita", "pre_colheita")]
+    e = pd.DataFrame({
+        "nome": "INMET " + de["codigo_estacao"] + " " + de["estacao"],
+        "latitude": de["lat"].round(5), "longitude": de["lon"].round(5),
+        "municipio_associado": [f"{mu} ({_v(dk)} km)" for mu, dk in zip(de["municipio_associado"], de["dist_km"])],
+        "safras_validas": [f"{n} safras ({pp})" for n, pp in zip(de["n_safras_validas"], de["safras_validas_periodo"])]})
+    for c, nome in fases:
+        e[f"horas_aptas_{nome}"] = [f"estação {_v(a)}% × ERA5 {_v(b)}%" for a, b in
+                                    zip(de[f"pct_aptas_estacao_{c}"], de[f"pct_aptas_era5_{c}"])]
+    e["observacao"] = de["observacao"]
+    e["nota"] = NOTA
+    e.to_csv(d / "estacoes_inmet.csv", index=False, encoding="utf-8-sig")
+    return m, e
 
 
 # ----------------------------------------------------------------------------
@@ -217,12 +267,12 @@ def fig_F8(dm: pd.DataFrame, de: pd.DataFrame):
     cb.outline.set_visible(False)
     leg = [Line2D([0], [0], marker="^", color="none", markerfacecolor="#ffffff",
                   markeredgecolor=E.INK, markeredgewidth=1.3, markersize=10,
-                  label="Estação INMET usada na validação (2010–2016)")]
+                  label=f"Estação INMET usada na validação ({PER_EST})")]
     fig.legend(handles=leg, loc="upper left", bbox_to_anchor=(0.655, 0.135), fontsize=10,
                frameon=False)
     fig.text(0.01, 0.955, "Horas aptas para pulverização no período de fungicidas — Paraná",
              fontsize=18, color=E.INK, va="top")
-    fig.text(0.01, 0.905, "Média das safras 1995/96 a 2023/24 · critério A (Delta T, vento, T, UR, chuva)",
+    fig.text(0.01, 0.905, f"Média das safras {ROTULO_SAFRAS} · critério A (Delta T, vento, T, UR, chuva)",
              fontsize=11.5, color=E.INK2, va="top")
     fig.text(0.01, 0.045, FONTE, fontsize=9.5, color=E.INK2)
     fig.text(0.01, 0.018, "Nota: " + NOTA + ".", fontsize=9.5, color=E.INK2)
@@ -277,14 +327,15 @@ def mapa_interativo(dm: pd.DataFrame, de: pd.DataFrame):
     fases = [("dessecacao", "Dessecação"), ("pos_emergencia", "Pós-emergência"),
              ("fungicidas", "Fungicidas"), ("pre_colheita", "Pré-colheita")]
     for _, r in de.iterrows():
-        linhas = [("Município associado", f"{r.municipio_associado} ({f1(r.dist_km)} km)")]
+        linhas = [("Município associado", f"{r.municipio_associado} ({f1(r.dist_km)} km)"),
+                  ("Safras válidas", f"{r.n_safras_validas} ({r.safras_validas_periodo})")]
         linhas += [(f"% aptas {n} (estação / ERA5)",
                     f"{f1(r[f'pct_aptas_estacao_{c}'])} / {f1(r[f'pct_aptas_era5_{c}'])}") for c, n in fases]
         if r.observacao:
             linhas.append(("Observação", r.observacao))
         pop = (f"<div style='font-family:system-ui,sans-serif'><b style='font-size:14px'>INMET "
                f"{html.escape(r.codigo_estacao)} – {html.escape(r.estacao)}</b><br>"
-               "<span style='color:#52514e'>Estação usada na validação, 2010–2016</span></div>"
+               f"<span style='color:#52514e'>Estação usada na validação, {html.escape(PER_EST)}</span></div>"
                + tabela(linhas))
         folium.RegularPolygonMarker([r.lat, r.lon], number_of_sides=3, radius=10, rotation=30,
                                     color="#0b0b0b", weight=2, fill=True, fill_color="#ffffff",
@@ -329,6 +380,10 @@ def main() -> None:
     out = csv_mymaps(dm, de)
     print(f"mymaps_pontos.csv: {len(out)} pontos ({(out['tipo'] == 'Município').sum()} municípios, "
           f"{(out['tipo'] != 'Município').sum()} estações)")
+    ms, es = csv_mymaps_simples(dm, de)
+    print(f"mymaps/municipios.csv: {len(ms)}; mymaps/estacoes_inmet.csv: {len(es)}")
+    print(ms.head(3).to_string(index=False))
+    print(es.to_string(index=False))
     fig_F8(dm, de)
     print("figura: F8_mapa_apresentacao.png")
     mapa_interativo(dm, de)

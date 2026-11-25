@@ -14,7 +14,7 @@ VARIAVEIS = [
     "temperature_2m", "relative_humidity_2m", "dew_point_2m", "precipitation",
     "wind_speed_10m", "wind_gusts_10m", "shortwave_radiation", "is_day",
 ]
-ESPERADO = 10958 * 24  # horas de 1995-01-01 a 2024-12-31
+ESPERADO = len(pd.date_range("2000-01-01", "2026-05-01", freq="D")) * 24  # horas de 2000-01-01 a 2026-05-01 (local)
 
 
 def main() -> None:

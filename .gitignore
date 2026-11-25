@@ -37,3 +37,8 @@ Thumbs.db
 desktop.ini
 .vscode/
 .idea/
+
+# Arquivos anuais do INMET (todas as estações do Brasil) e backups locais
+Anos Complementares/
+outputs_v3_1995-2024/
+outputs/err_*.txt

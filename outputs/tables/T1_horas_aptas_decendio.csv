@@ -1,625 +1,625 @@
 ﻿municipio,decendio_rotulo,mes,decendio,media,dp
-Cascavel,Set-1,9,1,57.14,24.23
-Cascavel,Set-2,9,2,60.31,24.19
-Cascavel,Set-3,9,3,57.97,27.9
-Cascavel,Out-1,10,1,56.38,17.41
-Cascavel,Out-2,10,2,60.21,22.0
-Cascavel,Out-3,10,3,70.24,23.31
-Cascavel,Nov-1,11,1,68.17,20.87
-Cascavel,Nov-2,11,2,71.34,23.63
-Cascavel,Nov-3,11,3,71.41,25.25
-Cascavel,Dez-1,12,1,69.52,26.58
-Cascavel,Dez-2,12,2,70.59,27.38
-Cascavel,Dez-3,12,3,68.07,32.58
-Cascavel,Jan-1,1,1,64.83,24.59
-Cascavel,Jan-2,1,2,59.07,30.83
-Cascavel,Jan-3,1,3,66.59,28.81
-Cascavel,Fev-1,2,1,72.97,39.03
-Cascavel,Fev-2,2,2,55.41,35.83
-Cascavel,Fev-3,2,3,47.38,26.79
-Cascavel,Mar-1,3,1,71.86,31.27
-Cascavel,Mar-2,3,2,73.31,33.29
-Cascavel,Mar-3,3,3,87.86,43.7
-Cascavel,Abr-1,4,1,83.1,29.04
-Cascavel,Abr-2,4,2,85.79,31.23
-Cascavel,Abr-3,4,3,81.52,38.31
-Toledo,Set-1,9,1,58.55,24.79
-Toledo,Set-2,9,2,62.34,21.98
-Toledo,Set-3,9,3,58.59,27.1
-Toledo,Out-1,10,1,57.24,17.06
-Toledo,Out-2,10,2,64.31,23.63
-Toledo,Out-3,10,3,73.34,23.84
-Toledo,Nov-1,11,1,69.52,21.6
-Toledo,Nov-2,11,2,71.21,20.38
-Toledo,Nov-3,11,3,74.45,26.91
-Toledo,Dez-1,12,1,74.41,24.11
-Toledo,Dez-2,12,2,74.41,26.82
-Toledo,Dez-3,12,3,71.62,31.75
-Toledo,Jan-1,1,1,70.93,25.35
-Toledo,Jan-2,1,2,62.55,29.02
-Toledo,Jan-3,1,3,70.9,28.48
-Toledo,Fev-1,2,1,76.34,36.24
-Toledo,Fev-2,2,2,58.97,33.53
-Toledo,Fev-3,2,3,52.79,27.42
-Toledo,Mar-1,3,1,75.83,25.75
-Toledo,Mar-2,3,2,78.0,31.18
-Toledo,Mar-3,3,3,95.17,41.14
-Toledo,Abr-1,4,1,89.03,28.96
-Toledo,Abr-2,4,2,93.34,29.99
-Toledo,Abr-3,4,3,92.1,38.32
-Assis Chateaubriand,Set-1,9,1,91.03,25.54
-Assis Chateaubriand,Set-2,9,2,91.41,27.8
-Assis Chateaubriand,Set-3,9,3,81.03,30.29
-Assis Chateaubriand,Out-1,10,1,80.21,17.4
-Assis Chateaubriand,Out-2,10,2,83.97,26.31
-Assis Chateaubriand,Out-3,10,3,92.55,24.01
-Assis Chateaubriand,Nov-1,11,1,83.14,23.73
-Assis Chateaubriand,Nov-2,11,2,88.83,25.08
-Assis Chateaubriand,Nov-3,11,3,86.17,30.66
-Assis Chateaubriand,Dez-1,12,1,76.69,24.25
-Assis Chateaubriand,Dez-2,12,2,82.0,28.56
-Assis Chateaubriand,Dez-3,12,3,78.52,38.11
-Assis Chateaubriand,Jan-1,1,1,73.21,25.25
-Assis Chateaubriand,Jan-2,1,2,64.28,31.9
-Assis Chateaubriand,Jan-3,1,3,77.93,33.23
-Assis Chateaubriand,Fev-1,2,1,76.34,36.1
-Assis Chateaubriand,Fev-2,2,2,64.93,37.46
-Assis Chateaubriand,Fev-3,2,3,53.69,28.23
-Assis Chateaubriand,Mar-1,3,1,79.41,31.37
-Assis Chateaubriand,Mar-2,3,2,83.86,36.67
-Assis Chateaubriand,Mar-3,3,3,107.28,43.08
-Assis Chateaubriand,Abr-1,4,1,100.07,30.51
-Assis Chateaubriand,Abr-2,4,2,103.0,33.4
-Assis Chateaubriand,Abr-3,4,3,103.24,34.1
-Guarapuava,Set-1,9,1,65.07,28.85
-Guarapuava,Set-2,9,2,55.52,27.51
-Guarapuava,Set-3,9,3,49.17,28.61
-Guarapuava,Out-1,10,1,46.28,21.65
-Guarapuava,Out-2,10,2,39.66,19.81
-Guarapuava,Out-3,10,3,54.97,22.32
-Guarapuava,Nov-1,11,1,45.76,20.81
-Guarapuava,Nov-2,11,2,49.17,17.65
-Guarapuava,Nov-3,11,3,50.28,19.93
-Guarapuava,Dez-1,12,1,49.1,23.94
-Guarapuava,Dez-2,12,2,49.69,22.87
-Guarapuava,Dez-3,12,3,48.34,25.51
-Guarapuava,Jan-1,1,1,35.72,19.94
-Guarapuava,Jan-2,1,2,33.76,24.69
-Guarapuava,Jan-3,1,3,37.66,25.11
-Guarapuava,Fev-1,2,1,46.9,28.03
-Guarapuava,Fev-2,2,2,32.62,26.72
-Guarapuava,Fev-3,2,3,25.07,18.45
-Guarapuava,Mar-1,3,1,40.24,19.78
-Guarapuava,Mar-2,3,2,45.07,26.19
-Guarapuava,Mar-3,3,3,54.69,30.61
-Guarapuava,Abr-1,4,1,51.38,22.3
-Guarapuava,Abr-2,4,2,54.59,21.44
-Guarapuava,Abr-3,4,3,52.66,23.8
-Ponta Grossa,Set-1,9,1,66.79,21.18
-Ponta Grossa,Set-2,9,2,59.93,24.54
-Ponta Grossa,Set-3,9,3,49.9,23.0
-Ponta Grossa,Out-1,10,1,49.14,20.26
-Ponta Grossa,Out-2,10,2,46.48,18.88
-Ponta Grossa,Out-3,10,3,59.28,18.92
-Ponta Grossa,Nov-1,11,1,48.41,15.57
-Ponta Grossa,Nov-2,11,2,50.76,17.14
-Ponta Grossa,Nov-3,11,3,50.62,20.21
-Ponta Grossa,Dez-1,12,1,51.86,18.61
-Ponta Grossa,Dez-2,12,2,56.59,21.6
-Ponta Grossa,Dez-3,12,3,51.28,20.9
-Ponta Grossa,Jan-1,1,1,38.66,18.13
-Ponta Grossa,Jan-2,1,2,37.97,22.68
-Ponta Grossa,Jan-3,1,3,40.59,24.55
-Ponta Grossa,Fev-1,2,1,53.97,27.12
-Ponta Grossa,Fev-2,2,2,37.62,25.75
-Ponta Grossa,Fev-3,2,3,33.07,17.86
-Ponta Grossa,Mar-1,3,1,47.31,20.35
-Ponta Grossa,Mar-2,3,2,51.0,27.31
-Ponta Grossa,Mar-3,3,3,61.69,26.77
-Ponta Grossa,Abr-1,4,1,60.0,18.71
-Ponta Grossa,Abr-2,4,2,64.79,20.22
-Ponta Grossa,Abr-3,4,3,62.62,21.27
-Castro,Set-1,9,1,63.45,22.31
-Castro,Set-2,9,2,54.83,24.51
-Castro,Set-3,9,3,45.34,23.14
-Castro,Out-1,10,1,45.07,19.94
-Castro,Out-2,10,2,42.86,18.31
-Castro,Out-3,10,3,53.17,19.51
-Castro,Nov-1,11,1,42.55,16.39
-Castro,Nov-2,11,2,43.0,15.67
-Castro,Nov-3,11,3,45.41,19.72
-Castro,Dez-1,12,1,42.38,16.67
-Castro,Dez-2,12,2,48.52,23.39
-Castro,Dez-3,12,3,43.41,19.27
-Castro,Jan-1,1,1,29.66,17.52
-Castro,Jan-2,1,2,30.55,20.21
-Castro,Jan-3,1,3,33.76,24.03
-Castro,Fev-1,2,1,46.24,27.53
-Castro,Fev-2,2,2,30.31,21.84
-Castro,Fev-3,2,3,29.03,16.38
-Castro,Mar-1,3,1,41.21,19.78
-Castro,Mar-2,3,2,40.03,24.09
-Castro,Mar-3,3,3,52.52,25.26
-Castro,Abr-1,4,1,51.97,16.62
-Castro,Abr-2,4,2,58.21,21.48
-Castro,Abr-3,4,3,59.72,25.3
-Tibagi,Set-1,9,1,87.76,26.4
-Tibagi,Set-2,9,2,79.03,25.59
-Tibagi,Set-3,9,3,68.76,24.62
-Tibagi,Out-1,10,1,65.62,21.91
-Tibagi,Out-2,10,2,65.28,23.19
-Tibagi,Out-3,10,3,73.52,18.79
-Tibagi,Nov-1,11,1,66.86,17.65
-Tibagi,Nov-2,11,2,67.59,16.69
-Tibagi,Nov-3,11,3,68.28,23.45
-Tibagi,Dez-1,12,1,63.0,19.77
-Tibagi,Dez-2,12,2,64.86,21.4
-Tibagi,Dez-3,12,3,62.69,26.87
-Tibagi,Jan-1,1,1,47.41,20.87
-Tibagi,Jan-2,1,2,46.9,24.48
-Tibagi,Jan-3,1,3,49.41,23.47
-Tibagi,Fev-1,2,1,57.79,25.83
-Tibagi,Fev-2,2,2,44.93,25.24
-Tibagi,Fev-3,2,3,39.17,19.28
-Tibagi,Mar-1,3,1,59.97,22.55
-Tibagi,Mar-2,3,2,60.28,27.35
-Tibagi,Mar-3,3,3,71.69,26.83
-Tibagi,Abr-1,4,1,71.66,16.75
-Tibagi,Abr-2,4,2,74.41,20.85
-Tibagi,Abr-3,4,3,74.76,19.92
-Londrina,Set-1,9,1,87.45,24.23
-Londrina,Set-2,9,2,84.41,22.35
-Londrina,Set-3,9,3,74.97,28.9
-Londrina,Out-1,10,1,75.17,23.88
-Londrina,Out-2,10,2,75.48,24.78
-Londrina,Out-3,10,3,81.66,21.13
-Londrina,Nov-1,11,1,70.79,21.49
-Londrina,Nov-2,11,2,65.24,17.49
-Londrina,Nov-3,11,3,68.17,24.39
-Londrina,Dez-1,12,1,63.9,23.25
-Londrina,Dez-2,12,2,67.93,24.91
-Londrina,Dez-3,12,3,67.34,31.19
-Londrina,Jan-1,1,1,54.1,25.83
-Londrina,Jan-2,1,2,47.14,26.61
-Londrina,Jan-3,1,3,59.41,30.95
-Londrina,Fev-1,2,1,63.79,36.73
-Londrina,Fev-2,2,2,50.55,34.69
-Londrina,Fev-3,2,3,47.38,24.18
-Londrina,Mar-1,3,1,66.38,25.58
-Londrina,Mar-2,3,2,64.72,28.01
-Londrina,Mar-3,3,3,87.79,30.34
-Londrina,Abr-1,4,1,95.83,23.65
-Londrina,Abr-2,4,2,97.79,33.23
-Londrina,Abr-3,4,3,104.31,29.28
-Cornélio Procópio,Set-1,9,1,73.14,22.95
-Cornélio Procópio,Set-2,9,2,71.07,20.87
-Cornélio Procópio,Set-3,9,3,66.76,24.44
-Cornélio Procópio,Out-1,10,1,68.69,20.2
-Cornélio Procópio,Out-2,10,2,71.66,23.04
-Cornélio Procópio,Out-3,10,3,79.28,18.36
-Cornélio Procópio,Nov-1,11,1,66.03,18.13
-Cornélio Procópio,Nov-2,11,2,60.52,16.77
-Cornélio Procópio,Nov-3,11,3,65.52,21.2
-Cornélio Procópio,Dez-1,12,1,65.55,19.38
-Cornélio Procópio,Dez-2,12,2,66.21,22.19
-Cornélio Procópio,Dez-3,12,3,65.83,25.21
-Cornélio Procópio,Jan-1,1,1,57.97,24.44
-Cornélio Procópio,Jan-2,1,2,51.9,25.2
-Cornélio Procópio,Jan-3,1,3,63.03,32.53
-Cornélio Procópio,Fev-1,2,1,64.41,33.75
-Cornélio Procópio,Fev-2,2,2,51.24,32.88
-Cornélio Procópio,Fev-3,2,3,50.86,24.65
-Cornélio Procópio,Mar-1,3,1,69.69,21.8
-Cornélio Procópio,Mar-2,3,2,67.48,24.7
-Cornélio Procópio,Mar-3,3,3,85.72,26.14
-Cornélio Procópio,Abr-1,4,1,94.34,20.0
-Cornélio Procópio,Abr-2,4,2,94.66,28.08
-Cornélio Procópio,Abr-3,4,3,106.28,23.96
-Campo Mourão,Set-1,9,1,85.0,28.49
-Campo Mourão,Set-2,9,2,82.0,27.54
-Campo Mourão,Set-3,9,3,74.1,34.12
-Campo Mourão,Out-1,10,1,75.07,19.99
-Campo Mourão,Out-2,10,2,74.0,27.61
-Campo Mourão,Out-3,10,3,83.93,20.5
-Campo Mourão,Nov-1,11,1,73.21,21.11
-Campo Mourão,Nov-2,11,2,73.93,19.95
-Campo Mourão,Nov-3,11,3,77.69,29.53
-Campo Mourão,Dez-1,12,1,72.0,24.02
-Campo Mourão,Dez-2,12,2,74.21,26.04
-Campo Mourão,Dez-3,12,3,75.38,35.04
-Campo Mourão,Jan-1,1,1,61.38,23.38
-Campo Mourão,Jan-2,1,2,57.52,29.99
-Campo Mourão,Jan-3,1,3,69.83,33.88
-Campo Mourão,Fev-1,2,1,75.45,36.72
-Campo Mourão,Fev-2,2,2,57.69,35.06
-Campo Mourão,Fev-3,2,3,53.55,26.74
-Campo Mourão,Mar-1,3,1,77.72,26.68
-Campo Mourão,Mar-2,3,2,78.79,35.35
-Campo Mourão,Mar-3,3,3,100.62,38.13
-Campo Mourão,Abr-1,4,1,100.48,30.32
-Campo Mourão,Abr-2,4,2,105.97,35.39
-Campo Mourão,Abr-3,4,3,103.69,37.09
-Ubiratã,Set-1,9,1,93.17,24.04
-Ubiratã,Set-2,9,2,92.79,27.56
-Ubiratã,Set-3,9,3,85.24,31.63
-Ubiratã,Out-1,10,1,85.66,19.75
-Ubiratã,Out-2,10,2,86.41,26.62
-Ubiratã,Out-3,10,3,96.34,22.27
-Ubiratã,Nov-1,11,1,87.07,24.96
-Ubiratã,Nov-2,11,2,91.28,23.69
-Ubiratã,Nov-3,11,3,88.17,30.47
-Ubiratã,Dez-1,12,1,77.45,26.54
-Ubiratã,Dez-2,12,2,84.66,27.82
-Ubiratã,Dez-3,12,3,81.28,38.48
-Ubiratã,Jan-1,1,1,76.97,23.68
-Ubiratã,Jan-2,1,2,66.41,32.13
-Ubiratã,Jan-3,1,3,80.03,33.67
-Ubiratã,Fev-1,2,1,76.1,36.7
-Ubiratã,Fev-2,2,2,66.48,34.72
-Ubiratã,Fev-3,2,3,52.38,27.45
-Ubiratã,Mar-1,3,1,79.41,32.79
-Ubiratã,Mar-2,3,2,81.41,37.46
-Ubiratã,Mar-3,3,3,100.52,42.66
-Ubiratã,Abr-1,4,1,98.14,27.33
-Ubiratã,Abr-2,4,2,94.1,31.16
-Ubiratã,Abr-3,4,3,89.52,27.73
-Pato Branco,Set-1,9,1,66.14,26.22
-Pato Branco,Set-2,9,2,60.62,23.74
-Pato Branco,Set-3,9,3,58.17,31.81
-Pato Branco,Out-1,10,1,56.14,24.18
-Pato Branco,Out-2,10,2,53.55,21.12
-Pato Branco,Out-3,10,3,65.97,21.21
-Pato Branco,Nov-1,11,1,58.66,20.66
-Pato Branco,Nov-2,11,2,62.76,20.94
-Pato Branco,Nov-3,11,3,64.69,22.46
-Pato Branco,Dez-1,12,1,62.62,24.53
-Pato Branco,Dez-2,12,2,64.1,25.13
-Pato Branco,Dez-3,12,3,60.86,28.75
-Pato Branco,Jan-1,1,1,59.17,22.31
-Pato Branco,Jan-2,1,2,52.86,29.34
-Pato Branco,Jan-3,1,3,60.21,27.34
-Pato Branco,Fev-1,2,1,63.45,34.08
-Pato Branco,Fev-2,2,2,53.93,29.48
-Pato Branco,Fev-3,2,3,40.76,21.19
-Pato Branco,Mar-1,3,1,58.21,26.39
-Pato Branco,Mar-2,3,2,62.14,28.11
-Pato Branco,Mar-3,3,3,72.24,36.66
-Pato Branco,Abr-1,4,1,64.9,24.84
-Pato Branco,Abr-2,4,2,63.45,24.57
-Pato Branco,Abr-3,4,3,61.0,26.66
-Palmas,Set-1,9,1,54.21,23.56
-Palmas,Set-2,9,2,47.17,21.43
-Palmas,Set-3,9,3,47.0,28.17
-Palmas,Out-1,10,1,43.52,16.26
-Palmas,Out-2,10,2,41.0,19.7
-Palmas,Out-3,10,3,51.24,18.24
-Palmas,Nov-1,11,1,47.07,17.1
-Palmas,Nov-2,11,2,48.66,15.35
-Palmas,Nov-3,11,3,51.0,18.87
-Palmas,Dez-1,12,1,49.38,20.54
-Palmas,Dez-2,12,2,50.69,22.94
-Palmas,Dez-3,12,3,46.83,20.94
-Palmas,Jan-1,1,1,39.79,18.53
-Palmas,Jan-2,1,2,39.17,21.75
-Palmas,Jan-3,1,3,41.03,21.65
-Palmas,Fev-1,2,1,47.55,27.82
-Palmas,Fev-2,2,2,37.93,23.41
-Palmas,Fev-3,2,3,26.45,14.8
-Palmas,Mar-1,3,1,41.55,17.33
-Palmas,Mar-2,3,2,46.52,23.5
-Palmas,Mar-3,3,3,53.07,29.38
-Palmas,Abr-1,4,1,48.48,17.93
-Palmas,Abr-2,4,2,49.59,19.43
-Palmas,Abr-3,4,3,49.21,21.98
-Umuarama,Set-1,9,1,66.62,24.16
-Umuarama,Set-2,9,2,72.24,20.47
-Umuarama,Set-3,9,3,69.03,29.61
-Umuarama,Out-1,10,1,70.62,17.89
-Umuarama,Out-2,10,2,78.28,24.7
-Umuarama,Out-3,10,3,87.72,22.69
-Umuarama,Nov-1,11,1,78.48,24.6
-Umuarama,Nov-2,11,2,76.97,21.79
-Umuarama,Nov-3,11,3,81.38,26.14
-Umuarama,Dez-1,12,1,76.34,21.66
-Umuarama,Dez-2,12,2,80.28,21.83
-Umuarama,Dez-3,12,3,79.1,29.63
-Umuarama,Jan-1,1,1,75.52,18.58
-Umuarama,Jan-2,1,2,68.28,29.56
-Umuarama,Jan-3,1,3,77.79,29.56
-Umuarama,Fev-1,2,1,79.21,31.94
-Umuarama,Fev-2,2,2,64.07,31.33
-Umuarama,Fev-3,2,3,57.17,23.97
-Umuarama,Mar-1,3,1,85.1,27.12
-Umuarama,Mar-2,3,2,89.79,31.38
-Umuarama,Mar-3,3,3,105.14,37.55
-Umuarama,Abr-1,4,1,105.17,28.08
-Umuarama,Abr-2,4,2,110.93,29.4
-Umuarama,Abr-3,4,3,112.24,35.9
-Ivaiporã,Set-1,9,1,95.86,25.55
-Ivaiporã,Set-2,9,2,92.86,28.52
-Ivaiporã,Set-3,9,3,73.9,27.31
-Ivaiporã,Out-1,10,1,80.0,23.64
-Ivaiporã,Out-2,10,2,73.52,22.66
-Ivaiporã,Out-3,10,3,85.86,20.94
-Ivaiporã,Nov-1,11,1,77.45,22.42
-Ivaiporã,Nov-2,11,2,79.86,21.74
-Ivaiporã,Nov-3,11,3,77.93,32.09
-Ivaiporã,Dez-1,12,1,76.66,26.17
-Ivaiporã,Dez-2,12,2,74.41,24.82
-Ivaiporã,Dez-3,12,3,73.17,33.58
-Ivaiporã,Jan-1,1,1,63.03,26.87
-Ivaiporã,Jan-2,1,2,61.03,27.43
-Ivaiporã,Jan-3,1,3,67.17,30.09
-Ivaiporã,Fev-1,2,1,73.14,35.1
-Ivaiporã,Fev-2,2,2,58.03,35.89
-Ivaiporã,Fev-3,2,3,53.69,26.3
-Ivaiporã,Mar-1,3,1,73.93,22.49
-Ivaiporã,Mar-2,3,2,75.66,32.75
-Ivaiporã,Mar-3,3,3,93.34,32.21
-Ivaiporã,Abr-1,4,1,93.07,25.29
-Ivaiporã,Abr-2,4,2,92.31,30.46
-Ivaiporã,Abr-3,4,3,91.69,26.9
-Maringá,Set-1,9,1,79.86,26.68
-Maringá,Set-2,9,2,85.34,22.84
-Maringá,Set-3,9,3,81.66,28.41
-Maringá,Out-1,10,1,80.9,17.6
-Maringá,Out-2,10,2,87.45,27.42
-Maringá,Out-3,10,3,92.03,17.39
-Maringá,Nov-1,11,1,81.34,26.05
-Maringá,Nov-2,11,2,84.79,23.69
-Maringá,Nov-3,11,3,81.93,25.5
-Maringá,Dez-1,12,1,79.48,25.82
-Maringá,Dez-2,12,2,85.59,25.57
-Maringá,Dez-3,12,3,80.28,33.99
-Maringá,Jan-1,1,1,68.83,24.91
-Maringá,Jan-2,1,2,63.52,29.71
-Maringá,Jan-3,1,3,76.86,32.23
-Maringá,Fev-1,2,1,76.07,37.53
-Maringá,Fev-2,2,2,64.79,33.5
-Maringá,Fev-3,2,3,58.76,26.98
-Maringá,Mar-1,3,1,82.21,27.1
-Maringá,Mar-2,3,2,84.48,33.74
-Maringá,Mar-3,3,3,106.86,38.9
-Maringá,Abr-1,4,1,106.45,25.99
-Maringá,Abr-2,4,2,111.34,29.83
-Maringá,Abr-3,4,3,112.83,29.53
-São Pedro do Iguaçu,Set-1,9,1,56.52,23.17
-São Pedro do Iguaçu,Set-2,9,2,59.52,24.33
-São Pedro do Iguaçu,Set-3,9,3,59.31,26.68
-São Pedro do Iguaçu,Out-1,10,1,56.83,17.0
-São Pedro do Iguaçu,Out-2,10,2,60.97,22.36
-São Pedro do Iguaçu,Out-3,10,3,71.21,25.09
-São Pedro do Iguaçu,Nov-1,11,1,67.34,20.38
-São Pedro do Iguaçu,Nov-2,11,2,69.28,22.37
-São Pedro do Iguaçu,Nov-3,11,3,72.59,27.05
-São Pedro do Iguaçu,Dez-1,12,1,70.72,25.16
-São Pedro do Iguaçu,Dez-2,12,2,72.0,26.3
-São Pedro do Iguaçu,Dez-3,12,3,67.17,31.31
-São Pedro do Iguaçu,Jan-1,1,1,67.1,25.83
-São Pedro do Iguaçu,Jan-2,1,2,60.03,28.15
-São Pedro do Iguaçu,Jan-3,1,3,67.83,28.4
-São Pedro do Iguaçu,Fev-1,2,1,73.69,39.06
-São Pedro do Iguaçu,Fev-2,2,2,56.17,35.07
-São Pedro do Iguaçu,Fev-3,2,3,48.76,28.62
-São Pedro do Iguaçu,Mar-1,3,1,73.03,29.66
-São Pedro do Iguaçu,Mar-2,3,2,76.1,32.45
-São Pedro do Iguaçu,Mar-3,3,3,90.1,43.24
-São Pedro do Iguaçu,Abr-1,4,1,84.41,30.37
-São Pedro do Iguaçu,Abr-2,4,2,88.59,32.22
-São Pedro do Iguaçu,Abr-3,4,3,87.66,40.19
-Marechal Cândido Rondon,Set-1,9,1,64.24,23.61
-Marechal Cândido Rondon,Set-2,9,2,70.1,21.32
-Marechal Cândido Rondon,Set-3,9,3,66.07,27.66
-Marechal Cândido Rondon,Out-1,10,1,65.66,16.95
-Marechal Cândido Rondon,Out-2,10,2,73.14,23.88
-Marechal Cândido Rondon,Out-3,10,3,84.14,24.11
-Marechal Cândido Rondon,Nov-1,11,1,77.66,24.7
-Marechal Cândido Rondon,Nov-2,11,2,79.62,18.75
-Marechal Cândido Rondon,Nov-3,11,3,83.14,24.36
-Marechal Cândido Rondon,Dez-1,12,1,80.79,20.43
-Marechal Cândido Rondon,Dez-2,12,2,84.48,25.48
-Marechal Cândido Rondon,Dez-3,12,3,81.21,32.03
-Marechal Cândido Rondon,Jan-1,1,1,83.31,21.72
-Marechal Cândido Rondon,Jan-2,1,2,73.69,28.85
-Marechal Cândido Rondon,Jan-3,1,3,86.28,27.31
-Marechal Cândido Rondon,Fev-1,2,1,84.72,32.07
-Marechal Cândido Rondon,Fev-2,2,2,70.79,30.1
-Marechal Cândido Rondon,Fev-3,2,3,61.62,25.94
-Marechal Cândido Rondon,Mar-1,3,1,88.1,24.86
-Marechal Cândido Rondon,Mar-2,3,2,90.97,29.99
-Marechal Cândido Rondon,Mar-3,3,3,108.62,39.2
-Marechal Cândido Rondon,Abr-1,4,1,101.31,24.18
-Marechal Cândido Rondon,Abr-2,4,2,103.31,27.71
-Marechal Cândido Rondon,Abr-3,4,3,105.69,34.21
-Medianeira,Set-1,9,1,68.41,26.19
-Medianeira,Set-2,9,2,69.48,26.17
-Medianeira,Set-3,9,3,73.28,29.12
-Medianeira,Out-1,10,1,66.55,19.26
-Medianeira,Out-2,10,2,73.31,23.21
-Medianeira,Out-3,10,3,87.48,27.3
-Medianeira,Nov-1,11,1,82.1,24.55
-Medianeira,Nov-2,11,2,82.59,22.74
-Medianeira,Nov-3,11,3,85.66,26.32
-Medianeira,Dez-1,12,1,79.9,24.92
-Medianeira,Dez-2,12,2,83.79,28.51
-Medianeira,Dez-3,12,3,76.24,36.19
-Medianeira,Jan-1,1,1,77.14,24.78
-Medianeira,Jan-2,1,2,69.93,28.58
-Medianeira,Jan-3,1,3,81.86,29.18
-Medianeira,Fev-1,2,1,82.28,36.72
-Medianeira,Fev-2,2,2,70.79,32.42
-Medianeira,Fev-3,2,3,54.93,30.17
-Medianeira,Mar-1,3,1,84.34,34.0
-Medianeira,Mar-2,3,2,86.48,35.74
-Medianeira,Mar-3,3,3,99.93,43.7
-Medianeira,Abr-1,4,1,92.86,30.99
-Medianeira,Abr-2,4,2,93.79,33.29
-Medianeira,Abr-3,4,3,89.41,38.11
-São Miguel do Iguaçu,Set-1,9,1,74.24,26.42
-São Miguel do Iguaçu,Set-2,9,2,73.93,26.68
-São Miguel do Iguaçu,Set-3,9,3,76.41,28.97
-São Miguel do Iguaçu,Out-1,10,1,71.07,18.72
-São Miguel do Iguaçu,Out-2,10,2,78.03,24.67
-São Miguel do Iguaçu,Out-3,10,3,88.79,28.17
-São Miguel do Iguaçu,Nov-1,11,1,84.9,23.88
-São Miguel do Iguaçu,Nov-2,11,2,84.72,21.61
-São Miguel do Iguaçu,Nov-3,11,3,86.86,21.95
-São Miguel do Iguaçu,Dez-1,12,1,83.72,19.02
-São Miguel do Iguaçu,Dez-2,12,2,83.9,23.86
-São Miguel do Iguaçu,Dez-3,12,3,78.21,33.67
-São Miguel do Iguaçu,Jan-1,1,1,80.83,22.88
-São Miguel do Iguaçu,Jan-2,1,2,72.9,26.36
-São Miguel do Iguaçu,Jan-3,1,3,86.93,26.99
-São Miguel do Iguaçu,Fev-1,2,1,84.83,31.09
-São Miguel do Iguaçu,Fev-2,2,2,75.69,27.27
-São Miguel do Iguaçu,Fev-3,2,3,61.31,25.7
-São Miguel do Iguaçu,Mar-1,3,1,89.21,31.2
-São Miguel do Iguaçu,Mar-2,3,2,89.83,33.75
-São Miguel do Iguaçu,Mar-3,3,3,106.86,41.62
-São Miguel do Iguaçu,Abr-1,4,1,96.72,26.47
-São Miguel do Iguaçu,Abr-2,4,2,95.83,32.41
-São Miguel do Iguaçu,Abr-3,4,3,91.52,35.57
-Foz do Iguaçu,Set-1,9,1,86.93,23.91
-Foz do Iguaçu,Set-2,9,2,84.34,25.84
-Foz do Iguaçu,Set-3,9,3,85.28,32.5
-Foz do Iguaçu,Out-1,10,1,76.59,19.56
-Foz do Iguaçu,Out-2,10,2,78.0,21.15
-Foz do Iguaçu,Out-3,10,3,91.59,23.67
-Foz do Iguaçu,Nov-1,11,1,84.31,25.84
-Foz do Iguaçu,Nov-2,11,2,87.76,21.47
-Foz do Iguaçu,Nov-3,11,3,82.1,23.35
-Foz do Iguaçu,Dez-1,12,1,76.03,19.81
-Foz do Iguaçu,Dez-2,12,2,78.97,22.17
-Foz do Iguaçu,Dez-3,12,3,73.76,35.46
-Foz do Iguaçu,Jan-1,1,1,72.41,23.41
-Foz do Iguaçu,Jan-2,1,2,63.34,25.15
-Foz do Iguaçu,Jan-3,1,3,78.41,28.18
-Foz do Iguaçu,Fev-1,2,1,74.55,30.66
-Foz do Iguaçu,Fev-2,2,2,70.38,27.25
-Foz do Iguaçu,Fev-3,2,3,52.1,23.89
-Foz do Iguaçu,Mar-1,3,1,80.14,31.88
-Foz do Iguaçu,Mar-2,3,2,78.34,32.46
-Foz do Iguaçu,Mar-3,3,3,92.83,37.31
-Foz do Iguaçu,Abr-1,4,1,86.55,29.36
-Foz do Iguaçu,Abr-2,4,2,81.45,29.29
-Foz do Iguaçu,Abr-3,4,3,75.38,25.05
-Matelândia,Set-1,9,1,68.03,25.85
-Matelândia,Set-2,9,2,69.34,25.94
-Matelândia,Set-3,9,3,72.76,28.91
-Matelândia,Out-1,10,1,66.69,19.45
-Matelândia,Out-2,10,2,74.38,23.66
-Matelândia,Out-3,10,3,88.59,27.73
-Matelândia,Nov-1,11,1,83.1,24.23
-Matelândia,Nov-2,11,2,82.9,22.55
-Matelândia,Nov-3,11,3,86.97,26.0
-Matelândia,Dez-1,12,1,81.76,25.12
-Matelândia,Dez-2,12,2,86.31,28.82
-Matelândia,Dez-3,12,3,79.0,35.89
-Matelândia,Jan-1,1,1,81.34,25.13
-Matelândia,Jan-2,1,2,73.76,30.1
-Matelândia,Jan-3,1,3,85.07,30.05
-Matelândia,Fev-1,2,1,85.69,37.77
-Matelândia,Fev-2,2,2,72.76,33.1
-Matelândia,Fev-3,2,3,57.86,30.48
-Matelândia,Mar-1,3,1,87.41,34.5
-Matelândia,Mar-2,3,2,89.66,36.76
-Matelândia,Mar-3,3,3,102.28,43.52
-Matelândia,Abr-1,4,1,93.9,30.61
-Matelândia,Abr-2,4,2,94.9,33.6
-Matelândia,Abr-3,4,3,89.79,38.56
-Santa Helena,Set-1,9,1,65.45,22.72
-Santa Helena,Set-2,9,2,68.86,23.3
-Santa Helena,Set-3,9,3,68.38,27.02
-Santa Helena,Out-1,10,1,65.28,15.62
-Santa Helena,Out-2,10,2,71.17,22.03
-Santa Helena,Out-3,10,3,79.86,23.68
-Santa Helena,Nov-1,11,1,75.59,23.6
-Santa Helena,Nov-2,11,2,76.21,20.97
-Santa Helena,Nov-3,11,3,79.34,26.18
-Santa Helena,Dez-1,12,1,75.97,18.69
-Santa Helena,Dez-2,12,2,75.45,22.26
-Santa Helena,Dez-3,12,3,73.41,28.22
-Santa Helena,Jan-1,1,1,75.07,24.08
-Santa Helena,Jan-2,1,2,67.07,24.9
-Santa Helena,Jan-3,1,3,78.17,25.62
-Santa Helena,Fev-1,2,1,79.28,27.47
-Santa Helena,Fev-2,2,2,68.93,26.39
-Santa Helena,Fev-3,2,3,57.41,24.23
-Santa Helena,Mar-1,3,1,83.48,23.94
-Santa Helena,Mar-2,3,2,82.1,27.87
-Santa Helena,Mar-3,3,3,98.72,36.12
-Santa Helena,Abr-1,4,1,90.45,24.01
-Santa Helena,Abr-2,4,2,91.9,26.35
-Santa Helena,Abr-3,4,3,91.69,34.16
-Guaíra,Set-1,9,1,92.97,24.95
-Guaíra,Set-2,9,2,90.93,24.56
-Guaíra,Set-3,9,3,85.14,29.52
-Guaíra,Out-1,10,1,81.9,17.77
-Guaíra,Out-2,10,2,82.72,22.24
-Guaíra,Out-3,10,3,92.69,22.17
-Guaíra,Nov-1,11,1,81.59,24.33
-Guaíra,Nov-2,11,2,85.41,19.67
-Guaíra,Nov-3,11,3,86.0,28.78
-Guaíra,Dez-1,12,1,74.24,22.65
-Guaíra,Dez-2,12,2,80.86,22.1
-Guaíra,Dez-3,12,3,76.45,31.59
-Guaíra,Jan-1,1,1,72.66,20.73
-Guaíra,Jan-2,1,2,62.9,26.24
-Guaíra,Jan-3,1,3,73.97,24.91
-Guaíra,Fev-1,2,1,73.07,29.46
-Guaíra,Fev-2,2,2,64.14,32.4
-Guaíra,Fev-3,2,3,49.07,24.47
-Guaíra,Mar-1,3,1,72.83,26.14
-Guaíra,Mar-2,3,2,76.86,29.56
-Guaíra,Mar-3,3,3,94.45,35.54
-Guaíra,Abr-1,4,1,89.62,23.84
-Guaíra,Abr-2,4,2,94.79,30.11
-Guaíra,Abr-3,4,3,93.24,28.77
-Paraná (média),Set-1,9,1,74.45,18.37
-Paraná (média),Set-2,9,2,71.99,20.13
-Paraná (média),Set-3,9,3,65.1,25.04
-Paraná (média),Out-1,10,1,64.73,16.05
-Paraná (média),Out-2,10,2,65.26,18.86
-Paraná (média),Out-3,10,3,75.07,17.41
-Paraná (média),Nov-1,11,1,66.53,16.89
-Paraná (média),Nov-2,11,2,67.87,16.39
-Paraná (média),Nov-3,11,3,68.94,21.9
-Paraná (média),Dez-1,12,1,65.65,19.78
-Paraná (média),Dez-2,12,2,68.42,21.56
-Paraná (média),Dez-3,12,3,65.88,26.72
-Paraná (média),Jan-1,1,1,57.32,18.17
-Paraná (média),Jan-2,1,2,52.68,24.0
-Paraná (média),Jan-3,1,3,60.76,25.45
-Paraná (média),Fev-1,2,1,65.61,30.86
-Paraná (média),Fev-2,2,2,51.84,28.94
-Paraná (média),Fev-3,2,3,45.08,20.99
-Paraná (média),Mar-1,3,1,65.63,21.35
-Paraná (média),Mar-2,3,2,67.66,27.21
-Paraná (média),Mar-3,3,3,83.51,31.8
-Paraná (média),Abr-1,4,1,82.13,20.24
-Paraná (média),Abr-2,4,2,84.64,24.2
-Paraná (média),Abr-3,4,3,84.84,24.19
-Oeste (média),Set-1,9,1,69.36,21.37
-Oeste (média),Set-2,9,2,71.08,22.65
-Oeste (média),Set-3,9,3,70.02,27.25
-Oeste (média),Out-1,10,1,66.39,15.56
-Oeste (média),Out-2,10,2,71.38,20.53
-Oeste (média),Out-3,10,3,82.21,22.8
-Oeste (média),Nov-1,11,1,76.85,21.46
-Oeste (média),Nov-2,11,2,78.7,19.88
-Oeste (média),Nov-3,11,3,80.25,23.95
-Oeste (média),Dez-1,12,1,76.25,20.61
-Oeste (média),Dez-2,12,2,78.41,23.56
-Oeste (média),Dez-3,12,3,74.17,31.18
-Oeste (média),Jan-1,1,1,74.04,22.28
-Oeste (média),Jan-2,1,2,65.93,26.03
-Oeste (média),Jan-3,1,3,76.95,25.04
-Oeste (média),Fev-1,2,1,78.16,32.61
-Oeste (média),Fev-2,2,2,65.81,29.97
-Oeste (média),Fev-3,2,3,54.09,25.34
-Oeste (média),Mar-1,3,1,80.04,27.21
-Oeste (média),Mar-2,3,2,81.51,30.67
-Oeste (média),Mar-3,3,3,97.3,38.96
-Oeste (média),Abr-1,4,1,90.51,25.36
-Oeste (média),Abr-2,4,2,92.15,28.71
-Oeste (média),Abr-3,4,3,89.82,33.19
+Cascavel,Set-1,9,1,56.88,24.89
+Cascavel,Set-2,9,2,60.5,25.55
+Cascavel,Set-3,9,3,60.92,25.98
+Cascavel,Out-1,10,1,58.31,16.96
+Cascavel,Out-2,10,2,59.77,22.22
+Cascavel,Out-3,10,3,71.27,24.3
+Cascavel,Nov-1,11,1,67.88,20.63
+Cascavel,Nov-2,11,2,72.42,24.14
+Cascavel,Nov-3,11,3,69.65,24.14
+Cascavel,Dez-1,12,1,67.12,28.68
+Cascavel,Dez-2,12,2,71.5,28.0
+Cascavel,Dez-3,12,3,71.54,33.53
+Cascavel,Jan-1,1,1,63.42,24.77
+Cascavel,Jan-2,1,2,62.42,29.33
+Cascavel,Jan-3,1,3,70.46,27.39
+Cascavel,Fev-1,2,1,78.54,35.31
+Cascavel,Fev-2,2,2,59.88,36.64
+Cascavel,Fev-3,2,3,53.08,25.11
+Cascavel,Mar-1,3,1,76.73,31.34
+Cascavel,Mar-2,3,2,75.0,32.64
+Cascavel,Mar-3,3,3,91.58,39.14
+Cascavel,Abr-1,4,1,82.19,29.98
+Cascavel,Abr-2,4,2,86.46,32.73
+Cascavel,Abr-3,4,3,79.92,36.47
+Toledo,Set-1,9,1,58.62,24.34
+Toledo,Set-2,9,2,62.12,23.12
+Toledo,Set-3,9,3,60.54,25.56
+Toledo,Out-1,10,1,59.54,15.93
+Toledo,Out-2,10,2,65.65,24.2
+Toledo,Out-3,10,3,74.46,24.92
+Toledo,Nov-1,11,1,68.81,20.29
+Toledo,Nov-2,11,2,72.08,20.51
+Toledo,Nov-3,11,3,73.73,27.72
+Toledo,Dez-1,12,1,72.46,27.18
+Toledo,Dez-2,12,2,75.35,27.41
+Toledo,Dez-3,12,3,74.77,33.33
+Toledo,Jan-1,1,1,69.08,25.06
+Toledo,Jan-2,1,2,66.15,27.83
+Toledo,Jan-3,1,3,74.92,27.13
+Toledo,Fev-1,2,1,81.69,32.16
+Toledo,Fev-2,2,2,62.88,34.61
+Toledo,Fev-3,2,3,58.19,26.01
+Toledo,Mar-1,3,1,80.5,27.11
+Toledo,Mar-2,3,2,80.31,30.25
+Toledo,Mar-3,3,3,99.54,36.47
+Toledo,Abr-1,4,1,89.69,28.9
+Toledo,Abr-2,4,2,95.19,30.75
+Toledo,Abr-3,4,3,91.04,35.04
+Assis Chateaubriand,Set-1,9,1,90.15,25.12
+Assis Chateaubriand,Set-2,9,2,90.92,29.53
+Assis Chateaubriand,Set-3,9,3,83.5,29.49
+Assis Chateaubriand,Out-1,10,1,83.35,15.72
+Assis Chateaubriand,Out-2,10,2,83.42,26.88
+Assis Chateaubriand,Out-3,10,3,91.96,25.13
+Assis Chateaubriand,Nov-1,11,1,82.62,22.62
+Assis Chateaubriand,Nov-2,11,2,88.27,23.92
+Assis Chateaubriand,Nov-3,11,3,84.88,30.8
+Assis Chateaubriand,Dez-1,12,1,76.69,26.28
+Assis Chateaubriand,Dez-2,12,2,82.46,28.8
+Assis Chateaubriand,Dez-3,12,3,80.35,38.61
+Assis Chateaubriand,Jan-1,1,1,73.42,27.01
+Assis Chateaubriand,Jan-2,1,2,68.96,31.04
+Assis Chateaubriand,Jan-3,1,3,81.88,32.01
+Assis Chateaubriand,Fev-1,2,1,82.04,32.08
+Assis Chateaubriand,Fev-2,2,2,67.42,37.91
+Assis Chateaubriand,Fev-3,2,3,60.46,26.88
+Assis Chateaubriand,Mar-1,3,1,83.58,34.72
+Assis Chateaubriand,Mar-2,3,2,84.46,34.09
+Assis Chateaubriand,Mar-3,3,3,111.38,37.24
+Assis Chateaubriand,Abr-1,4,1,101.12,28.48
+Assis Chateaubriand,Abr-2,4,2,105.04,33.61
+Assis Chateaubriand,Abr-3,4,3,102.0,32.13
+Guarapuava,Set-1,9,1,64.31,28.49
+Guarapuava,Set-2,9,2,56.58,28.69
+Guarapuava,Set-3,9,3,54.12,30.18
+Guarapuava,Out-1,10,1,49.23,21.04
+Guarapuava,Out-2,10,2,38.42,20.53
+Guarapuava,Out-3,10,3,56.0,23.28
+Guarapuava,Nov-1,11,1,46.12,20.47
+Guarapuava,Nov-2,11,2,51.31,17.13
+Guarapuava,Nov-3,11,3,49.54,20.39
+Guarapuava,Dez-1,12,1,46.88,24.75
+Guarapuava,Dez-2,12,2,48.38,22.66
+Guarapuava,Dez-3,12,3,49.58,26.62
+Guarapuava,Jan-1,1,1,37.96,21.18
+Guarapuava,Jan-2,1,2,35.81,23.82
+Guarapuava,Jan-3,1,3,38.92,25.77
+Guarapuava,Fev-1,2,1,50.0,27.22
+Guarapuava,Fev-2,2,2,36.23,26.49
+Guarapuava,Fev-3,2,3,28.27,18.76
+Guarapuava,Mar-1,3,1,41.88,20.16
+Guarapuava,Mar-2,3,2,46.23,25.55
+Guarapuava,Mar-3,3,3,57.0,27.58
+Guarapuava,Abr-1,4,1,50.73,20.81
+Guarapuava,Abr-2,4,2,56.73,22.68
+Guarapuava,Abr-3,4,3,51.73,22.52
+Ponta Grossa,Set-1,9,1,67.73,20.44
+Ponta Grossa,Set-2,9,2,61.88,25.53
+Ponta Grossa,Set-3,9,3,53.62,23.9
+Ponta Grossa,Out-1,10,1,51.92,19.11
+Ponta Grossa,Out-2,10,2,46.04,19.91
+Ponta Grossa,Out-3,10,3,59.19,20.15
+Ponta Grossa,Nov-1,11,1,47.12,15.82
+Ponta Grossa,Nov-2,11,2,53.35,15.68
+Ponta Grossa,Nov-3,11,3,49.5,19.62
+Ponta Grossa,Dez-1,12,1,51.0,19.14
+Ponta Grossa,Dez-2,12,2,55.69,20.89
+Ponta Grossa,Dez-3,12,3,53.04,22.7
+Ponta Grossa,Jan-1,1,1,42.65,18.21
+Ponta Grossa,Jan-2,1,2,38.46,23.2
+Ponta Grossa,Jan-3,1,3,39.65,23.74
+Ponta Grossa,Fev-1,2,1,56.08,26.53
+Ponta Grossa,Fev-2,2,2,43.23,25.05
+Ponta Grossa,Fev-3,2,3,35.85,17.38
+Ponta Grossa,Mar-1,3,1,51.23,20.53
+Ponta Grossa,Mar-2,3,2,52.65,26.33
+Ponta Grossa,Mar-3,3,3,65.12,25.46
+Ponta Grossa,Abr-1,4,1,61.31,17.25
+Ponta Grossa,Abr-2,4,2,66.77,20.54
+Ponta Grossa,Abr-3,4,3,63.0,20.84
+Castro,Set-1,9,1,64.42,22.96
+Castro,Set-2,9,2,57.81,25.34
+Castro,Set-3,9,3,50.19,25.31
+Castro,Out-1,10,1,48.15,18.45
+Castro,Out-2,10,2,42.92,19.18
+Castro,Out-3,10,3,52.69,20.77
+Castro,Nov-1,11,1,41.19,16.9
+Castro,Nov-2,11,2,45.92,14.12
+Castro,Nov-3,11,3,44.23,19.45
+Castro,Dez-1,12,1,41.42,17.27
+Castro,Dez-2,12,2,47.08,21.65
+Castro,Dez-3,12,3,45.35,21.38
+Castro,Jan-1,1,1,33.12,17.54
+Castro,Jan-2,1,2,30.69,20.74
+Castro,Jan-3,1,3,31.73,21.97
+Castro,Fev-1,2,1,47.96,28.11
+Castro,Fev-2,2,2,35.08,21.43
+Castro,Fev-3,2,3,31.65,15.74
+Castro,Mar-1,3,1,45.65,19.85
+Castro,Mar-2,3,2,42.19,24.21
+Castro,Mar-3,3,3,55.85,24.0
+Castro,Abr-1,4,1,53.08,15.89
+Castro,Abr-2,4,2,59.0,21.87
+Castro,Abr-3,4,3,59.81,24.22
+Tibagi,Set-1,9,1,87.62,24.41
+Tibagi,Set-2,9,2,80.58,27.37
+Tibagi,Set-3,9,3,72.42,23.79
+Tibagi,Out-1,10,1,67.31,22.13
+Tibagi,Out-2,10,2,65.31,23.46
+Tibagi,Out-3,10,3,72.58,20.39
+Tibagi,Nov-1,11,1,66.35,18.21
+Tibagi,Nov-2,11,2,70.31,15.24
+Tibagi,Nov-3,11,3,66.96,23.58
+Tibagi,Dez-1,12,1,63.42,20.62
+Tibagi,Dez-2,12,2,64.46,20.5
+Tibagi,Dez-3,12,3,64.96,27.12
+Tibagi,Jan-1,1,1,50.77,21.32
+Tibagi,Jan-2,1,2,48.88,24.2
+Tibagi,Jan-3,1,3,50.15,20.93
+Tibagi,Fev-1,2,1,60.27,24.35
+Tibagi,Fev-2,2,2,49.77,24.14
+Tibagi,Fev-3,2,3,43.27,18.53
+Tibagi,Mar-1,3,1,62.15,23.34
+Tibagi,Mar-2,3,2,59.88,25.05
+Tibagi,Mar-3,3,3,73.92,24.43
+Tibagi,Abr-1,4,1,70.42,18.59
+Tibagi,Abr-2,4,2,75.85,22.98
+Tibagi,Abr-3,4,3,74.08,20.87
+Londrina,Set-1,9,1,86.0,25.22
+Londrina,Set-2,9,2,82.38,26.67
+Londrina,Set-3,9,3,73.88,28.8
+Londrina,Out-1,10,1,77.38,22.63
+Londrina,Out-2,10,2,76.0,25.59
+Londrina,Out-3,10,3,79.27,24.34
+Londrina,Nov-1,11,1,68.27,22.76
+Londrina,Nov-2,11,2,67.77,16.09
+Londrina,Nov-3,11,3,65.58,24.26
+Londrina,Dez-1,12,1,63.54,24.1
+Londrina,Dez-2,12,2,67.81,25.9
+Londrina,Dez-3,12,3,70.69,30.76
+Londrina,Jan-1,1,1,57.81,26.06
+Londrina,Jan-2,1,2,50.15,26.65
+Londrina,Jan-3,1,3,59.38,27.0
+Londrina,Fev-1,2,1,68.15,35.14
+Londrina,Fev-2,2,2,57.15,33.85
+Londrina,Fev-3,2,3,52.54,22.41
+Londrina,Mar-1,3,1,71.73,28.21
+Londrina,Mar-2,3,2,65.0,25.76
+Londrina,Mar-3,3,3,92.35,28.34
+Londrina,Abr-1,4,1,94.65,25.41
+Londrina,Abr-2,4,2,102.15,33.79
+Londrina,Abr-3,4,3,102.27,27.72
+Cornélio Procópio,Set-1,9,1,71.19,21.67
+Cornélio Procópio,Set-2,9,2,66.65,24.67
+Cornélio Procópio,Set-3,9,3,62.69,22.2
+Cornélio Procópio,Out-1,10,1,67.38,22.88
+Cornélio Procópio,Out-2,10,2,71.69,24.38
+Cornélio Procópio,Out-3,10,3,77.0,20.43
+Cornélio Procópio,Nov-1,11,1,63.23,18.76
+Cornélio Procópio,Nov-2,11,2,62.31,16.14
+Cornélio Procópio,Nov-3,11,3,62.5,20.98
+Cornélio Procópio,Dez-1,12,1,65.15,20.78
+Cornélio Procópio,Dez-2,12,2,65.31,21.29
+Cornélio Procópio,Dez-3,12,3,69.54,24.33
+Cornélio Procópio,Jan-1,1,1,62.62,23.88
+Cornélio Procópio,Jan-2,1,2,54.0,25.33
+Cornélio Procópio,Jan-3,1,3,63.46,29.48
+Cornélio Procópio,Fev-1,2,1,68.58,32.1
+Cornélio Procópio,Fev-2,2,2,57.5,32.45
+Cornélio Procópio,Fev-3,2,3,55.65,22.96
+Cornélio Procópio,Mar-1,3,1,73.69,20.92
+Cornélio Procópio,Mar-2,3,2,67.73,23.25
+Cornélio Procópio,Mar-3,3,3,91.73,26.2
+Cornélio Procópio,Abr-1,4,1,94.27,20.62
+Cornélio Procópio,Abr-2,4,2,97.5,27.71
+Cornélio Procópio,Abr-3,4,3,102.19,23.3
+Campo Mourão,Set-1,9,1,86.0,25.89
+Campo Mourão,Set-2,9,2,81.62,29.91
+Campo Mourão,Set-3,9,3,76.62,32.79
+Campo Mourão,Out-1,10,1,77.27,19.3
+Campo Mourão,Out-2,10,2,74.62,28.72
+Campo Mourão,Out-3,10,3,82.73,24.26
+Campo Mourão,Nov-1,11,1,72.5,20.52
+Campo Mourão,Nov-2,11,2,76.35,20.1
+Campo Mourão,Nov-3,11,3,74.27,27.42
+Campo Mourão,Dez-1,12,1,70.81,25.35
+Campo Mourão,Dez-2,12,2,74.08,26.41
+Campo Mourão,Dez-3,12,3,79.58,34.77
+Campo Mourão,Jan-1,1,1,63.92,25.17
+Campo Mourão,Jan-2,1,2,61.31,28.2
+Campo Mourão,Jan-3,1,3,71.15,31.66
+Campo Mourão,Fev-1,2,1,80.38,33.23
+Campo Mourão,Fev-2,2,2,64.19,35.0
+Campo Mourão,Fev-3,2,3,59.08,25.51
+Campo Mourão,Mar-1,3,1,81.35,28.01
+Campo Mourão,Mar-2,3,2,79.54,31.77
+Campo Mourão,Mar-3,3,3,106.92,34.07
+Campo Mourão,Abr-1,4,1,101.88,28.99
+Campo Mourão,Abr-2,4,2,109.69,35.67
+Campo Mourão,Abr-3,4,3,101.42,34.94
+Ubiratã,Set-1,9,1,92.46,23.51
+Ubiratã,Set-2,9,2,91.81,28.87
+Ubiratã,Set-3,9,3,89.27,28.45
+Ubiratã,Out-1,10,1,87.92,19.11
+Ubiratã,Out-2,10,2,85.54,27.14
+Ubiratã,Out-3,10,3,96.15,23.13
+Ubiratã,Nov-1,11,1,87.0,23.78
+Ubiratã,Nov-2,11,2,91.0,20.9
+Ubiratã,Nov-3,11,3,86.08,29.9
+Ubiratã,Dez-1,12,1,76.77,27.94
+Ubiratã,Dez-2,12,2,84.81,27.22
+Ubiratã,Dez-3,12,3,83.5,37.94
+Ubiratã,Jan-1,1,1,76.5,25.0
+Ubiratã,Jan-2,1,2,71.62,31.2
+Ubiratã,Jan-3,1,3,84.54,31.63
+Ubiratã,Fev-1,2,1,82.5,31.31
+Ubiratã,Fev-2,2,2,69.0,34.82
+Ubiratã,Fev-3,2,3,59.65,26.23
+Ubiratã,Mar-1,3,1,84.12,36.01
+Ubiratã,Mar-2,3,2,81.88,34.57
+Ubiratã,Mar-3,3,3,105.27,36.78
+Ubiratã,Abr-1,4,1,97.73,26.59
+Ubiratã,Abr-2,4,2,96.31,31.36
+Ubiratã,Abr-3,4,3,86.46,27.71
+Pato Branco,Set-1,9,1,65.12,28.38
+Pato Branco,Set-2,9,2,62.5,25.62
+Pato Branco,Set-3,9,3,63.31,31.45
+Pato Branco,Out-1,10,1,61.15,23.5
+Pato Branco,Out-2,10,2,52.27,21.82
+Pato Branco,Out-3,10,3,65.42,22.49
+Pato Branco,Nov-1,11,1,60.42,20.26
+Pato Branco,Nov-2,11,2,64.12,20.67
+Pato Branco,Nov-3,11,3,63.19,21.9
+Pato Branco,Dez-1,12,1,59.77,25.59
+Pato Branco,Dez-2,12,2,64.65,24.18
+Pato Branco,Dez-3,12,3,61.65,30.59
+Pato Branco,Jan-1,1,1,58.65,22.45
+Pato Branco,Jan-2,1,2,54.19,29.54
+Pato Branco,Jan-3,1,3,63.73,27.97
+Pato Branco,Fev-1,2,1,69.04,30.43
+Pato Branco,Fev-2,2,2,55.15,29.83
+Pato Branco,Fev-3,2,3,44.54,20.33
+Pato Branco,Mar-1,3,1,59.5,26.33
+Pato Branco,Mar-2,3,2,62.5,26.67
+Pato Branco,Mar-3,3,3,75.42,33.5
+Pato Branco,Abr-1,4,1,63.69,24.61
+Pato Branco,Abr-2,4,2,65.58,23.88
+Pato Branco,Abr-3,4,3,60.54,25.04
+Palmas,Set-1,9,1,52.0,24.48
+Palmas,Set-2,9,2,47.58,22.05
+Palmas,Set-3,9,3,50.65,27.97
+Palmas,Out-1,10,1,45.38,15.82
+Palmas,Out-2,10,2,38.81,19.95
+Palmas,Out-3,10,3,51.12,19.64
+Palmas,Nov-1,11,1,48.27,16.43
+Palmas,Nov-2,11,2,49.77,14.54
+Palmas,Nov-3,11,3,50.5,18.89
+Palmas,Dez-1,12,1,47.58,20.7
+Palmas,Dez-2,12,2,49.46,22.95
+Palmas,Dez-3,12,3,46.81,22.29
+Palmas,Jan-1,1,1,39.19,18.01
+Palmas,Jan-2,1,2,40.69,21.87
+Palmas,Jan-3,1,3,42.35,21.03
+Palmas,Fev-1,2,1,51.19,26.54
+Palmas,Fev-2,2,2,39.04,23.4
+Palmas,Fev-3,2,3,28.5,15.0
+Palmas,Mar-1,3,1,43.54,18.42
+Palmas,Mar-2,3,2,46.88,22.88
+Palmas,Mar-3,3,3,55.38,27.14
+Palmas,Abr-1,4,1,46.88,17.24
+Palmas,Abr-2,4,2,51.85,19.04
+Palmas,Abr-3,4,3,50.23,20.91
+Umuarama,Set-1,9,1,68.12,20.5
+Umuarama,Set-2,9,2,70.65,21.92
+Umuarama,Set-3,9,3,70.85,29.13
+Umuarama,Out-1,10,1,73.0,16.31
+Umuarama,Out-2,10,2,79.65,25.3
+Umuarama,Out-3,10,3,86.15,26.15
+Umuarama,Nov-1,11,1,76.19,23.3
+Umuarama,Nov-2,11,2,76.38,21.72
+Umuarama,Nov-3,11,3,79.19,25.95
+Umuarama,Dez-1,12,1,74.92,22.55
+Umuarama,Dez-2,12,2,79.96,21.72
+Umuarama,Dez-3,12,3,80.5,29.25
+Umuarama,Jan-1,1,1,75.65,20.75
+Umuarama,Jan-2,1,2,71.46,27.84
+Umuarama,Jan-3,1,3,80.58,29.41
+Umuarama,Fev-1,2,1,83.08,29.93
+Umuarama,Fev-2,2,2,67.73,31.7
+Umuarama,Fev-3,2,3,62.38,22.54
+Umuarama,Mar-1,3,1,89.54,28.87
+Umuarama,Mar-2,3,2,91.0,28.23
+Umuarama,Mar-3,3,3,110.38,34.13
+Umuarama,Abr-1,4,1,105.92,28.8
+Umuarama,Abr-2,4,2,112.42,30.68
+Umuarama,Abr-3,4,3,109.15,33.44
+Ivaiporã,Set-1,9,1,95.65,25.2
+Ivaiporã,Set-2,9,2,92.27,30.24
+Ivaiporã,Set-3,9,3,78.58,25.88
+Ivaiporã,Out-1,10,1,80.58,24.85
+Ivaiporã,Out-2,10,2,72.77,23.62
+Ivaiporã,Out-3,10,3,85.35,22.77
+Ivaiporã,Nov-1,11,1,77.88,22.27
+Ivaiporã,Nov-2,11,2,82.65,21.97
+Ivaiporã,Nov-3,11,3,74.77,30.22
+Ivaiporã,Dez-1,12,1,77.5,27.04
+Ivaiporã,Dez-2,12,2,74.77,24.35
+Ivaiporã,Dez-3,12,3,77.42,33.12
+Ivaiporã,Jan-1,1,1,64.81,28.23
+Ivaiporã,Jan-2,1,2,64.15,26.44
+Ivaiporã,Jan-3,1,3,68.92,25.22
+Ivaiporã,Fev-1,2,1,78.46,30.81
+Ivaiporã,Fev-2,2,2,64.77,35.34
+Ivaiporã,Fev-3,2,3,59.35,24.54
+Ivaiporã,Mar-1,3,1,76.19,24.23
+Ivaiporã,Mar-2,3,2,74.85,28.13
+Ivaiporã,Mar-3,3,3,98.65,30.7
+Ivaiporã,Abr-1,4,1,93.69,23.88
+Ivaiporã,Abr-2,4,2,97.27,30.68
+Ivaiporã,Abr-3,4,3,90.0,25.73
+Maringá,Set-1,9,1,81.31,23.67
+Maringá,Set-2,9,2,80.69,26.0
+Maringá,Set-3,9,3,80.15,28.78
+Maringá,Out-1,10,1,80.88,17.76
+Maringá,Out-2,10,2,86.69,28.83
+Maringá,Out-3,10,3,88.23,21.02
+Maringá,Nov-1,11,1,78.12,26.01
+Maringá,Nov-2,11,2,84.15,22.31
+Maringá,Nov-3,11,3,77.58,24.88
+Maringá,Dez-1,12,1,78.08,26.61
+Maringá,Dez-2,12,2,86.0,24.93
+Maringá,Dez-3,12,3,84.0,32.91
+Maringá,Jan-1,1,1,70.69,24.71
+Maringá,Jan-2,1,2,67.27,28.27
+Maringá,Jan-3,1,3,79.54,31.02
+Maringá,Fev-1,2,1,80.65,34.46
+Maringá,Fev-2,2,2,70.54,32.93
+Maringá,Fev-3,2,3,64.81,24.96
+Maringá,Mar-1,3,1,85.77,29.76
+Maringá,Mar-2,3,2,83.0,29.06
+Maringá,Mar-3,3,3,110.62,36.44
+Maringá,Abr-1,4,1,105.65,26.64
+Maringá,Abr-2,4,2,114.15,31.39
+Maringá,Abr-3,4,3,109.12,29.48
+São Pedro do Iguaçu,Set-1,9,1,56.38,23.54
+São Pedro do Iguaçu,Set-2,9,2,59.77,25.33
+São Pedro do Iguaçu,Set-3,9,3,61.31,25.24
+São Pedro do Iguaçu,Out-1,10,1,57.96,17.58
+São Pedro do Iguaçu,Out-2,10,2,61.58,22.62
+São Pedro do Iguaçu,Out-3,10,3,72.85,26.27
+São Pedro do Iguaçu,Nov-1,11,1,67.5,19.66
+São Pedro do Iguaçu,Nov-2,11,2,69.85,23.09
+São Pedro do Iguaçu,Nov-3,11,3,70.92,26.85
+São Pedro do Iguaçu,Dez-1,12,1,67.65,27.38
+São Pedro do Iguaçu,Dez-2,12,2,72.08,26.5
+São Pedro do Iguaçu,Dez-3,12,3,70.15,32.97
+São Pedro do Iguaçu,Jan-1,1,1,64.35,24.87
+São Pedro do Iguaçu,Jan-2,1,2,63.54,27.05
+São Pedro do Iguaçu,Jan-3,1,3,71.35,27.02
+São Pedro do Iguaçu,Fev-1,2,1,79.27,34.38
+São Pedro do Iguaçu,Fev-2,2,2,59.58,36.41
+São Pedro do Iguaçu,Fev-3,2,3,55.04,26.85
+São Pedro do Iguaçu,Mar-1,3,1,78.42,30.46
+São Pedro do Iguaçu,Mar-2,3,2,77.19,31.71
+São Pedro do Iguaçu,Mar-3,3,3,94.23,39.39
+São Pedro do Iguaçu,Abr-1,4,1,84.69,30.71
+São Pedro do Iguaçu,Abr-2,4,2,89.85,33.39
+São Pedro do Iguaçu,Abr-3,4,3,85.35,38.7
+Marechal Cândido Rondon,Set-1,9,1,63.54,21.98
+Marechal Cândido Rondon,Set-2,9,2,68.42,22.38
+Marechal Cândido Rondon,Set-3,9,3,67.88,26.91
+Marechal Cândido Rondon,Out-1,10,1,67.5,16.6
+Marechal Cândido Rondon,Out-2,10,2,75.15,23.98
+Marechal Cândido Rondon,Out-3,10,3,84.31,26.12
+Marechal Cândido Rondon,Nov-1,11,1,77.19,23.9
+Marechal Cândido Rondon,Nov-2,11,2,80.12,18.94
+Marechal Cândido Rondon,Nov-3,11,3,81.88,25.1
+Marechal Cândido Rondon,Dez-1,12,1,79.31,23.55
+Marechal Cândido Rondon,Dez-2,12,2,86.38,24.9
+Marechal Cândido Rondon,Dez-3,12,3,83.12,33.97
+Marechal Cândido Rondon,Jan-1,1,1,80.85,20.94
+Marechal Cândido Rondon,Jan-2,1,2,76.5,27.85
+Marechal Cândido Rondon,Jan-3,1,3,90.46,26.23
+Marechal Cândido Rondon,Fev-1,2,1,91.58,27.52
+Marechal Cândido Rondon,Fev-2,2,2,74.65,30.66
+Marechal Cândido Rondon,Fev-3,2,3,67.42,25.06
+Marechal Cândido Rondon,Mar-1,3,1,91.35,26.16
+Marechal Cândido Rondon,Mar-2,3,2,91.88,27.56
+Marechal Cândido Rondon,Mar-3,3,3,113.88,34.56
+Marechal Cândido Rondon,Abr-1,4,1,102.35,25.04
+Marechal Cândido Rondon,Abr-2,4,2,104.5,29.45
+Marechal Cândido Rondon,Abr-3,4,3,104.08,31.91
+Medianeira,Set-1,9,1,68.15,26.02
+Medianeira,Set-2,9,2,69.12,25.56
+Medianeira,Set-3,9,3,74.81,27.08
+Medianeira,Out-1,10,1,66.69,21.05
+Medianeira,Out-2,10,2,73.88,24.07
+Medianeira,Out-3,10,3,89.46,29.23
+Medianeira,Nov-1,11,1,81.92,24.07
+Medianeira,Nov-2,11,2,82.04,23.09
+Medianeira,Nov-3,11,3,82.69,25.65
+Medianeira,Dez-1,12,1,77.85,26.97
+Medianeira,Dez-2,12,2,83.35,28.77
+Medianeira,Dez-3,12,3,78.15,37.91
+Medianeira,Jan-1,1,1,74.88,24.38
+Medianeira,Jan-2,1,2,75.27,27.6
+Medianeira,Jan-3,1,3,85.96,28.54
+Medianeira,Fev-1,2,1,88.42,32.23
+Medianeira,Fev-2,2,2,71.42,33.0
+Medianeira,Fev-3,2,3,61.62,28.35
+Medianeira,Mar-1,3,1,89.38,35.1
+Medianeira,Mar-2,3,2,85.62,34.09
+Medianeira,Mar-3,3,3,105.77,38.77
+Medianeira,Abr-1,4,1,91.65,30.62
+Medianeira,Abr-2,4,2,95.69,34.79
+Medianeira,Abr-3,4,3,85.85,38.25
+São Miguel do Iguaçu,Set-1,9,1,74.5,26.96
+São Miguel do Iguaçu,Set-2,9,2,74.65,27.51
+São Miguel do Iguaçu,Set-3,9,3,78.54,26.69
+São Miguel do Iguaçu,Out-1,10,1,70.77,20.76
+São Miguel do Iguaçu,Out-2,10,2,78.81,25.96
+São Miguel do Iguaçu,Out-3,10,3,89.96,30.2
+São Miguel do Iguaçu,Nov-1,11,1,85.27,23.33
+São Miguel do Iguaçu,Nov-2,11,2,83.73,22.37
+São Miguel do Iguaçu,Nov-3,11,3,85.0,21.63
+São Miguel do Iguaçu,Dez-1,12,1,82.65,21.0
+São Miguel do Iguaçu,Dez-2,12,2,82.92,25.19
+São Miguel do Iguaçu,Dez-3,12,3,79.88,35.5
+São Miguel do Iguaçu,Jan-1,1,1,78.42,22.99
+São Miguel do Iguaçu,Jan-2,1,2,77.12,26.43
+São Miguel do Iguaçu,Jan-3,1,3,91.27,25.95
+São Miguel do Iguaçu,Fev-1,2,1,90.54,26.83
+São Miguel do Iguaçu,Fev-2,2,2,75.65,27.37
+São Miguel do Iguaçu,Fev-3,2,3,65.96,24.76
+São Miguel do Iguaçu,Mar-1,3,1,92.27,31.61
+São Miguel do Iguaçu,Mar-2,3,2,90.12,32.21
+São Miguel do Iguaçu,Mar-3,3,3,111.23,37.19
+São Miguel do Iguaçu,Abr-1,4,1,96.23,26.93
+São Miguel do Iguaçu,Abr-2,4,2,97.38,34.14
+São Miguel do Iguaçu,Abr-3,4,3,88.62,36.12
+Foz do Iguaçu,Set-1,9,1,87.12,24.87
+Foz do Iguaçu,Set-2,9,2,85.08,28.64
+Foz do Iguaçu,Set-3,9,3,87.62,29.84
+Foz do Iguaçu,Out-1,10,1,77.62,20.44
+Foz do Iguaçu,Out-2,10,2,77.31,20.71
+Foz do Iguaçu,Out-3,10,3,92.65,24.94
+Foz do Iguaçu,Nov-1,11,1,85.04,24.1
+Foz do Iguaçu,Nov-2,11,2,86.15,20.98
+Foz do Iguaçu,Nov-3,11,3,81.19,23.01
+Foz do Iguaçu,Dez-1,12,1,75.81,20.45
+Foz do Iguaçu,Dez-2,12,2,78.73,22.29
+Foz do Iguaçu,Dez-3,12,3,74.38,37.08
+Foz do Iguaçu,Jan-1,1,1,69.15,22.32
+Foz do Iguaçu,Jan-2,1,2,66.96,25.39
+Foz do Iguaçu,Jan-3,1,3,81.62,29.16
+Foz do Iguaçu,Fev-1,2,1,79.69,27.14
+Foz do Iguaçu,Fev-2,2,2,70.35,27.17
+Foz do Iguaçu,Fev-3,2,3,56.77,22.99
+Foz do Iguaçu,Mar-1,3,1,83.35,32.27
+Foz do Iguaçu,Mar-2,3,2,79.58,29.73
+Foz do Iguaçu,Mar-3,3,3,97.12,34.18
+Foz do Iguaçu,Abr-1,4,1,85.23,27.14
+Foz do Iguaçu,Abr-2,4,2,83.0,30.52
+Foz do Iguaçu,Abr-3,4,3,74.35,26.06
+Matelândia,Set-1,9,1,67.81,25.78
+Matelândia,Set-2,9,2,68.85,25.31
+Matelândia,Set-3,9,3,74.19,26.97
+Matelândia,Out-1,10,1,66.92,21.17
+Matelândia,Out-2,10,2,74.88,24.48
+Matelândia,Out-3,10,3,90.46,29.95
+Matelândia,Nov-1,11,1,82.81,23.82
+Matelândia,Nov-2,11,2,82.5,23.03
+Matelândia,Nov-3,11,3,84.38,25.45
+Matelândia,Dez-1,12,1,79.77,27.14
+Matelândia,Dez-2,12,2,86.12,29.31
+Matelândia,Dez-3,12,3,81.12,37.32
+Matelândia,Jan-1,1,1,78.96,24.59
+Matelândia,Jan-2,1,2,78.96,28.99
+Matelândia,Jan-3,1,3,89.77,28.93
+Matelândia,Fev-1,2,1,91.92,32.64
+Matelândia,Fev-2,2,2,73.81,33.6
+Matelândia,Fev-3,2,3,64.96,28.53
+Matelândia,Mar-1,3,1,92.38,35.51
+Matelândia,Mar-2,3,2,88.96,34.58
+Matelândia,Mar-3,3,3,108.38,38.04
+Matelândia,Abr-1,4,1,92.73,30.38
+Matelândia,Abr-2,4,2,97.08,35.1
+Matelândia,Abr-3,4,3,86.42,38.64
+Santa Helena,Set-1,9,1,64.92,22.52
+Santa Helena,Set-2,9,2,68.96,24.25
+Santa Helena,Set-3,9,3,69.69,25.49
+Santa Helena,Out-1,10,1,65.88,16.82
+Santa Helena,Out-2,10,2,72.69,21.69
+Santa Helena,Out-3,10,3,81.08,25.15
+Santa Helena,Nov-1,11,1,75.69,23.43
+Santa Helena,Nov-2,11,2,77.0,22.05
+Santa Helena,Nov-3,11,3,77.77,26.66
+Santa Helena,Dez-1,12,1,74.69,21.66
+Santa Helena,Dez-2,12,2,76.0,21.88
+Santa Helena,Dez-3,12,3,75.54,29.62
+Santa Helena,Jan-1,1,1,71.73,22.83
+Santa Helena,Jan-2,1,2,69.5,24.32
+Santa Helena,Jan-3,1,3,82.96,23.67
+Santa Helena,Fev-1,2,1,84.88,22.56
+Santa Helena,Fev-2,2,2,71.65,26.01
+Santa Helena,Fev-3,2,3,62.0,23.89
+Santa Helena,Mar-1,3,1,86.62,25.31
+Santa Helena,Mar-2,3,2,82.77,26.42
+Santa Helena,Mar-3,3,3,103.15,33.01
+Santa Helena,Abr-1,4,1,91.54,24.38
+Santa Helena,Abr-2,4,2,93.0,27.94
+Santa Helena,Abr-3,4,3,87.92,33.15
+Guaíra,Set-1,9,1,92.08,24.82
+Guaíra,Set-2,9,2,91.54,25.39
+Guaíra,Set-3,9,3,88.15,27.05
+Guaíra,Out-1,10,1,85.27,16.76
+Guaíra,Out-2,10,2,82.38,23.26
+Guaíra,Out-3,10,3,93.23,23.68
+Guaíra,Nov-1,11,1,80.77,23.95
+Guaíra,Nov-2,11,2,86.12,18.76
+Guaíra,Nov-3,11,3,86.73,29.16
+Guaíra,Dez-1,12,1,74.27,23.88
+Guaíra,Dez-2,12,2,81.5,22.45
+Guaíra,Dez-3,12,3,77.46,33.34
+Guaíra,Jan-1,1,1,70.15,20.89
+Guaíra,Jan-2,1,2,65.46,24.85
+Guaíra,Jan-3,1,3,77.5,25.65
+Guaíra,Fev-1,2,1,77.62,26.76
+Guaíra,Fev-2,2,2,64.96,31.86
+Guaíra,Fev-3,2,3,54.27,23.12
+Guaíra,Mar-1,3,1,77.04,27.84
+Guaíra,Mar-2,3,2,77.58,27.62
+Guaíra,Mar-3,3,3,98.88,31.34
+Guaíra,Abr-1,4,1,90.81,22.7
+Guaíra,Abr-2,4,2,94.85,32.1
+Guaíra,Abr-3,4,3,87.85,27.61
+Paraná (média),Set-1,9,1,74.22,18.02
+Paraná (média),Set-2,9,2,71.66,21.71
+Paraná (média),Set-3,9,3,67.58,24.11
+Paraná (média),Out-1,10,1,66.8,15.01
+Paraná (média),Out-2,10,2,64.97,19.71
+Paraná (média),Out-3,10,3,74.35,19.69
+Paraná (média),Nov-1,11,1,65.75,16.72
+Paraná (média),Nov-2,11,2,69.26,15.59
+Paraná (média),Nov-3,11,3,67.01,21.36
+Paraná (média),Dez-1,12,1,64.57,21.12
+Paraná (média),Dez-2,12,2,68.24,21.38
+Paraná (média),Dez-3,12,3,68.33,26.87
+Paraná (média),Jan-1,1,1,58.77,19.83
+Paraná (média),Jan-2,1,2,55.39,23.11
+Paraná (média),Jan-3,1,3,62.59,23.73
+Paraná (média),Fev-1,2,1,69.91,27.96
+Paraná (média),Fev-2,2,2,56.22,28.88
+Paraná (média),Fev-3,2,3,49.83,19.68
+Paraná (média),Mar-1,3,1,69.2,22.7
+Paraná (média),Mar-2,3,2,68.32,24.8
+Paraná (média),Mar-3,3,3,87.57,28.28
+Paraná (média),Abr-1,4,1,82.06,20.18
+Paraná (média),Abr-2,4,2,87.0,24.52
+Paraná (média),Abr-3,4,3,83.31,22.89
+Oeste (média),Set-1,9,1,69.11,21.45
+Oeste (média),Set-2,9,2,71.11,23.54
+Oeste (média),Set-3,9,3,72.13,25.27
+Oeste (média),Out-1,10,1,67.74,15.94
+Oeste (média),Out-2,10,2,71.97,21.09
+Oeste (média),Out-3,10,3,83.31,24.43
+Oeste (média),Nov-1,11,1,76.72,21.01
+Oeste (média),Nov-2,11,2,78.86,20.24
+Oeste (média),Nov-3,11,3,78.94,24.06
+Oeste (média),Dez-1,12,1,74.75,23.04
+Oeste (média),Dez-2,12,2,78.8,23.81
+Oeste (média),Dez-3,12,3,76.28,32.88
+Oeste (média),Jan-1,1,1,71.56,21.8
+Oeste (média),Jan-2,1,2,69.42,25.11
+Oeste (média),Jan-3,1,3,80.93,24.07
+Oeste (média),Fev-1,2,1,83.78,28.18
+Oeste (média),Fev-2,2,2,68.03,30.31
+Oeste (média),Fev-3,2,3,59.56,24.01
+Oeste (média),Mar-1,3,1,84.13,28.09
+Oeste (média),Mar-2,3,2,82.41,28.98
+Oeste (média),Mar-3,3,3,101.85,34.66
+Oeste (média),Abr-1,4,1,90.55,25.34
+Oeste (média),Abr-2,4,2,93.4,30.2
+Oeste (média),Abr-3,4,3,87.25,32.12

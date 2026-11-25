@@ -1,41 +1,41 @@
 ﻿regiao,fase,motivo,pct_horas_inaptas_com_violacao,pct_motivo_principal
-Paraná (média),Dessecação pré-semeadura,temperatura,7.32,7.32
-Paraná (média),Dessecação pré-semeadura,UR,31.27,24.22
-Paraná (média),Dessecação pré-semeadura,vento fraco,4.55,3.41
-Paraná (média),Dessecação pré-semeadura,vento forte,60.87,49.63
-Paraná (média),Dessecação pré-semeadura,chuva,25.91,15.42
-Paraná (média),Pós-emergência,temperatura,7.81,7.81
-Paraná (média),Pós-emergência,UR,26.26,19.68
-Paraná (média),Pós-emergência,vento fraco,6.5,5.0
-Paraná (média),Pós-emergência,vento forte,54.89,47.87
-Paraná (média),Pós-emergência,chuva,31.33,19.64
-Paraná (média),Fungicidas (R1-R5),temperatura,10.19,10.19
-Paraná (média),Fungicidas (R1-R5),UR,15.9,8.96
-Paraná (média),Fungicidas (R1-R5),vento fraco,9.65,8.24
-Paraná (média),Fungicidas (R1-R5),vento forte,44.79,41.95
-Paraná (média),Fungicidas (R1-R5),chuva,45.52,30.66
-Paraná (média),Pré-colheita e colheita,temperatura,8.1,8.1
-Paraná (média),Pré-colheita e colheita,UR,24.31,18.12
-Paraná (média),Pré-colheita e colheita,vento fraco,9.73,7.68
-Paraná (média),Pré-colheita e colheita,vento forte,49.54,45.39
-Paraná (média),Pré-colheita e colheita,chuva,30.66,20.72
-Oeste (média),Dessecação pré-semeadura,temperatura,11.28,11.28
-Oeste (média),Dessecação pré-semeadura,UR,34.5,24.17
-Oeste (média),Dessecação pré-semeadura,vento fraco,4.11,2.93
-Oeste (média),Dessecação pré-semeadura,vento forte,63.12,46.75
-Oeste (média),Dessecação pré-semeadura,chuva,24.54,14.86
-Oeste (média),Pós-emergência,temperatura,16.65,16.65
-Oeste (média),Pós-emergência,UR,30.46,18.02
-Oeste (média),Pós-emergência,vento fraco,6.5,4.66
-Oeste (média),Pós-emergência,vento forte,52.61,42.48
-Oeste (média),Pós-emergência,chuva,29.12,18.2
-Oeste (média),Fungicidas (R1-R5),temperatura,23.43,23.43
-Oeste (média),Fungicidas (R1-R5),UR,19.72,6.45
-Oeste (média),Fungicidas (R1-R5),vento fraco,8.88,6.79
-Oeste (média),Fungicidas (R1-R5),vento forte,44.49,38.53
-Oeste (média),Fungicidas (R1-R5),chuva,38.68,24.8
-Oeste (média),Pré-colheita e colheita,temperatura,16.56,16.56
-Oeste (média),Pré-colheita e colheita,UR,25.49,14.4
-Oeste (média),Pré-colheita e colheita,vento fraco,8.73,6.41
-Oeste (média),Pré-colheita e colheita,vento forte,48.74,42.28
-Oeste (média),Pré-colheita e colheita,chuva,29.99,20.35
+Paraná (média),Dessecação pré-semeadura,temperatura,8.24,8.24
+Paraná (média),Dessecação pré-semeadura,UR,34.04,26.08
+Paraná (média),Dessecação pré-semeadura,vento fraco,4.39,3.22
+Paraná (média),Dessecação pré-semeadura,vento forte,60.16,47.91
+Paraná (média),Dessecação pré-semeadura,chuva,24.36,14.56
+Paraná (média),Pós-emergência,temperatura,7.99,7.99
+Paraná (média),Pós-emergência,UR,26.58,19.81
+Paraná (média),Pós-emergência,vento fraco,6.26,4.8
+Paraná (média),Pós-emergência,vento forte,54.67,47.56
+Paraná (média),Pós-emergência,chuva,31.55,19.84
+Paraná (média),Fungicidas (R1-R5),temperatura,10.83,10.83
+Paraná (média),Fungicidas (R1-R5),UR,17.94,10.11
+Paraná (média),Fungicidas (R1-R5),vento fraco,9.59,8.04
+Paraná (média),Fungicidas (R1-R5),vento forte,45.03,41.94
+Paraná (média),Fungicidas (R1-R5),chuva,43.24,29.08
+Paraná (média),Pré-colheita e colheita,temperatura,9.13,9.13
+Paraná (média),Pré-colheita e colheita,UR,25.93,18.63
+Paraná (média),Pré-colheita e colheita,vento fraco,9.97,7.75
+Paraná (média),Pré-colheita e colheita,vento forte,48.35,44.04
+Paraná (média),Pré-colheita e colheita,chuva,30.21,20.45
+Oeste (média),Dessecação pré-semeadura,temperatura,12.43,12.43
+Oeste (média),Dessecação pré-semeadura,UR,36.79,25.29
+Oeste (média),Dessecação pré-semeadura,vento fraco,4.0,2.74
+Oeste (média),Dessecação pré-semeadura,vento forte,63.17,45.75
+Oeste (média),Dessecação pré-semeadura,chuva,22.87,13.79
+Oeste (média),Pós-emergência,temperatura,16.77,16.77
+Oeste (média),Pós-emergência,UR,30.03,17.55
+Oeste (média),Pós-emergência,vento fraco,6.11,4.31
+Oeste (média),Pós-emergência,vento forte,53.25,43.2
+Oeste (média),Pós-emergência,chuva,29.31,18.17
+Oeste (média),Fungicidas (R1-R5),temperatura,24.55,24.55
+Oeste (média),Fungicidas (R1-R5),UR,22.02,7.22
+Oeste (média),Fungicidas (R1-R5),vento fraco,8.87,6.65
+Oeste (média),Fungicidas (R1-R5),vento forte,44.51,38.23
+Oeste (média),Fungicidas (R1-R5),chuva,36.46,23.36
+Oeste (média),Pré-colheita e colheita,temperatura,18.29,18.29
+Oeste (média),Pré-colheita e colheita,UR,27.22,14.37
+Oeste (média),Pré-colheita e colheita,vento fraco,8.83,6.38
+Oeste (média),Pré-colheita e colheita,vento forte,48.03,41.31
+Oeste (média),Pré-colheita e colheita,chuva,29.1,19.65

@@ -16,7 +16,7 @@ C1 - ganho de horas no período de fungicidas (16/dez até o fim de fevereiro)
 Medida-base = HORAS UTILIZÁVEIS: horas aptas (critério A) dentro de janelas de
 >= 2 h consecutivas entre 06h e 20h locais (mesma definição do "dia apto").
 Ganho de cada alternativa = horas utilizáveis com a alternativa - horas-base,
-por safra (29 safras), média entre safras. Suposições:
+por safra (26 safras, 2000/01 a 2025/26), média entre safras. Suposições:
   A1 noturna: soma as horas aptas (critério A) com is_day = 0 que estão em
      sequências >= 2 h e que NÃO estão nas janelas diurnas de 06-20 h.
   A2 pontas antideriva: vento a 2 m entre 3 e 15 km/h (em vez de 3-10).
@@ -43,6 +43,7 @@ import pandas as pd
 from openpyxl.styles import Alignment, Font, PatternFill
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
+from indicadores import N_SAFRAS, SAFRAS  # noqa: E402
 from indicadores import (AGREG, ESTADO, FATOR_U2, OESTE, PROC, RAW, TAB, bulbo_umido_stull,  # noqa: E402
                          configurar_agregados, janelas, media_por_celula)
 
@@ -155,7 +156,7 @@ def horas_municipio(f: Path) -> pd.DataFrame:
     m, d, y = out["data"].dt.month, out["data"].dt.day, out["data"].dt.year
     fase = ((m == 12) & (d >= 16)) | (m == 1) | (m == 2)
     out["safra_ini"] = np.where(m == 12, y, y - 1)
-    out = out[fase & out["safra_ini"].between(1995, 2023)]
+    out = out[fase & out["safra_ini"].between(SAFRAS[0], SAFRAS[-1])]
 
     cols = ["base", "A2", "A3", "A4", "A1_extra", "A5_extra", "inicio_janela"]
     s = out.groupby(["municipio", "safra_ini"])[cols].sum()
@@ -169,7 +170,7 @@ def tabela_T8(muns_df: pd.DataFrame) -> pd.DataFrame:
         partes.append(horas_municipio(next(RAW.glob(f"{r.cod_ibge}_*.parquet"))))
         print(f"  C1: {r.municipio}", flush=True)
     s = pd.concat(partes, ignore_index=True)
-    assert s.groupby("municipio")["safra_ini"].nunique().eq(29).all()
+    assert s.groupby("municipio")["safra_ini"].nunique().eq(N_SAFRAS).all()
 
     # horas utilizáveis com cada alternativa (por safra)
     s["util_A1"] = s["base"] + s["A1_extra"]
@@ -518,7 +519,7 @@ def main() -> None:
     def titulo(s):
         print("\n" + "=" * 100 + f"\n{s}\n" + "=" * 100)
 
-    titulo("T8 - C1: ganho de horas utilizáveis no período de fungicidas (h/safra, média 29 safras)")
+    titulo(f"T8 - C1: ganho de horas utilizáveis no período de fungicidas (h/safra, média {N_SAFRAS} safras)")
     piv = T8[T8["municipio"].isin([ESTADO, OESTE])].pivot(
         index="alternativa", columns="municipio", values=["ganho_h_media", "ganho_pct"])
     print(piv.round(1).to_string())

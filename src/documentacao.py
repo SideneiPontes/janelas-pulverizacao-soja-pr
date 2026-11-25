@@ -5,9 +5,10 @@ Saídas: outputs/tables/dicionario_variaveis.csv
         outputs/tables/relatorio_qualidade.csv
 
 Relatório de qualidade (por município e variável):
-  - ERA5 (data/raw/<cod_ibge>_<municipio>.parquet), 24 municípios, 1995-2024;
+  - ERA5 (data/raw/<cod_ibge>_<municipio>.parquet), 24 municípios, 2000-01-01 a 2026-05-01;
   - INMET, dados BRUTOS (antes do controle de qualidade) das estações usadas na validação
-    (T12a, selecionada = True), associadas ao município mais próximo, no período baixado.
+    (T12a, selecionada = True), associadas ao município mais próximo, em todos os arquivos
+    disponíveis no computador (2000-2026; ver src/inventario_inmet.py).
 Limites físicos plausíveis em LIMITES (valores fora deles são contados, não alterados).
 """
 from __future__ import annotations
@@ -20,7 +21,9 @@ import pandas as pd
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from indicadores import PROC, RAW, TAB  # noqa: E402
-from validacao_inmet import ANOS, INMET, ler_csv  # noqa: E402
+from indicadores import ROTULO_SAFRAS  # noqa: E402
+from inventario_inmet import fontes, ler_texto  # noqa: E402
+from validacao_inmet import estacoes, periodo_estacoes  # noqa: E402
 
 # (mínimo, máximo) plausíveis; None = sem limite naquele lado
 LIMITES = {
@@ -35,7 +38,7 @@ UNID = {"temperature_2m": "°C", "dew_point_2m": "°C", "relative_humidity_2m": 
         "u10": "km/h", "precip": "mm/h"}
 ERA5 = "ERA5 (ECMWF; Hersbach et al., 2020) via API histórica do Open-Meteo (models=era5)"
 INMET_F = "INMET - estações meteorológicas automáticas (portal.inmet.gov.br/dadoshistoricos)"
-P_ERA5 = "1995-01-01 a 2024-12-31"
+P_ERA5 = "2000-01-01 a 2026-05-01 (análises: safras 2000/01 a 2025/26, 1º/set/2000 a 30/abr/2026)"
 R_ERA5 = "horária; grade 0,25° (~28 km), extraída no ponto do município"
 
 
@@ -90,8 +93,10 @@ def dicionario() -> pd.DataFrame:
         "graus; m", ERA5, "-", "0,25°", tr, arq)
 
     # --- INMET bruto
-    arq = "data/raw/inmet/<ano>/*.CSV -> data/processed/inmet/<codigo>.parquet"
-    per = f"{ANOS[0]}-{ANOS[-1]} (2017-2024 indisponíveis: portal do INMET fora do ar)"
+    arq = ("'Anos Complementares/<ano>/' e zips 2010-2016 (CSV anuais do INMET) -> "
+           "data/processed/inmet/<codigo>.parquet")
+    inv = estacoes()
+    per = periodo_estacoes(inv[inv["selecionada"]])
     qc = "-9999 = falha -> ausente; controle de qualidade: valores fora dos limites físicos -> ausente"
     add("precip (INMET)", "PRECIPITAÇÃO TOTAL, HORÁRIO (acumulada na hora anterior)", "mm",
         INMET_F, per, "horária, pontual; pluviômetro de báscula 0,2 mm", qc, arq)
@@ -102,6 +107,11 @@ def dicionario() -> pd.DataFrame:
         "horária, pontual, anemômetro a 10 m", "m/s x 3,6; " + qc, arq)
     add("codigo, lat, lon, alt (INMET)", "Código WMO e localização da estação", "-; graus; m",
         INMET_F, per, "-", "lidos do cabeçalho do CSV", "outputs/tables/T12a_estacoes_inmet.csv")
+    add("n_safras_validas, pct_validas_T/UR/vento/chuva, usada_na_validacao, incluida_na_media",
+        "Inventário das estações automáticas (PR + SC/SP/MS a até 30 km dos 24 municípios)",
+        "nº; %; booleano", INMET_F, "2000-2026", "estação; estação-safra (set-abr)",
+        "safra válida: >= 70 % de horas válidas em T, UR e vento; média: >= 2 safras válidas",
+        "outputs/tables/T_inventario_inmet.csv")
 
     # --- indicadores horários
     arq = "data/processed/indicadores_horarios.parquet"
@@ -141,7 +151,7 @@ def dicionario() -> pd.DataFrame:
 
     # --- tabelas de resultados
     T = "outputs/tables/"
-    saf = "safras 1995/96-2023/24 (29)"
+    saf = f"safras {ROTULO_SAFRAS} (26)"
     add("horas aptas por decêndio (media, dp)", "Horas aptas por decêndio set-abr", "h/decêndio",
         "derivado", saf, "decêndio; município e médias regionais", "média e dp entre safras", T + "T1_*.csv")
     add("dias_aptos, horas_aptas, pct_tempo_apto por fase", "Por fase operacional da safra",
@@ -181,6 +191,22 @@ def dicionario() -> pd.DataFrame:
     add("contribuição por condição (Shapley)", "Decomposição de (estação - ERA5) entre as condições "
         "de cada critério", "h/mês", "derivado", per, "mês", "soma = diferença total",
         T + "T13b_decomposicao_discrepancia.csv")
+    add("pct_aptas_estacao/era5 por fase, razao_estacao_era5", "Horas aptas por fase operacional, "
+        "estação x ERA5 no mesmo ponto e nas mesmas horas válidas", "%; razão", "derivado", per,
+        "fase; estação", "média das estações com >= 2 safras válidas", T + "T13c_fases_estacao_vs_era5.csv")
+    add("pct_aptas_dia/noite, pct_vento_lt3, ganho_A1", "Período de fungicidas, dia (06-20 h) x noite "
+        "(20-06 h); calmaria = u2 < 3 km/h", "%; h/safra", "derivado", per, "estação",
+        "-", T + "T13d_noturno_estacao_vs_era5.csv")
+    add("horas_aptas_ajustadas, fator_medio", "Paraná: horas aptas do ERA5 x ajustadas pela razão "
+        "mensal estação/ERA5 (ajuste aproximado)", "h/fase; %", "derivado", saf, "fase",
+        "não é correção de viés validada", T + "T13e_horas_ajustadas.csv")
+    add("vies_vento10, calmaria noturna, kappa_A, razao por fase", "Estabilidade da validação por "
+        "período (safras que terminam em 2000-2009, 2010-2016, 2017-2026)", "km/h; %; -; razão",
+        "derivado", per, "período; estação", "kappa ponderado pelas horas; demais: média das estações",
+        T + "T13f_estabilidade_periodos.csv")
+    add("ganho_estacao, ganho_era5_mesmos_pontos, razao, C1_corrigido", "C1 corrigido pelas estações "
+        "(razão estação/ERA5 do ganho de cada alternativa nos mesmos pontos e horas)", "h/safra; razão",
+        "derivado", per, "alternativa; região", "A6 = 0", T + "T8b_C1_corrigido.csv")
     return pd.DataFrame(L)
 
 
@@ -200,7 +226,7 @@ def resumo(s: pd.Series, var: str) -> dict:
 def qualidade() -> pd.DataFrame:
     linhas = []
     muns = pd.read_csv(PROC / "municipios.csv", encoding="utf-8")
-    esperado = len(pd.date_range("1995-01-01", "2024-12-31 23:00", freq="h"))
+    esperado = len(pd.date_range("2000-01-01", "2026-05-01", freq="D")) * 24
     for _, r in muns.iterrows():
         df = pd.read_parquet(next(RAW.glob(f"{r.cod_ibge}_*.parquet")))
         dup = int(df["time_utc"].duplicated().sum())
@@ -214,13 +240,14 @@ def qualidade() -> pd.DataFrame:
                            "horarios_ausentes": ausentes, "duplicidades": dup,
                            "faltantes_total": ausentes + s["n_nan"],
                            "pct_faltantes": 100 * (ausentes + s["n_nan"]) / esperado, **s})
-    sel = pd.read_csv(TAB / "T12a_estacoes_inmet.csv", encoding="utf-8-sig")
+    sel = estacoes()
     sel = sel[sel["selecionada"]]
+    arqs, _ = fontes()
     for _, e in sel.iterrows():
         partes = []
-        for ano in ANOS:
-            for f in (INMET / str(ano)).glob(f"*_{e.codigo}_*"):
-                partes.append(ler_csv(f)[1])   # BRUTO (antes do controle de qualidade)
+        for ano, nome, origem, ler in arqs:
+            if f"_{e.codigo}_" in nome:
+                partes.append(ler_texto(origem, ler())[1])   # BRUTO (antes do controle de qualidade)
         df = pd.concat(partes, ignore_index=True)
         dup = int(df["time_utc"].duplicated().sum())
         t = df["time_utc"].drop_duplicates()

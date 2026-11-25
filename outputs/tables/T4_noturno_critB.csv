@@ -1,105 +1,105 @@
 ﻿municipio,fase,horas_aptas_diurnas,horas_aptas_noturnas,pct_noturno
-Cascavel,Dessecação pré-semeadura,149.28,321.83,68.31
-Cascavel,Pós-emergência,161.41,273.62,62.9
-Cascavel,Fungicidas (R1-R5),315.14,523.97,62.44
-Cascavel,Pré-colheita e colheita,247.03,508.97,67.32
-Toledo,Dessecação pré-semeadura,148.59,302.93,67.09
-Toledo,Pós-emergência,161.97,268.1,62.34
-Toledo,Fungicidas (R1-R5),333.66,539.24,61.78
-Toledo,Pré-colheita e colheita,245.86,505.52,67.28
-Assis Chateaubriand,Dessecação pré-semeadura,209.83,404.28,65.83
-Assis Chateaubriand,Pós-emergência,202.86,320.48,61.24
-Assis Chateaubriand,Fungicidas (R1-R5),383.66,613.41,61.52
-Assis Chateaubriand,Pré-colheita e colheita,313.76,583.72,65.04
-Guarapuava,Dessecação pré-semeadura,199.59,338.72,62.92
-Guarapuava,Pós-emergência,169.45,248.76,59.48
-Guarapuava,Fungicidas (R1-R5),337.93,476.93,58.53
-Guarapuava,Pré-colheita e colheita,283.69,463.83,62.05
-Ponta Grossa,Dessecação pré-semeadura,224.69,326.97,59.27
-Ponta Grossa,Pós-emergência,180.41,230.52,56.1
-Ponta Grossa,Fungicidas (R1-R5),353.83,477.34,57.43
-Ponta Grossa,Pré-colheita e colheita,288.45,468.93,61.91
-Castro,Dessecação pré-semeadura,207.69,317.93,60.49
-Castro,Pós-emergência,157.28,221.0,58.42
-Castro,Fungicidas (R1-R5),308.0,448.59,59.29
-Castro,Pré-colheita e colheita,263.9,448.31,62.95
-Tibagi,Dessecação pré-semeadura,283.83,459.14,61.8
-Tibagi,Pós-emergência,235.52,316.38,57.33
-Tibagi,Fungicidas (R1-R5),430.86,570.45,56.97
-Tibagi,Pré-colheita e colheita,338.21,572.03,62.84
-Londrina,Dessecação pré-semeadura,201.34,380.28,65.38
-Londrina,Pós-emergência,168.14,266.38,61.3
-Londrina,Fungicidas (R1-R5),362.9,503.28,58.1
-Londrina,Pré-colheita e colheita,275.07,525.17,65.63
-Cornélio Procópio,Dessecação pré-semeadura,194.69,304.07,60.97
-Cornélio Procópio,Pós-emergência,177.59,234.0,56.85
-Cornélio Procópio,Fungicidas (R1-R5),398.48,480.86,54.68
-Cornélio Procópio,Pré-colheita e colheita,275.76,477.17,63.38
-Campo Mourão,Dessecação pré-semeadura,176.69,366.45,67.47
-Campo Mourão,Pós-emergência,172.24,283.07,62.17
-Campo Mourão,Fungicidas (R1-R5),380.45,558.79,59.49
-Campo Mourão,Pré-colheita e colheita,286.24,546.24,65.62
-Ubiratã,Dessecação pré-semeadura,230.52,464.38,66.83
-Ubiratã,Pós-emergência,220.52,344.55,60.98
-Ubiratã,Fungicidas (R1-R5),422.0,624.1,59.66
-Ubiratã,Pré-colheita e colheita,328.66,612.31,65.07
-Pato Branco,Dessecação pré-semeadura,183.21,381.59,67.56
-Pato Branco,Pós-emergência,164.93,283.07,63.19
-Pato Branco,Fungicidas (R1-R5),325.24,541.03,62.46
-Pato Branco,Pré-colheita e colheita,263.28,515.45,66.19
-Palmas,Dessecação pré-semeadura,185.83,281.62,60.25
-Palmas,Pós-emergência,164.28,226.21,57.93
-Palmas,Fungicidas (R1-R5),320.24,434.14,57.55
-Palmas,Pré-colheita e colheita,265.03,420.07,61.31
-Umuarama,Dessecação pré-semeadura,155.52,327.86,67.83
-Umuarama,Pós-emergência,160.1,277.76,63.44
-Umuarama,Fungicidas (R1-R5),314.07,554.34,63.83
-Umuarama,Pré-colheita e colheita,244.17,545.66,69.09
-Ivaiporã,Dessecação pré-semeadura,244.45,436.24,64.09
-Ivaiporã,Pós-emergência,207.24,301.86,59.29
-Ivaiporã,Fungicidas (R1-R5),412.34,538.83,56.65
-Ivaiporã,Pré-colheita e colheita,313.55,545.97,63.52
-Maringá,Dessecação pré-semeadura,197.9,374.69,65.44
-Maringá,Pós-emergência,185.66,291.52,61.09
-Maringá,Fungicidas (R1-R5),389.79,570.93,59.43
-Maringá,Pré-colheita e colheita,296.66,568.72,65.72
-São Pedro do Iguaçu,Dessecação pré-semeadura,153.28,309.03,66.85
-São Pedro do Iguaçu,Pós-emergência,160.66,267.93,62.52
-São Pedro do Iguaçu,Fungicidas (R1-R5),311.0,526.97,62.89
-São Pedro do Iguaçu,Pré-colheita e colheita,242.45,499.45,67.32
-Marechal Cândido Rondon,Dessecação pré-semeadura,154.55,324.1,67.71
-Marechal Cândido Rondon,Pós-emergência,166.17,282.34,62.95
-Marechal Cândido Rondon,Fungicidas (R1-R5),327.45,559.66,63.09
-Marechal Cândido Rondon,Pré-colheita e colheita,244.66,527.93,68.33
-Medianeira,Dessecação pré-semeadura,203.59,371.59,64.6
-Medianeira,Pós-emergência,195.1,307.59,61.19
-Medianeira,Fungicidas (R1-R5),352.14,596.34,62.87
-Medianeira,Pré-colheita e colheita,297.55,559.66,65.29
-São Miguel do Iguaçu,Dessecação pré-semeadura,199.1,378.1,65.51
-São Miguel do Iguaçu,Pós-emergência,182.62,302.24,62.34
-São Miguel do Iguaçu,Fungicidas (R1-R5),318.69,576.97,64.42
-São Miguel do Iguaçu,Pré-colheita e colheita,277.21,552.38,66.58
-Foz do Iguaçu,Dessecação pré-semeadura,235.07,442.34,65.3
-Foz do Iguaçu,Pós-emergência,201.03,332.86,62.35
-Foz do Iguaçu,Fungicidas (R1-R5),330.52,624.38,65.39
-Foz do Iguaçu,Pré-colheita e colheita,305.41,589.07,65.86
-Matelândia,Dessecação pré-semeadura,204.38,370.93,64.47
-Matelândia,Pós-emergência,199.55,307.28,60.63
-Matelândia,Fungicidas (R1-R5),374.24,596.14,61.43
-Matelândia,Pré-colheita e colheita,304.41,559.55,64.77
-Santa Helena,Dessecação pré-semeadura,165.21,348.24,67.82
-Santa Helena,Pós-emergência,158.17,282.93,64.14
-Santa Helena,Fungicidas (R1-R5),278.48,529.79,65.55
-Santa Helena,Pré-colheita e colheita,232.34,521.69,69.19
-Guaíra,Dessecação pré-semeadura,215.24,463.76,68.3
-Guaíra,Pós-emergência,200.83,341.97,63.0
-Guaíra,Fungicidas (R1-R5),343.66,624.31,64.5
-Guaíra,Pré-colheita e colheita,298.62,599.45,66.75
-Paraná (média),Dessecação pré-semeadura,199.6,361.81,64.45
-Paraná (média),Pós-emergência,180.6,274.2,60.29
-Paraná (média),Fungicidas (R1-R5),361.79,528.52,59.36
-Paraná (média),Pré-colheita e colheita,283.08,519.25,64.72
-Oeste (média),Dessecação pré-semeadura,180.48,362.4,66.76
-Oeste (média),Pós-emergência,176.69,295.49,62.58
-Oeste (média),Fungicidas (R1-R5),324.64,566.84,63.58
-Oeste (média),Pré-colheita e colheita,266.06,540.45,67.01
+Cascavel,Dessecação pré-semeadura,149.19,323.54,68.44
+Cascavel,Pós-emergência,157.08,271.85,63.38
+Cascavel,Fungicidas (R1-R5),314.46,528.96,62.72
+Cascavel,Pré-colheita e colheita,250.46,516.58,67.35
+Toledo,Dessecação pré-semeadura,146.15,303.85,67.52
+Toledo,Pós-emergência,156.62,265.77,62.92
+Toledo,Fungicidas (R1-R5),331.77,544.15,62.12
+Toledo,Pré-colheita e colheita,248.04,512.12,67.37
+Assis Chateaubriand,Dessecação pré-semeadura,206.96,402.81,66.06
+Assis Chateaubriand,Pós-emergência,197.12,315.08,61.52
+Assis Chateaubriand,Fungicidas (R1-R5),384.88,617.15,61.59
+Assis Chateaubriand,Pré-colheita e colheita,314.31,584.12,65.02
+Guarapuava,Dessecação pré-semeadura,202.96,345.35,62.98
+Guarapuava,Pós-emergência,167.85,246.69,59.51
+Guarapuava,Fungicidas (R1-R5),344.12,477.46,58.12
+Guarapuava,Pré-colheita e colheita,290.69,475.27,62.05
+Ponta Grossa,Dessecação pré-semeadura,225.62,329.19,59.33
+Ponta Grossa,Pós-emergência,179.12,227.35,55.93
+Ponta Grossa,Fungicidas (R1-R5),358.04,474.73,57.01
+Ponta Grossa,Pré-colheita e colheita,292.73,476.85,61.96
+Castro,Dessecação pré-semeadura,208.85,320.08,60.51
+Castro,Pós-emergência,156.42,216.73,58.08
+Castro,Fungicidas (R1-R5),312.15,446.54,58.86
+Castro,Pré-colheita e colheita,273.46,460.42,62.74
+Tibagi,Dessecação pré-semeadura,282.08,459.15,61.94
+Tibagi,Pós-emergência,231.54,313.85,57.55
+Tibagi,Fungicidas (R1-R5),435.92,570.23,56.67
+Tibagi,Pré-colheita e colheita,339.12,575.27,62.91
+Londrina,Dessecação pré-semeadura,192.96,371.38,65.81
+Londrina,Pós-emergência,161.42,261.04,61.79
+Londrina,Fungicidas (R1-R5),366.42,505.54,57.98
+Londrina,Pré-colheita e colheita,277.42,532.58,65.75
+Cornélio Procópio,Dessecação pré-semeadura,181.96,292.96,61.69
+Cornélio Procópio,Pós-emergência,169.42,226.92,57.25
+Cornélio Procópio,Fungicidas (R1-R5),396.62,477.19,54.61
+Cornélio Procópio,Pré-colheita e colheita,270.58,481.54,64.02
+Campo Mourão,Dessecação pré-semeadura,174.5,359.65,67.33
+Campo Mourão,Pós-emergência,166.38,278.27,62.58
+Campo Mourão,Fungicidas (R1-R5),381.73,563.77,59.63
+Campo Mourão,Pré-colheita e colheita,287.88,551.31,65.7
+Ubiratã,Dessecação pré-semeadura,224.88,462.15,67.27
+Ubiratã,Pós-emergência,214.92,339.46,61.23
+Ubiratã,Fungicidas (R1-R5),425.38,627.85,59.61
+Ubiratã,Pré-colheita e colheita,326.08,610.54,65.19
+Pato Branco,Dessecação pré-semeadura,186.73,391.27,67.69
+Pato Branco,Pós-emergência,165.0,280.42,62.96
+Pato Branco,Fungicidas (R1-R5),327.19,543.92,62.44
+Pato Branco,Pré-colheita e colheita,268.08,522.65,66.1
+Palmas,Dessecação pré-semeadura,187.5,287.23,60.5
+Palmas,Pós-emergência,162.69,224.38,57.97
+Palmas,Fungicidas (R1-R5),321.62,437.38,57.63
+Palmas,Pré-colheita e colheita,271.23,432.0,61.43
+Umuarama,Dessecação pré-semeadura,154.12,322.96,67.7
+Umuarama,Pós-emergência,152.46,269.35,63.86
+Umuarama,Fungicidas (R1-R5),310.69,561.19,64.37
+Umuarama,Pré-colheita e colheita,246.92,548.88,68.97
+Ivaiporã,Dessecação pré-semeadura,237.46,428.96,64.37
+Ivaiporã,Pós-emergência,202.5,298.31,59.57
+Ivaiporã,Fungicidas (R1-R5),411.65,540.12,56.75
+Ivaiporã,Pré-colheita e colheita,309.85,544.15,63.72
+Maringá,Dessecação pré-semeadura,189.85,365.69,65.83
+Maringá,Pós-emergência,178.62,283.35,61.34
+Maringá,Fungicidas (R1-R5),390.73,570.5,59.35
+Maringá,Pré-colheita e colheita,294.23,567.08,65.84
+São Pedro do Iguaçu,Dessecação pré-semeadura,153.0,311.73,67.08
+São Pedro do Iguaçu,Pós-emergência,156.42,266.35,63.0
+São Pedro do Iguaçu,Fungicidas (R1-R5),308.62,529.69,63.19
+São Pedro do Iguaçu,Pré-colheita e colheita,247.31,507.15,67.22
+Marechal Cândido Rondon,Dessecação pré-semeadura,152.27,322.35,67.92
+Marechal Cândido Rondon,Pós-emergência,161.12,278.73,63.37
+Marechal Cândido Rondon,Fungicidas (R1-R5),321.96,564.58,63.68
+Marechal Cândido Rondon,Pré-colheita e colheita,245.27,530.23,68.37
+Medianeira,Dessecação pré-semeadura,202.23,374.19,64.92
+Medianeira,Pós-emergência,192.0,305.81,61.43
+Medianeira,Fungicidas (R1-R5),348.77,597.62,63.15
+Medianeira,Pré-colheita e colheita,299.46,564.42,65.34
+São Miguel do Iguaçu,Dessecação pré-semeadura,197.65,380.96,65.84
+São Miguel do Iguaçu,Pós-emergência,180.96,300.62,62.42
+São Miguel do Iguaçu,Fungicidas (R1-R5),313.62,581.0,64.94
+São Miguel do Iguaçu,Pré-colheita e colheita,279.27,556.81,66.6
+Foz do Iguaçu,Dessecação pré-semeadura,234.81,448.58,65.64
+Foz do Iguaçu,Pós-emergência,200.58,332.65,62.38
+Foz do Iguaçu,Fungicidas (R1-R5),328.31,628.19,65.68
+Foz do Iguaçu,Pré-colheita e colheita,307.46,593.19,65.86
+Matelândia,Dessecação pré-semeadura,202.77,373.5,64.81
+Matelândia,Pós-emergência,197.08,305.46,60.78
+Matelândia,Fungicidas (R1-R5),371.62,597.42,61.65
+Matelândia,Pré-colheita e colheita,307.27,564.27,64.74
+Santa Helena,Dessecação pré-semeadura,163.15,349.81,68.19
+Santa Helena,Pós-emergência,155.38,280.35,64.34
+Santa Helena,Fungicidas (R1-R5),272.23,533.31,66.21
+Santa Helena,Pré-colheita e colheita,233.65,528.0,69.32
+Guaíra,Dessecação pré-semeadura,210.69,462.77,68.72
+Guaíra,Pós-emergência,195.92,340.31,63.46
+Guaíra,Fungicidas (R1-R5),343.42,632.42,64.81
+Guaíra,Pré-colheita e colheita,296.58,599.73,66.91
+Paraná (média),Dessecação pré-semeadura,196.99,360.39,64.66
+Paraná (média),Pós-emergência,176.2,269.93,60.5
+Paraná (média),Fungicidas (R1-R5),363.34,530.42,59.35
+Paraná (média),Pré-colheita e colheita,285.07,524.46,64.79
+Oeste (média),Dessecação pré-semeadura,178.82,364.16,67.07
+Oeste (média),Pós-emergência,173.18,293.58,62.9
+Oeste (média),Fungicidas (R1-R5),321.62,571.09,63.97
+Oeste (média),Pré-colheita e colheita,267.93,545.35,67.06

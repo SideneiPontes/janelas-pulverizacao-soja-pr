@@ -1,13 +1,13 @@
 ﻿regiao,versao_C1,alternativa,descricao,C1_valor,C2_valor,C3_valor,C4_valor,C5_valor,C1_ponderado,C2_ponderado,C3_ponderado,C4_ponderado,C5_ponderado,dist_ideal_pos,dist_ideal_neg,CC,ranking,status
-Paraná (média),corrigido_estacoes,A2,Pontas de indução de ar (antideriva),101.6696,2.0,2.0,8.0,9.0,0.2607,0.016,0.045,0.0608,0.1086,0.0225,0.3291,0.936,1,FINAL
-Paraná (média),corrigido_estacoes,A1,Pulverização noturna,87.7117,2.0,6.0,6.0,4.0,0.2249,0.016,0.135,0.0456,0.0483,0.1335,0.2742,0.6726,2,FINAL
-Paraná (média),corrigido_estacoes,A5,Estação meteorológica + sistema de suporte à decisão,48.3619,5.0,1.0,5.0,9.0,0.124,0.04,0.0225,0.038,0.1086,0.1406,0.2129,0.6022,3,FINAL
-Paraná (média),corrigido_estacoes,A3,Adjuvante que reduz o tempo mínimo sem chuva,7.4737,3.0,3.0,8.0,7.0,0.0192,0.024,0.0675,0.0608,0.0845,0.247,0.1159,0.3193,4,FINAL
-Paraná (média),corrigido_estacoes,A6,Aumento da capacidade operacional (mais pulverizadores/terceirização),0.0,9.0,3.0,3.0,7.0,0.0,0.0719,0.0675,0.0228,0.0845,0.2741,0.0877,0.2423,5,FINAL
-Paraná (média),corrigido_estacoes,A4,Pulverização com drone,-16.6125,8.0,5.0,3.0,4.0,-0.0426,0.0639,0.1125,0.0228,0.0483,0.3278,0.0239,0.0679,6,FINAL
-Oeste (média),corrigido_estacoes,A2,Pontas de indução de ar (antideriva),125.5928,2.0,2.0,8.0,9.0,0.2383,0.016,0.045,0.0608,0.1086,0.0342,0.3097,0.9005,1,FINAL
-Oeste (média),corrigido_estacoes,A1,Pulverização noturna,139.1729,2.0,6.0,6.0,4.0,0.2641,0.016,0.135,0.0456,0.0483,0.1286,0.3137,0.7093,2,FINAL
-Oeste (média),corrigido_estacoes,A5,Estação meteorológica + sistema de suporte à decisão,45.8164,5.0,1.0,5.0,9.0,0.0869,0.04,0.0225,0.038,0.1086,0.1802,0.1861,0.5081,3,FINAL
-Oeste (média),corrigido_estacoes,A3,Adjuvante que reduz o tempo mínimo sem chuva,5.6783,3.0,3.0,8.0,7.0,0.0108,0.024,0.0675,0.0608,0.0845,0.2585,0.1122,0.3026,4,FINAL
-Oeste (média),corrigido_estacoes,A6,Aumento da capacidade operacional (mais pulverizadores/terceirização),0.0,9.0,3.0,3.0,7.0,0.0,0.0719,0.0675,0.0228,0.0845,0.2773,0.0883,0.2414,5,FINAL
-Oeste (média),corrigido_estacoes,A4,Pulverização com drone,-23.0835,8.0,5.0,3.0,4.0,-0.0438,0.0639,0.1125,0.0228,0.0483,0.3321,0.0239,0.0671,6,FINAL
+Paraná (média),corrigido_estacoes,A2,Pontas de indução de ar (antideriva),115.5215,2.0,2.0,8.0,9.0,0.2508,0.016,0.045,0.0608,0.1086,0.0225,0.3269,0.9356,1,FINAL
+Paraná (média),corrigido_estacoes,A1,Pulverização noturna,112.0781,2.0,6.0,6.0,4.0,0.2433,0.016,0.135,0.0456,0.0483,0.1288,0.2996,0.6993,2,FINAL
+Paraná (média),corrigido_estacoes,A5,Estação meteorológica + sistema de suporte à decisão,48.8475,5.0,1.0,5.0,9.0,0.106,0.04,0.0225,0.038,0.1086,0.1485,0.2048,0.5797,3,FINAL
+Paraná (média),corrigido_estacoes,A3,Adjuvante que reduz o tempo mínimo sem chuva,7.5612,3.0,3.0,8.0,7.0,0.0164,0.024,0.0675,0.0608,0.0845,0.24,0.1185,0.3305,4,FINAL
+Paraná (média),corrigido_estacoes,A6,Aumento da capacidade operacional (mais pulverizadores/terceirização),0.0,9.0,3.0,3.0,7.0,0.0,0.0719,0.0675,0.0228,0.0845,0.2647,0.0915,0.257,5,FINAL
+Paraná (média),corrigido_estacoes,A4,Pulverização com drone,-23.0798,8.0,5.0,3.0,4.0,-0.0501,0.0639,0.1125,0.0228,0.0483,0.3256,0.0239,0.0683,6,FINAL
+Oeste (média),corrigido_estacoes,A2,Pontas de indução de ar (antideriva),144.4861,2.0,2.0,8.0,9.0,0.2275,0.016,0.045,0.0608,0.1086,0.054,0.3056,0.8498,1,FINAL
+Oeste (média),corrigido_estacoes,A1,Pulverização noturna,175.6722,2.0,6.0,6.0,4.0,0.2766,0.016,0.135,0.0456,0.0483,0.1286,0.3323,0.721,2,FINAL
+Oeste (média),corrigido_estacoes,A5,Estação meteorológica + sistema de suporte à decisão,45.8932,5.0,1.0,5.0,9.0,0.0723,0.04,0.0225,0.038,0.1086,0.207,0.1804,0.4656,3,FINAL
+Oeste (média),corrigido_estacoes,A3,Adjuvante que reduz o tempo mínimo sem chuva,5.5708,3.0,3.0,8.0,7.0,0.0088,0.024,0.0675,0.0608,0.0845,0.2728,0.1144,0.2954,4,FINAL
+Oeste (média),corrigido_estacoes,A6,Aumento da capacidade operacional (mais pulverizadores/terceirização),0.0,9.0,3.0,3.0,7.0,0.0,0.0719,0.0675,0.0228,0.0845,0.2893,0.0916,0.2404,5,FINAL
+Oeste (média),corrigido_estacoes,A4,Pulverização com drone,-31.8434,8.0,5.0,3.0,4.0,-0.0501,0.0639,0.1125,0.0228,0.0483,0.3497,0.0239,0.0639,6,FINAL

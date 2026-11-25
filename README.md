@@ -2,11 +2,11 @@
 
 ## Resumo
 
-Este repositório traz o código e os resultados de uma análise das janelas meteorológicas para pulverização terrestre em soja em 24 municípios do Paraná (16 municípios distribuídos pelo estado e 8 do Oeste), com dados horários da reanálise ERA5 de 1995 a 2024. Para cada hora, a aptidão é avaliada por dois critérios:
+Este repositório traz o código e os resultados de uma análise das janelas meteorológicas para pulverização terrestre em soja em 24 municípios do Paraná (16 municípios distribuídos pelo estado e 8 do Oeste), com dados horários da reanálise ERA5 nas safras 2000/01 a 2025/26 (1º/set/2000 a 30/abr/2026, 26 safras). Para cada hora, a aptidão é avaliada por dois critérios:
 - **critério A:** Delta T entre 2 e 8 °C, vento a 2 m entre 3 e 10 km/h, temperatura abaixo de 30 °C, umidade relativa de pelo menos 50 % e ausência de chuva na hora e nas 2 horas seguintes;
 - **critério B:** o de Silva, Oliveira e Gandolfo (2018).
 
-Com essas horas são calculados janelas, dias aptos por fase operacional (dessecação, pós-emergência, fungicidas e pré-colheita) e épocas de semeadura. Sobre esses indicadores aplicam-se cadeias de Markov, tendências de Mann-Kendall/Sen e agrupamento k-means. O ERA5 foi validado com 6 estações automáticas do INMET (2010–2016). As estratégias para ampliar a janela no período de fungicidas foram priorizadas por AHP-TOPSIS, com o critério de ganho de horas corrigido pelas estações. Pontas de indução de ar (antideriva) ficaram em 1º lugar em todos os cenários de pesos.
+Com essas horas são calculados janelas, dias aptos por fase operacional (dessecação, pós-emergência, fungicidas e pré-colheita) e épocas de semeadura. Sobre esses indicadores aplicam-se cadeias de Markov, tendências de Mann-Kendall/Sen e agrupamento k-means. O ERA5 foi validado com 7 estações automáticas do INMET a até 30 km dos municípios (A835 Maringá, A819 Castro, A820 Marechal Cândido Rondon, A846 Foz do Iguaçu, B803 Campina da Lagoa, A816 Novo Horizonte-SC e A842 Nova Fátima), em 98 estação-safras válidas entre 2006/07 e 2025/26 (set–abr, com pelo menos 70 % de horas válidas em temperatura, umidade e vento). As estratégias para ampliar a janela no período de fungicidas foram priorizadas por AHP-TOPSIS, com o critério de ganho de horas corrigido pelas estações. Pontas de indução de ar (antideriva) ficaram em 1º lugar em todos os cenários de pesos.
 
 ## Fontes dos dados
 
@@ -17,9 +17,9 @@ Com essas horas são calculados janelas, dias aptos por fase operacional (dessec
 | Malhas estadual e municipal (2020) | IBGE, via pacote [geobr](https://github.com/ipea/geobr) (Ipea) | Dados públicos do IBGE |
 | Coordenadas e altitude dos municípios | API de geocodificação do Open-Meteo (GeoNames) | CC BY 4.0 |
 
-Os dados brutos **não** estão neste repositório. Os scripts `download_era5.py` e `download_inmet.py` baixam tudo de novo.
+Os dados brutos **não** estão neste repositório. O ERA5 é baixado de novo por `download_era5.py`. Os arquivos anuais do INMET (CSV de todas as estações, um zip por ano no portal) devem ser colocados em `Anos Complementares/<ano>/` (2000–2009 e 2017–2026) e os zips de 2010–2016 em `%TEMP%/inmet_zips` (ou na pasta indicada pela variável `INMET_ZIP_DIR`); `download_inmet.py` baixa esses zips quando o portal está no ar.
 
-> **Aviso sobre a validação:** a validação com o INMET usou apenas **2010–2016**. Durante o trabalho, o portal de dados históricos do INMET ficou fora do ar (manutenção) e os anos 2017–2024 não puderam ser baixados. Quando o portal voltar, basta baixar o restante e rodar de novo com `INMET_ANO_FIM=2024` (veja abaixo).
+> **Versões:** a versão atual (v4) cobre as safras 2000/01–2025/26 e valida o ERA5 em todo o período disponível nas estações. A versão anterior (v3: ERA5 1995–2024, validação só com 2010–2016, porque o portal do INMET esteve fora do ar) está comparada com a atual em [outputs/RESUMO_V4.md](outputs/RESUMO_V4.md).
 
 ## Estrutura
 
@@ -27,9 +27,12 @@ Os dados brutos **não** estão neste repositório. Os scripts `download_era5.py
 src/       scripts Python, na ordem de execução abaixo
 config/    ahp_criterios.csv: matriz de comparação par a par do AHP (editável)
 outputs/
-  tables/  tabelas T0–T13e, matriz de decisão qualitativa, dicionário e relatório de qualidade
+  tables/  tabelas T0–T13f, inventário das estações INMET, matriz de decisão qualitativa,
+           dicionário e relatório de qualidade
   figures/ figuras F1–F8
   mymaps_pontos.csv     pontos para importar no Google My Maps
+  mymaps/               versões simplificadas (municipios.csv, estacoes_inmet.csv)
+  RESUMO_V4.md          comparação v3 × v4 e principais resultados
   mapa_interativo.html  mapa interativo (abre no navegador, precisa de internet)
 ```
 
@@ -53,20 +56,22 @@ pip install -r requirements-lock.txt   # versões exatas usadas no artigo
 | # | Comando | O que faz |
 |---|---|---|
 | 1 | `python src/municipios.py` | Lista os 24 municípios com coordenadas, altitude e código IBGE → `data/processed/municipios.csv` |
-| 2 | `python src/download_era5.py` | Baixa o ERA5 horário 1995–2024 por município (blocos de 5 anos, retomável) → `data/raw/` |
+| 2 | `python src/download_era5.py` | Baixa o ERA5 horário de 2000-01-01 a 2026-05-01 por município (blocos de 5 anos, retomável) → `data/raw/` |
 | 3 | `python src/verificar_raw.py` | Confere linhas, período e faltantes dos arquivos baixados → `verificacao_raw.csv` |
 | 4 | `python src/indicadores.py` | Aptidão horária (critérios A e B), janelas, dias aptos por fase e época → T0–T4, T2b, T2c |
 | 5 | `python src/estatistica.py` | Markov (T5), Mann-Kendall/Sen (T6), k-means (T7) e figuras F1–F5 |
-| 6 | `python src/download_inmet.py 2010 2016` | Baixa os arquivos anuais do INMET e extrai as estações do PR → `data/raw/inmet/` |
-| 7 | `python src/validacao_inmet.py` | Validação ERA5 × INMET → T12, T12a, T13, T13b, F7 |
-| 8 | `python src/validacao_complementos.py` | Fases, período noturno e ajuste aproximado → T13c, T13d, T13e |
+| 6 | `python src/inventario_inmet.py` | Confere os arquivos do INMET, lista as estações do PR e vizinhas a até 30 km, monta as séries horárias e as estação-safras válidas → `T_inventario_inmet.csv` |
+| 7 | `python src/validacao_inmet.py` | Validação ERA5 × INMET (baixa o ERA5 no ponto de cada estação) → T12, T12a, T13, T13b, F7 |
+| 8 | `python src/validacao_complementos.py` | Fases, período noturno, ajuste aproximado e estabilidade por período → T13c, T13d, T13e, T13f |
 | 9 | `python src/ahp_topsis.py` | Ganho de horas (T8), C1 corrigido pelas estações (T8b, via `c1_corrigido.py`), AHP (T9), TOPSIS (T10, T10b), sensibilidade (T11) e figuras F6, F6b |
 | 10 | `python src/documentacao.py` | Dicionário de variáveis e relatório de qualidade |
-| 11 | `python src/mapa_final.py` | CSV do My Maps, mapa de apresentação (F8), mapa interativo e versão final de F1 e F5 |
+| 11 | `python src/mapa_final.py` | CSVs do My Maps, mapa de apresentação (F8), mapa interativo e versão final de F1 e F5 |
+| 12 | `python src/resumo_v4.py` | Comparação v3 × v4 → `outputs/RESUMO_V4.md` |
+
+Depois do passo 9, rode de novo o passo 8 (a T13d usa a T8).
 
 Observações:
 - **Limite do Open-Meteo:** o plano gratuito limita as requisições por hora e por dia. O download do ERA5 pode parar com erro 429. Nesse caso, rode o script de novo mais tarde: ele retoma de onde parou.
-- **Validação até 2024:** para usar os anos 2017–2024 do INMET, rode `python src/download_inmet.py 2010 2024` e repita os passos 7 a 11 com a variável de ambiente `INMET_ANO_FIM=2024`.
 - **Rodar só a análise de decisão:** a planilha `outputs/tables/matriz_decisao_qualitativa.xlsx` e `config/ahp_criterios.csv` guardam os julgamentos qualitativos usados no AHP-TOPSIS. Edite esses dois arquivos e rode de novo o passo 9.
 
 ## Dicionário de dados e qualidade
