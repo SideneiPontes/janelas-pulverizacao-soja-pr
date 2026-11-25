@@ -1,0 +1,13 @@
+﻿regiao,versao_C1,alternativa,descricao,C1_valor,C2_valor,C3_valor,C4_valor,C5_valor,C1_ponderado,C2_ponderado,C3_ponderado,C4_ponderado,C5_ponderado,dist_ideal_pos,dist_ideal_neg,CC,ranking,status
+Paraná (média),ERA5,A1,Pulverização noturna,156.33,2.0,6.0,6.0,4.0,0.3155,0.016,0.135,0.0456,0.0483,0.1286,0.3942,0.754,1,FINAL
+Paraná (média),ERA5,A2,Pontas de indução de ar (antideriva),75.341,2.0,2.0,8.0,9.0,0.1521,0.016,0.045,0.0608,0.1086,0.165,0.2597,0.6114,2,FINAL
+Paraná (média),ERA5,A5,Estação meteorológica + sistema de suporte à decisão,43.812,5.0,1.0,5.0,9.0,0.0884,0.04,0.0225,0.038,0.1086,0.2295,0.2096,0.4774,3,FINAL
+Paraná (média),ERA5,A3,Adjuvante que reduz o tempo mínimo sem chuva,5.474,3.0,3.0,8.0,7.0,0.011,0.024,0.0675,0.0608,0.0845,0.3089,0.1298,0.2959,4,FINAL
+Paraná (média),ERA5,A6,Aumento da capacidade operacional (mais pulverizadores/terceirização),0.0,9.0,3.0,3.0,7.0,0.0,0.0719,0.0675,0.0228,0.0845,0.3267,0.1065,0.2459,5,FINAL
+Paraná (média),ERA5,A4,Pulverização com drone,-36.67,8.0,5.0,3.0,4.0,-0.074,0.0639,0.1125,0.0228,0.0483,0.409,0.0239,0.0552,6,FINAL
+Oeste (média),ERA5,A1,Pulverização noturna,248.05,2.0,6.0,6.0,4.0,0.3352,0.016,0.135,0.0456,0.0483,0.1286,0.4086,0.7606,1,FINAL
+Oeste (média),ERA5,A2,Pontas de indução de ar (antideriva),93.069,2.0,2.0,8.0,9.0,0.1258,0.016,0.045,0.0608,0.1086,0.2107,0.2328,0.525,2,FINAL
+Oeste (média),ERA5,A5,Estação meteorológica + sistema de suporte à decisão,41.506,5.0,1.0,5.0,9.0,0.0561,0.04,0.0225,0.038,0.1086,0.2811,0.1821,0.3932,3,FINAL
+Oeste (média),ERA5,A3,Adjuvante que reduz o tempo mínimo sem chuva,4.159,3.0,3.0,8.0,7.0,0.0056,0.024,0.0675,0.0608,0.0845,0.3336,0.1231,0.2695,4,FINAL
+Oeste (média),ERA5,A6,Aumento da capacidade operacional (mais pulverizadores/terceirização),0.0,9.0,3.0,3.0,7.0,0.0,0.0719,0.0675,0.0228,0.0845,0.3458,0.103,0.2295,5,FINAL
+Oeste (média),ERA5,A4,Pulverização com drone,-50.954,8.0,5.0,3.0,4.0,-0.0689,0.0639,0.1125,0.0228,0.0483,0.4228,0.0239,0.0535,6,FINAL

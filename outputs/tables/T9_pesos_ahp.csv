@@ -1,0 +1,6 @@
+﻿criterio,descricao,tipo,peso,lambda_max,IC,RC,consistente_RC_menor_0_10,status
+C1,Ganho de horas aptas no período de fungicidas,beneficio,0.3689,5.0133,0.0033,0.003,True,FINAL
+C2,Custo de implantação,custo,0.1093,5.0133,0.0033,0.003,True,FINAL
+C3,"Risco ambiental, à saúde e de deriva",custo,0.2063,5.0133,0.0033,0.003,True,FINAL
+C4,Facilidade de adoção e inclusão de pequenos produtores,beneficio,0.1093,5.0133,0.0033,0.003,True,FINAL
+C5,Conformidade regulatória e segurança do aplicador,beneficio,0.2063,5.0133,0.0033,0.003,True,FINAL

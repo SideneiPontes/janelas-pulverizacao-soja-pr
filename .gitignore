@@ -1,0 +1,39 @@
+# Ambiente e caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+
+# Dados: não vão para o repositório (o código baixa de novo do Open-Meteo e do INMET)
+data/
+*.zip
+*.part
+inmet_zips/
+
+# Saídas intermediárias, logs e versões antigas
+outputs/log_*.txt
+outputs_16municipios/
+outputs_24municipios/
+
+# Rascunhos, apresentação e segredos (nunca publicar)
+*.docx
+*.pptx
+*.pdf
+.env
+.env.*
+*.key
+*.pem
+
+# Temporários do sistema e editores
+*.tmp
+*.bak
+*.log
+~$*
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/

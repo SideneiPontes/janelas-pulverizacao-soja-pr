@@ -1,0 +1,9 @@
+# FINAL - matriz de comparação par a par dos critérios (escala de Saaty 1-9).
+# Célula (linha i, coluna j) = importância de i em relação a j; use frações como 1/3.
+# Mantenha a recíproca: (j,i) = 1/(i,j). Diagonal = 1. C1 ganho de horas; C2 custo; C3 risco; C4 facilidade/inclusão; C5 conformidade.
+criterio,C1,C2,C3,C4,C5
+C1,1,3,2,3,2
+C2,1/3,1,1/2,1,1/2
+C3,1/2,2,1,2,1
+C4,1/3,1,1/2,1,1/2
+C5,1/2,2,1,2,1

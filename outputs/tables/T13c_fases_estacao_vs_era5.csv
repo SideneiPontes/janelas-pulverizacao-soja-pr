@@ -1,0 +1,29 @@
+﻿periodo_analise,codigo,estacao,municipio,fase,horas_validas,aptas_estacao,aptas_era5,pct_aptas_estacao,pct_aptas_era5,incluida_na_media,n_estacoes,razao_estacao_era5
+2010–2016,A819,CASTRO,Castro,Dessecação pré-semeadura,7059.0,1190.0,1538.0,16.858,21.788,True,,0.774
+2010–2016,A819,CASTRO,Castro,Pós-emergência,6812.0,1415.0,1181.0,20.772,17.337,True,,1.198
+2010–2016,A819,CASTRO,Castro,Fungicidas (R1-R5),8758.0,1720.0,1439.0,19.639,16.431,True,,1.195
+2010–2016,A819,CASTRO,Castro,Pré-colheita e colheita,8520.0,1597.0,1848.0,18.744,21.69,True,,0.864
+2010–2016,A820,MAL. CANDIDO RONDON,Marechal Cândido Rondon,Dessecação pré-semeadura,9151.0,1331.0,2839.0,14.545,31.024,True,,0.469
+2010–2016,A820,MAL. CANDIDO RONDON,Marechal Cândido Rondon,Pós-emergência,7188.0,1487.0,2488.0,20.687,34.613,True,,0.598
+2010–2016,A820,MAL. CANDIDO RONDON,Marechal Cândido Rondon,Fungicidas (R1-R5),10227.0,1849.0,2914.0,18.08,28.493,True,,0.635
+2010–2016,A820,MAL. CANDIDO RONDON,Marechal Cândido Rondon,Pré-colheita e colheita,10062.0,2211.0,4068.0,21.974,40.429,True,,0.544
+2010–2016,A835,MARINGA,Maringá,Dessecação pré-semeadura,9231.0,2369.0,3181.0,25.664,34.46,True,,0.745
+2010–2016,A835,MARINGA,Maringá,Pós-emergência,6958.0,2445.0,2357.0,35.139,33.875,True,,1.037
+2010–2016,A835,MARINGA,Maringá,Fungicidas (R1-R5),11598.0,3745.0,3449.0,32.29,29.738,True,,1.086
+2010–2016,A835,MARINGA,Maringá,Pré-colheita e colheita,9468.0,3608.0,3890.0,38.107,41.086,True,,0.928
+2010–2016,A842,NOVA FATIMA,Cornélio Procópio,Dessecação pré-semeadura,9009.0,1783.0,2969.0,19.791,32.956,True,,0.601
+2010–2016,A842,NOVA FATIMA,Cornélio Procópio,Pós-emergência,6596.0,1812.0,1829.0,27.471,27.729,True,,0.991
+2010–2016,A842,NOVA FATIMA,Cornélio Procópio,Fungicidas (R1-R5),11297.0,3543.0,2471.0,31.362,21.873,True,,1.434
+2010–2016,A842,NOVA FATIMA,Cornélio Procópio,Pré-colheita e colheita,9843.0,3156.0,3138.0,32.063,31.881,True,,1.006
+2010–2016,A846,FOZ DO IGUACU,Foz do Iguaçu,Dessecação pré-semeadura,8750.0,1853.0,3129.0,21.177,35.76,True,,0.592
+2010–2016,A846,FOZ DO IGUACU,Foz do Iguaçu,Pós-emergência,6833.0,1199.0,2248.0,17.547,32.899,True,,0.533
+2010–2016,A846,FOZ DO IGUACU,Foz do Iguaçu,Fungicidas (R1-R5),9695.0,1692.0,2660.0,17.452,27.437,True,,0.636
+2010–2016,A846,FOZ DO IGUACU,Foz do Iguaçu,Pré-colheita e colheita,6757.0,1371.0,2233.0,20.29,33.047,True,,0.614
+2010–2016,B803,CAMPINA DA LAGOA,Ubiratã,Dessecação pré-semeadura,1439.0,437.0,535.0,30.368,37.179,False,,0.817
+2010–2016,B803,CAMPINA DA LAGOA,Ubiratã,Pós-emergência,1080.0,330.0,388.0,30.556,35.926,False,,0.851
+2010–2016,B803,CAMPINA DA LAGOA,Ubiratã,Fungicidas (R1-R5),379.0,74.0,61.0,19.525,16.095,False,,1.213
+2010–2016,B803,CAMPINA DA LAGOA,Ubiratã,Pré-colheita e colheita,0.0,0.0,0.0,,,False,,
+2010–2016,TODAS,média das estações,,Dessecação pré-semeadura,,,,19.607,31.198,,5.0,0.628
+2010–2016,TODAS,média das estações,,Pós-emergência,,,,24.323,29.291,,5.0,0.83
+2010–2016,TODAS,média das estações,,Fungicidas (R1-R5),,,,23.765,24.794,,5.0,0.958
+2010–2016,TODAS,média das estações,,Pré-colheita e colheita,,,,26.236,33.627,,5.0,0.78

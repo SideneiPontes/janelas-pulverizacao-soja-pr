@@ -1,0 +1,5 @@
+﻿regiao,fase,horas_fase,horas_aptas_era5,horas_aptas_ajustadas,pct_tempo_apto_era5,pct_tempo_apto_ajustado,fator_medio,observacao
+Paraná (média),Dessecação pré-semeadura,1463.31,416.601,277.253,28.47,18.947,0.666,"ajuste aproximado: razão mensal estação/ERA5 (critério A, média de 6 estações INMET, 2010–2016) aplicada às safras 1995/96–2023/24"
+Paraná (média),Pós-emergência,1079.862,303.265,254.874,28.084,23.602,0.84,"ajuste aproximado: razão mensal estação/ERA5 (critério A, média de 6 estações INMET, 2010–2016) aplicada às safras 1995/96–2023/24"
+Paraná (média),Fungicidas (R1-R5),1807.448,433.317,415.219,23.974,22.973,0.958,"ajuste aproximado: razão mensal estação/ERA5 (critério A, média de 6 estações INMET, 2010–2016) aplicada às safras 1995/96–2023/24"
+Paraná (média),Pré-colheita e colheita,1464.0,468.407,366.521,31.995,25.036,0.782,"ajuste aproximado: razão mensal estação/ERA5 (critério A, média de 6 estações INMET, 2010–2016) aplicada às safras 1995/96–2023/24"

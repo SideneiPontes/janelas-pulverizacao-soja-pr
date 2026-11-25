@@ -1,0 +1,65 @@
+﻿regiao,fase,motivo,pct_horas_inaptas_com_violacao,pct_motivo_principal
+Paraná (média),Dessecação pré-semeadura,DeltaT baixo,50.0,50.0
+Paraná (média),Dessecação pré-semeadura,DeltaT alto,12.69,12.69
+Paraná (média),Dessecação pré-semeadura,vento fraco,8.19,3.72
+Paraná (média),Dessecação pré-semeadura,vento forte,40.51,23.54
+Paraná (média),Dessecação pré-semeadura,temperatura,6.3,0.52
+Paraná (média),Dessecação pré-semeadura,UR,18.4,3.83
+Paraná (média),Dessecação pré-semeadura,chuva,25.72,5.1
+Paraná (média),Dessecação pré-semeadura,chuva logo depois,15.19,0.59
+Paraná (média),Pós-emergência,DeltaT baixo,49.3,49.3
+Paraná (média),Pós-emergência,DeltaT alto,10.03,10.03
+Paraná (média),Pós-emergência,vento fraco,11.0,5.22
+Paraná (média),Pós-emergência,vento forte,33.11,20.61
+Paraná (média),Pós-emergência,temperatura,6.29,1.61
+Paraná (média),Pós-emergência,UR,13.49,2.44
+Paraná (média),Pós-emergência,chuva,30.52,9.98
+Paraná (média),Pós-emergência,chuva logo depois,15.39,0.83
+Paraná (média),Fungicidas (R1-R5),DeltaT baixo,59.85,59.85
+Paraná (média),Fungicidas (R1-R5),DeltaT alto,4.67,4.67
+Paraná (média),Fungicidas (R1-R5),vento fraco,13.7,6.19
+Paraná (média),Fungicidas (R1-R5),vento forte,20.75,11.59
+Paraná (média),Fungicidas (R1-R5),temperatura,6.8,2.91
+Paraná (média),Fungicidas (R1-R5),UR,5.79,0.85
+Paraná (média),Fungicidas (R1-R5),chuva,37.03,13.02
+Paraná (média),Fungicidas (R1-R5),chuva logo depois,18.2,0.92
+Paraná (média),Pré-colheita e colheita,DeltaT baixo,61.94,61.94
+Paraná (média),Pré-colheita e colheita,DeltaT alto,5.92,5.92
+Paraná (média),Pré-colheita e colheita,vento fraco,13.7,6.73
+Paraná (média),Pré-colheita e colheita,vento forte,22.55,12.57
+Paraná (média),Pré-colheita e colheita,temperatura,5.38,2.12
+Paraná (média),Pré-colheita e colheita,UR,8.65,2.01
+Paraná (média),Pré-colheita e colheita,chuva,25.4,8.07
+Paraná (média),Pré-colheita e colheita,chuva logo depois,11.93,0.65
+Oeste (média),Dessecação pré-semeadura,DeltaT baixo,41.17,41.17
+Oeste (média),Dessecação pré-semeadura,DeltaT alto,15.34,15.34
+Oeste (média),Dessecação pré-semeadura,vento fraco,7.54,3.57
+Oeste (média),Dessecação pré-semeadura,vento forte,43.79,29.52
+Oeste (média),Dessecação pré-semeadura,temperatura,10.06,1.29
+Oeste (média),Dessecação pré-semeadura,UR,21.0,3.37
+Oeste (média),Dessecação pré-semeadura,chuva,25.24,5.16
+Oeste (média),Dessecação pré-semeadura,chuva logo depois,15.29,0.59
+Oeste (média),Pós-emergência,DeltaT baixo,41.87,41.87
+Oeste (média),Pós-emergência,DeltaT alto,13.39,13.39
+Oeste (média),Pós-emergência,vento fraco,11.3,5.88
+Oeste (média),Pós-emergência,vento forte,31.94,23.01
+Oeste (média),Pós-emergência,temperatura,13.89,4.17
+Oeste (média),Pós-emergência,UR,16.15,1.93
+Oeste (média),Pós-emergência,chuva,29.14,9.01
+Oeste (média),Pós-emergência,chuva logo depois,15.53,0.75
+Oeste (média),Fungicidas (R1-R5),DeltaT baixo,50.55,50.55
+Oeste (média),Fungicidas (R1-R5),DeltaT alto,7.45,7.45
+Oeste (média),Fungicidas (R1-R5),vento fraco,13.31,7.34
+Oeste (média),Fungicidas (R1-R5),vento forte,21.17,14.37
+Oeste (média),Fungicidas (R1-R5),temperatura,16.78,7.53
+Oeste (média),Fungicidas (R1-R5),UR,7.98,0.57
+Oeste (média),Fungicidas (R1-R5),chuva,33.73,11.39
+Oeste (média),Fungicidas (R1-R5),chuva logo depois,17.01,0.8
+Oeste (média),Pré-colheita e colheita,DeltaT baixo,55.09,55.09
+Oeste (média),Pré-colheita e colheita,DeltaT alto,7.35,7.35
+Oeste (média),Pré-colheita e colheita,vento fraco,13.03,6.88
+Oeste (média),Pré-colheita e colheita,vento forte,23.26,16.2
+Oeste (média),Pré-colheita e colheita,temperatura,11.68,4.79
+Oeste (média),Pré-colheita e colheita,UR,9.46,1.69
+Oeste (média),Pré-colheita e colheita,chuva,25.75,7.35
+Oeste (média),Pré-colheita e colheita,chuva logo depois,13.18,0.64

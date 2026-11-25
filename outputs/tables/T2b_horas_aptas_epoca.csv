@@ -1,0 +1,781 @@
+﻿municipio,epoca,fase,horas_aptas_media,horas_aptas_dp,horas_aptas_p20,dias_aptos_media,dias_aptos_dp,dias_aptos_p20,pct_tempo_apto
+Cascavel,25/09,Dessecação pré-semeadura,118.1,33.78,98.2,10.14,2.64,8.0,24.6
+Cascavel,25/09,Inicial,71.45,27.23,42.4,6.97,2.38,5.0,22.91
+Cascavel,25/09,Desenvolvimento,159.34,44.73,121.2,14.28,3.27,12.0,25.56
+Cascavel,25/09,Florescimento e enchimento,358.83,76.34,306.8,30.03,5.33,26.0,29.32
+Cascavel,25/09,Maturação,185.14,50.66,139.0,17.76,3.48,15.6,25.71
+Cascavel,05/10,Dessecação pré-semeadura,116.76,37.95,80.0,10.66,2.94,8.0,24.33
+Cascavel,05/10,Inicial,73.86,27.44,51.6,7.0,1.98,6.0,23.7
+Cascavel,05/10,Desenvolvimento,173.86,41.94,147.2,14.93,3.23,12.6,27.88
+Cascavel,05/10,Florescimento e enchimento,350.97,75.06,299.0,29.97,4.58,26.6,28.67
+Cascavel,05/10,Maturação,183.52,52.74,151.0,17.69,3.5,15.6,25.49
+Cascavel,15/10,Dessecação pré-semeadura,112.66,30.62,86.8,10.79,2.69,9.0,23.48
+Cascavel,15/10,Inicial,76.21,22.7,54.6,6.83,2.36,5.0,24.46
+Cascavel,15/10,Desenvolvimento,186.45,45.31,146.6,15.31,3.61,12.0,29.89
+Cascavel,15/10,Florescimento e enchimento,338.9,76.95,283.4,30.24,4.64,27.0,27.69
+Cascavel,15/10,Maturação,193.52,64.9,134.2,17.62,4.44,14.6,26.88
+Cascavel,25/10,Dessecação pré-semeadura,121.24,34.32,94.8,11.03,2.74,10.0,25.29
+Cascavel,25/10,Inicial,84.45,29.05,66.4,7.41,2.2,5.6,27.08
+Cascavel,25/10,Desenvolvimento,186.14,50.28,141.2,15.0,3.6,11.0,29.83
+Cascavel,25/10,Florescimento e enchimento,329.21,65.07,274.6,30.34,4.4,27.0,26.9
+Cascavel,25/10,Maturação,188.69,69.66,124.6,17.14,4.26,13.6,26.18
+Cascavel,05/11,Dessecação pré-semeadura,126.07,33.46,101.2,11.03,2.72,8.6,26.29
+Cascavel,05/11,Inicial,91.69,24.4,73.8,7.59,2.4,6.0,29.39
+Cascavel,05/11,Desenvolvimento,183.9,50.06,137.6,15.31,3.06,13.6,29.47
+Cascavel,05/11,Florescimento e enchimento,323.62,78.75,237.6,30.1,4.84,25.0,26.44
+Cascavel,05/11,Maturação,185.24,71.54,123.0,17.52,4.17,14.0,25.7
+Cascavel,15/11,Dessecação pré-semeadura,133.59,35.51,119.0,11.55,2.85,9.0,27.84
+Cascavel,15/11,Inicial,97.97,32.58,69.0,7.55,2.06,6.0,31.4
+Cascavel,15/11,Desenvolvimento,178.59,47.15,147.8,15.48,3.4,13.0,28.62
+Cascavel,15/11,Florescimento e enchimento,324.07,86.04,232.6,30.07,5.39,25.6,26.48
+Cascavel,15/11,Maturação,187.79,68.43,128.0,18.17,3.75,15.0,26.05
+Toledo,25/09,Dessecação pré-semeadura,121.52,33.83,96.8,10.59,2.6,8.0,25.32
+Toledo,25/09,Inicial,72.9,27.38,50.8,6.55,2.21,5.0,23.37
+Toledo,25/09,Desenvolvimento,166.52,47.19,131.2,14.52,3.25,11.0,26.71
+Toledo,25/09,Florescimento e enchimento,372.48,73.48,320.8,30.17,5.3,25.2,30.43
+Toledo,25/09,Maturação,197.86,55.88,141.4,18.07,4.03,15.0,27.48
+Toledo,05/10,Dessecação pré-semeadura,121.1,36.9,83.0,10.69,2.92,8.0,25.23
+Toledo,05/10,Inicial,75.9,27.81,55.2,6.79,1.93,5.0,24.36
+Toledo,05/10,Desenvolvimento,179.97,42.63,151.2,15.24,3.19,13.0,28.86
+Toledo,05/10,Florescimento e enchimento,365.66,72.86,315.6,29.9,4.54,27.6,29.87
+Toledo,05/10,Maturação,197.69,55.42,155.4,18.38,3.9,17.0,27.46
+Toledo,15/10,Dessecação pré-semeadura,114.72,29.36,94.4,10.45,2.56,8.0,23.91
+Toledo,15/10,Inicial,81.41,26.0,58.4,7.1,2.13,5.0,26.13
+Toledo,15/10,Desenvolvimento,189.07,43.33,148.6,15.0,3.85,12.0,30.31
+Toledo,15/10,Florescimento e enchimento,361.38,75.09,317.0,30.69,4.96,28.0,29.52
+Toledo,15/10,Maturação,203.59,64.04,149.6,18.24,3.88,16.0,28.28
+Toledo,25/10,Dessecação pré-semeadura,125.24,37.75,96.8,10.9,2.68,8.6,26.13
+Toledo,25/10,Inicial,88.72,27.86,68.8,7.59,2.43,6.0,28.45
+Toledo,25/10,Desenvolvimento,190.72,48.73,152.2,14.97,3.68,13.0,30.56
+Toledo,25/10,Florescimento e enchimento,349.69,72.67,290.0,30.79,5.22,28.6,28.57
+Toledo,25/10,Maturação,199.45,63.92,145.0,17.59,3.93,14.0,27.68
+Toledo,05/11,Dessecação pré-semeadura,132.14,33.69,103.0,11.28,2.84,8.0,27.56
+Toledo,05/11,Inicial,93.0,23.59,75.4,7.59,2.23,5.0,29.81
+Toledo,05/11,Desenvolvimento,192.21,50.31,144.0,14.97,3.38,12.0,30.8
+Toledo,05/11,Florescimento e enchimento,343.55,81.64,260.0,31.21,5.6,27.0,28.07
+Toledo,05/11,Maturação,199.31,65.54,133.8,18.03,3.62,14.6,27.65
+Toledo,15/11,Dessecação pré-semeadura,137.21,34.25,122.0,11.69,2.93,9.6,28.59
+Toledo,15/11,Inicial,99.07,31.86,71.4,7.24,2.47,5.6,31.75
+Toledo,15/11,Desenvolvimento,189.97,45.23,161.4,15.86,3.23,13.0,30.44
+Toledo,15/11,Florescimento e enchimento,344.86,89.25,249.0,30.79,5.45,26.6,28.17
+Toledo,15/11,Maturação,202.07,60.27,148.8,18.66,2.97,16.0,28.03
+Assis Chateaubriand,25/09,Dessecação pré-semeadura,182.93,37.47,145.6,15.24,2.21,13.0,38.11
+Assis Chateaubriand,25/09,Inicial,99.31,32.97,71.4,8.86,2.08,7.0,31.84
+Assis Chateaubriand,25/09,Desenvolvimento,215.24,44.1,176.8,18.52,3.32,16.0,34.53
+Assis Chateaubriand,25/09,Florescimento e enchimento,425.17,80.5,356.0,35.59,5.16,31.6,34.74
+Assis Chateaubriand,25/09,Maturação,207.79,63.9,149.2,19.9,4.15,16.6,28.86
+Assis Chateaubriand,05/10,Dessecação pré-semeadura,168.66,43.2,125.6,14.48,2.75,11.6,35.14
+Assis Chateaubriand,05/10,Inicial,103.79,26.29,81.0,9.34,2.04,7.0,33.31
+Assis Chateaubriand,05/10,Desenvolvimento,222.24,42.66,199.8,18.76,2.92,16.6,35.64
+Assis Chateaubriand,05/10,Florescimento e enchimento,408.79,79.4,345.8,34.66,4.61,32.6,33.4
+Assis Chateaubriand,05/10,Maturação,208.79,65.64,148.0,19.69,4.41,17.6,29.0
+Assis Chateaubriand,15/10,Dessecação pré-semeadura,157.14,33.89,129.2,14.03,2.37,11.6,32.75
+Assis Chateaubriand,15/10,Inicial,106.38,27.31,87.4,9.1,2.23,7.6,34.14
+Assis Chateaubriand,15/10,Desenvolvimento,228.1,47.15,181.2,18.66,2.94,16.0,36.56
+Assis Chateaubriand,15/10,Florescimento e enchimento,389.45,83.27,326.2,34.69,4.93,31.0,31.82
+Assis Chateaubriand,15/10,Maturação,213.17,69.64,145.8,19.21,4.73,16.6,29.61
+Assis Chateaubriand,25/10,Dessecação pré-semeadura,168.1,37.32,130.8,14.55,2.97,12.6,35.07
+Assis Chateaubriand,25/10,Inicial,107.07,31.68,81.6,9.0,2.28,7.0,34.33
+Assis Chateaubriand,25/10,Desenvolvimento,227.17,53.15,194.4,18.52,3.29,16.0,36.41
+Assis Chateaubriand,25/10,Florescimento e enchimento,370.52,82.71,286.2,34.07,5.38,31.0,30.27
+Assis Chateaubriand,25/10,Maturação,212.14,73.03,145.2,18.72,4.48,15.0,29.44
+Assis Chateaubriand,05/11,Dessecação pré-semeadura,164.93,34.26,141.0,13.86,2.7,11.6,34.39
+Assis Chateaubriand,05/11,Inicial,112.83,29.36,89.6,9.45,2.11,8.0,36.17
+Assis Chateaubriand,05/11,Desenvolvimento,215.21,53.26,165.8,17.62,3.28,15.0,34.49
+Assis Chateaubriand,05/11,Florescimento e enchimento,366.83,99.61,266.6,34.03,5.97,29.0,29.97
+Assis Chateaubriand,05/11,Maturação,208.79,74.16,142.6,19.14,4.37,14.0,28.97
+Assis Chateaubriand,15/11,Dessecação pré-semeadura,166.28,38.69,133.6,14.1,2.64,11.6,34.65
+Assis Chateaubriand,15/11,Inicial,116.66,33.0,90.6,9.14,1.77,8.0,37.39
+Assis Chateaubriand,15/11,Desenvolvimento,206.59,48.38,170.0,17.76,3.41,16.0,33.11
+Assis Chateaubriand,15/11,Florescimento e enchimento,362.03,99.85,268.2,33.24,6.3,26.0,29.58
+Assis Chateaubriand,15/11,Maturação,212.59,67.89,151.0,20.03,4.05,17.0,29.49
+Guarapuava,25/09,Dessecação pré-semeadura,116.38,46.37,73.4,13.0,3.15,11.0,24.25
+Guarapuava,25/09,Inicial,57.55,30.7,26.0,7.38,3.06,4.6,18.45
+Guarapuava,25/09,Desenvolvimento,117.07,41.31,83.8,14.66,3.75,11.0,18.78
+Guarapuava,25/09,Florescimento e enchimento,247.76,59.16,199.6,29.07,5.25,24.0,20.24
+Guarapuava,25/09,Maturação,113.34,41.69,82.0,14.93,4.33,12.0,15.74
+Guarapuava,05/10,Dessecação pré-semeadura,97.62,41.87,56.6,11.86,3.53,8.0,20.34
+Guarapuava,05/10,Inicial,55.59,25.54,39.2,7.21,2.43,5.0,17.84
+Guarapuava,05/10,Desenvolvimento,122.38,37.82,93.8,14.86,3.14,12.0,19.62
+Guarapuava,05/10,Florescimento e enchimento,246.21,64.54,195.6,29.14,5.32,25.2,20.11
+Guarapuava,05/10,Maturação,103.28,39.9,69.8,13.83,4.32,10.6,14.34
+Guarapuava,15/10,Dessecação pré-semeadura,89.9,36.69,57.0,11.41,3.35,8.6,18.74
+Guarapuava,15/10,Inicial,56.14,19.28,38.4,7.24,2.36,5.0,18.02
+Guarapuava,15/10,Desenvolvimento,128.24,37.51,107.8,15.07,4.02,11.0,20.56
+Guarapuava,15/10,Florescimento e enchimento,227.55,62.16,174.4,27.79,5.16,23.6,18.59
+Guarapuava,15/10,Maturação,115.66,42.69,72.8,14.52,4.11,10.6,16.06
+Guarapuava,25/10,Dessecação pré-semeadura,91.34,28.73,69.0,11.93,2.99,9.0,19.06
+Guarapuava,25/10,Inicial,59.07,28.87,33.4,6.9,2.61,4.0,18.94
+Guarapuava,25/10,Desenvolvimento,129.9,34.55,98.8,15.28,3.46,12.0,20.82
+Guarapuava,25/10,Florescimento e enchimento,211.9,52.09,168.6,26.41,5.25,21.0,17.31
+Guarapuava,25/10,Maturação,113.76,50.13,68.4,14.21,4.66,10.6,15.79
+Guarapuava,05/11,Dessecação pré-semeadura,90.83,30.61,70.6,11.21,2.57,9.0,18.94
+Guarapuava,05/11,Inicial,61.48,20.99,41.2,7.28,2.27,5.6,19.71
+Guarapuava,05/11,Desenvolvimento,130.24,43.18,92.4,15.21,3.22,12.0,20.87
+Guarapuava,05/11,Florescimento e enchimento,200.0,51.1,144.6,25.59,5.57,20.0,16.34
+Guarapuava,05/11,Maturação,108.79,50.65,66.8,14.14,4.57,11.0,15.09
+Guarapuava,15/11,Dessecação pré-semeadura,92.31,33.28,63.4,10.76,3.12,8.0,19.24
+Guarapuava,15/11,Inicial,67.72,25.13,46.6,8.1,2.54,6.0,21.71
+Guarapuava,15/11,Desenvolvimento,123.97,44.65,82.4,14.41,3.68,11.0,19.87
+Guarapuava,15/11,Florescimento e enchimento,198.93,60.19,135.4,25.41,5.99,19.0,16.25
+Guarapuava,15/11,Maturação,106.24,50.99,67.6,14.24,4.3,10.6,14.74
+Ponta Grossa,25/09,Dessecação pré-semeadura,122.66,39.52,87.0,13.41,2.68,12.0,25.55
+Ponta Grossa,25/09,Inicial,59.28,25.08,34.6,7.41,2.58,5.0,19.0
+Ponta Grossa,25/09,Desenvolvimento,129.76,37.69,100.2,16.55,3.4,14.0,20.82
+Ponta Grossa,25/09,Florescimento e enchimento,263.48,51.56,225.2,32.14,5.08,28.0,21.53
+Ponta Grossa,25/09,Maturação,121.14,42.4,85.0,16.9,4.69,12.0,16.82
+Ponta Grossa,05/10,Dessecação pré-semeadura,103.38,34.06,69.6,12.31,3.21,9.2,21.54
+Ponta Grossa,05/10,Inicial,62.03,22.99,44.0,7.93,2.19,6.0,19.91
+Ponta Grossa,05/10,Desenvolvimento,132.93,31.19,111.6,16.97,2.9,14.6,21.32
+Ponta Grossa,05/10,Florescimento e enchimento,259.03,53.29,218.8,32.14,5.46,28.6,21.16
+Ponta Grossa,05/10,Maturação,114.72,40.33,78.8,15.21,4.43,11.6,15.93
+Ponta Grossa,15/10,Dessecação pré-semeadura,95.03,31.24,69.0,12.0,3.07,9.6,19.81
+Ponta Grossa,15/10,Inicial,62.69,17.63,45.0,8.03,1.74,6.0,20.12
+Ponta Grossa,15/10,Desenvolvimento,132.86,32.45,112.0,17.03,3.3,14.0,21.3
+Ponta Grossa,15/10,Florescimento e enchimento,245.1,52.38,199.0,30.9,5.56,27.0,20.02
+Ponta Grossa,15/10,Maturação,129.72,46.46,92.8,16.31,4.5,12.6,18.02
+Ponta Grossa,25/10,Dessecação pré-semeadura,100.83,27.76,80.8,12.9,2.79,10.6,21.03
+Ponta Grossa,25/10,Inicial,63.93,23.37,44.6,8.17,2.38,6.0,20.5
+Ponta Grossa,25/10,Desenvolvimento,133.17,29.58,102.6,16.72,2.62,15.0,21.34
+Ponta Grossa,25/10,Florescimento e enchimento,231.83,54.38,177.2,29.66,5.82,25.0,18.94
+Ponta Grossa,25/10,Maturação,129.14,47.82,81.2,16.59,4.21,13.6,17.92
+Ponta Grossa,05/11,Dessecação pré-semeadura,99.38,27.71,77.8,12.76,2.76,11.0,20.72
+Ponta Grossa,05/11,Inicial,65.34,20.61,51.0,8.28,2.0,7.0,20.95
+Ponta Grossa,05/11,Desenvolvimento,133.28,34.87,101.2,16.1,3.27,13.0,21.36
+Ponta Grossa,05/11,Florescimento e enchimento,221.21,57.18,161.8,28.66,5.47,24.6,18.07
+Ponta Grossa,05/11,Maturação,130.66,45.78,88.6,17.41,4.8,13.6,18.13
+Ponta Grossa,15/11,Dessecação pré-semeadura,99.31,25.7,79.6,12.62,2.72,11.0,20.7
+Ponta Grossa,15/11,Inicial,67.97,19.79,49.2,8.55,2.13,7.0,21.78
+Ponta Grossa,15/11,Desenvolvimento,136.79,37.43,97.8,15.93,3.64,13.0,21.92
+Ponta Grossa,15/11,Florescimento e enchimento,217.48,60.06,165.8,28.76,5.84,24.6,17.77
+Ponta Grossa,15/11,Maturação,126.76,44.93,91.4,16.83,4.5,13.6,17.59
+Castro,25/09,Dessecação pré-semeadura,112.38,37.81,78.4,12.86,2.96,10.6,23.41
+Castro,25/09,Inicial,53.55,25.23,28.8,7.17,2.71,4.0,17.17
+Castro,25/09,Desenvolvimento,117.72,36.5,89.6,15.59,3.4,13.0,18.88
+Castro,25/09,Florescimento e enchimento,226.28,50.37,189.6,28.83,5.96,24.2,18.49
+Castro,25/09,Maturação,97.24,39.77,59.0,13.86,5.19,8.0,13.51
+Castro,05/10,Dessecação pré-semeadura,93.93,33.29,64.8,11.9,3.3,8.0,19.57
+Castro,05/10,Inicial,58.83,23.88,39.6,7.62,2.27,5.0,18.88
+Castro,05/10,Desenvolvimento,117.14,32.73,87.4,15.83,2.74,13.6,18.78
+Castro,05/10,Florescimento e enchimento,220.14,52.49,178.0,28.14,6.17,23.2,17.99
+Castro,05/10,Maturação,92.45,38.99,57.6,12.72,4.85,8.6,12.84
+Castro,15/10,Dessecação pré-semeadura,88.03,33.08,60.6,11.52,3.38,8.0,18.35
+Castro,15/10,Inicial,55.38,16.43,39.6,7.72,1.79,6.0,17.77
+Castro,15/10,Desenvolvimento,115.66,32.43,97.2,15.66,3.35,12.6,18.54
+Castro,15/10,Florescimento e enchimento,205.9,52.29,158.8,26.31,6.04,22.2,16.82
+Castro,15/10,Maturação,108.03,45.04,70.2,14.03,4.47,10.0,15.0
+Castro,25/10,Dessecação pré-semeadura,92.38,27.51,75.6,12.41,2.96,10.0,19.27
+Castro,25/10,Inicial,56.83,24.01,35.8,7.52,2.2,6.0,18.22
+Castro,25/10,Desenvolvimento,115.07,27.57,84.6,15.21,3.26,12.6,18.44
+Castro,25/10,Florescimento e enchimento,191.07,54.17,138.2,24.93,6.48,19.0,15.61
+Castro,25/10,Maturação,108.59,40.93,69.6,14.1,4.19,10.6,15.07
+Castro,05/11,Dessecação pré-semeadura,87.93,28.27,60.6,12.0,2.42,11.0,18.34
+Castro,05/11,Inicial,56.62,19.71,36.6,7.62,2.14,6.0,18.15
+Castro,05/11,Desenvolvimento,114.59,34.73,82.6,14.41,3.99,10.0,18.36
+Castro,05/11,Florescimento e enchimento,181.69,56.29,129.8,24.07,6.36,17.0,14.84
+Castro,05/11,Maturação,112.03,40.39,68.4,15.07,4.35,11.0,15.54
+Castro,15/11,Dessecação pré-semeadura,87.69,26.65,67.6,11.59,2.65,9.0,18.27
+Castro,15/11,Inicial,59.45,20.14,39.6,7.86,2.53,5.6,19.05
+Castro,15/11,Desenvolvimento,115.69,37.19,82.6,13.9,4.18,11.0,18.54
+Castro,15/11,Florescimento e enchimento,178.86,58.81,125.8,24.14,6.21,18.6,14.61
+Castro,15/11,Maturação,108.03,41.75,78.6,14.93,4.77,11.0,14.99
+Tibagi,25/09,Dessecação pré-semeadura,162.48,36.7,137.0,15.76,2.37,14.0,33.85
+Tibagi,25/09,Inicial,80.28,28.76,55.8,8.93,2.14,7.0,25.74
+Tibagi,25/09,Desenvolvimento,173.24,35.57,140.6,19.07,3.43,16.0,27.79
+Tibagi,25/09,Florescimento e enchimento,335.0,55.61,284.4,37.55,3.6,34.6,27.37
+Tibagi,25/09,Maturação,150.41,46.94,110.0,18.66,5.07,15.2,20.89
+Tibagi,05/10,Dessecação pré-semeadura,138.9,33.83,104.2,14.66,2.79,13.2,28.94
+Tibagi,05/10,Inicial,86.41,25.57,69.6,9.28,2.09,7.6,27.73
+Tibagi,05/10,Desenvolvimento,172.62,30.1,138.0,19.52,2.6,17.0,27.68
+Tibagi,05/10,Florescimento e enchimento,324.97,64.08,278.0,36.66,4.97,33.0,26.55
+Tibagi,05/10,Maturação,139.17,42.91,101.0,18.0,4.49,13.6,19.33
+Tibagi,15/10,Dessecação pré-semeadura,130.69,34.99,102.6,13.93,2.78,12.0,27.24
+Tibagi,15/10,Inicial,82.34,19.61,67.0,9.59,1.78,8.0,26.43
+Tibagi,15/10,Desenvolvimento,177.38,34.65,157.0,19.83,2.42,17.6,28.43
+Tibagi,15/10,Florescimento e enchimento,300.41,62.85,260.0,34.86,5.48,29.6,24.54
+Tibagi,15/10,Maturação,150.1,42.55,119.0,18.9,4.0,16.2,20.85
+Tibagi,25/10,Dessecação pré-semeadura,135.24,30.41,109.4,14.59,2.51,12.6,28.21
+Tibagi,25/10,Inicial,84.97,24.31,67.0,9.76,1.99,8.0,27.24
+Tibagi,25/10,Desenvolvimento,178.41,36.2,143.4,19.59,2.6,17.0,28.59
+Tibagi,25/10,Florescimento e enchimento,279.41,62.43,228.8,33.48,6.53,28.2,22.83
+Tibagi,25/10,Maturação,147.1,48.73,86.0,18.55,3.84,15.0,20.41
+Tibagi,05/11,Dessecação pré-semeadura,130.21,26.55,108.6,14.86,2.67,12.6,27.15
+Tibagi,05/11,Inicial,86.17,20.76,67.2,9.69,1.56,8.6,27.62
+Tibagi,05/11,Desenvolvimento,174.97,43.02,148.2,19.14,2.98,16.0,28.04
+Tibagi,05/11,Florescimento e enchimento,262.14,61.02,208.4,32.55,5.99,28.6,21.42
+Tibagi,05/11,Maturação,153.28,52.24,112.2,18.83,4.83,14.0,21.26
+Tibagi,15/11,Dessecação pré-semeadura,130.76,28.2,110.6,14.97,2.16,13.0,27.25
+Tibagi,15/11,Inicial,91.66,23.18,80.0,9.93,2.07,8.6,29.38
+Tibagi,15/11,Desenvolvimento,164.69,41.88,124.6,18.66,3.3,15.0,26.39
+Tibagi,15/11,Florescimento e enchimento,258.28,62.69,211.6,32.17,6.5,28.6,21.1
+Tibagi,15/11,Maturação,153.72,45.94,114.8,19.1,4.34,15.0,21.33
+Londrina,25/09,Dessecação pré-semeadura,169.03,32.46,145.6,15.21,2.24,14.0,35.22
+Londrina,25/09,Inicial,95.66,27.95,69.2,9.0,2.2,7.0,30.67
+Londrina,25/09,Desenvolvimento,190.28,40.19,159.8,17.45,3.15,15.0,30.52
+Londrina,25/09,Florescimento e enchimento,342.48,65.6,283.2,31.66,4.18,27.0,27.98
+Londrina,25/09,Maturação,162.1,48.91,121.4,17.31,4.18,14.0,22.51
+Londrina,05/10,Dessecação pré-semeadura,155.48,38.18,120.0,14.21,3.02,12.0,32.4
+Londrina,05/10,Inicial,98.24,27.73,84.2,9.03,1.82,7.6,31.53
+Londrina,05/10,Desenvolvimento,188.52,38.53,148.2,16.79,2.81,14.6,30.23
+Londrina,05/10,Florescimento e enchimento,331.17,73.27,274.0,31.79,4.92,28.6,27.06
+Londrina,05/10,Maturação,156.1,57.7,97.4,16.24,4.99,12.0,21.68
+Londrina,15/10,Dessecação pré-semeadura,148.59,35.61,117.2,13.9,2.29,12.0,30.97
+Londrina,15/10,Inicial,93.59,25.66,73.2,8.79,1.86,7.0,30.04
+Londrina,15/10,Desenvolvimento,182.17,35.9,149.2,16.14,2.64,14.0,29.2
+Londrina,15/10,Florescimento e enchimento,315.72,74.36,270.2,31.17,5.6,27.6,25.79
+Londrina,15/10,Maturação,167.1,63.92,106.4,16.45,4.73,12.6,23.21
+Londrina,25/10,Dessecação pré-semeadura,153.34,35.05,130.4,14.07,2.56,12.0,31.99
+Londrina,25/10,Inicial,91.03,30.86,66.6,7.97,2.5,5.6,29.19
+Londrina,25/10,Desenvolvimento,178.72,36.92,143.8,16.21,2.48,15.0,28.64
+Londrina,25/10,Florescimento e enchimento,296.83,72.87,236.8,30.38,5.7,26.0,24.25
+Londrina,25/10,Maturação,167.76,72.13,102.2,16.48,5.23,12.2,23.28
+Londrina,05/11,Dessecação pré-semeadura,145.17,35.23,112.6,13.17,2.96,11.0,30.28
+Londrina,05/11,Inicial,88.79,20.67,69.2,7.97,1.61,7.0,28.46
+Londrina,05/11,Desenvolvimento,170.72,44.44,122.6,16.24,3.01,13.0,27.36
+Londrina,05/11,Florescimento e enchimento,290.1,82.36,230.8,29.31,5.76,24.6,23.7
+Londrina,05/11,Maturação,173.97,69.46,106.0,17.48,4.94,13.0,24.14
+Londrina,15/11,Dessecação pré-semeadura,138.17,28.39,115.2,12.38,2.04,10.0,28.79
+Londrina,15/11,Inicial,88.31,26.14,62.6,8.03,1.66,7.0,28.3
+Londrina,15/11,Desenvolvimento,171.59,50.27,123.2,16.31,3.89,13.2,27.5
+Londrina,15/11,Florescimento e enchimento,283.76,87.34,209.4,28.9,6.36,24.6,23.18
+Londrina,15/11,Maturação,177.31,63.16,120.8,18.41,4.15,15.0,24.6
+Cornélio Procópio,25/09,Dessecação pré-semeadura,141.79,32.31,121.4,13.93,3.01,11.0,29.54
+Cornélio Procópio,25/09,Inicial,85.41,26.18,62.6,8.83,2.19,7.0,27.39
+Cornélio Procópio,25/09,Desenvolvimento,183.17,34.11,150.0,18.52,2.54,17.0,29.38
+Cornélio Procópio,25/09,Florescimento e enchimento,329.0,56.85,285.6,33.41,4.44,30.6,26.88
+Cornélio Procópio,25/09,Maturação,170.72,52.05,120.6,18.14,4.97,14.6,23.71
+Cornélio Procópio,05/10,Dessecação pré-semeadura,136.72,37.83,104.6,13.72,2.79,11.0,28.49
+Cornélio Procópio,05/10,Inicial,92.24,22.33,69.2,9.28,1.49,8.0,29.6
+Cornélio Procópio,05/10,Desenvolvimento,179.28,32.67,145.0,17.86,2.45,16.0,28.75
+Cornélio Procópio,05/10,Florescimento e enchimento,323.31,57.98,267.8,33.38,4.57,29.0,26.41
+Cornélio Procópio,05/10,Maturação,167.52,60.59,109.4,17.93,5.1,12.6,23.27
+Cornélio Procópio,15/10,Dessecação pré-semeadura,136.34,31.77,111.6,13.9,2.32,12.0,28.42
+Cornélio Procópio,15/10,Inicial,88.93,22.08,69.8,9.41,1.9,8.0,28.55
+Cornélio Procópio,15/10,Desenvolvimento,170.0,29.19,150.8,16.79,2.51,15.0,27.25
+Cornélio Procópio,15/10,Florescimento e enchimento,318.03,61.5,288.4,32.93,4.91,29.0,25.98
+Cornélio Procópio,15/10,Maturação,174.55,66.67,119.6,18.24,4.8,14.6,24.24
+Cornélio Procópio,25/10,Dessecação pré-semeadura,144.0,27.82,118.2,14.76,2.25,13.0,30.04
+Cornélio Procópio,25/10,Inicial,87.76,26.0,59.8,8.38,2.23,6.6,28.14
+Cornélio Procópio,25/10,Desenvolvimento,169.21,34.64,146.6,16.86,3.0,15.0,27.12
+Cornélio Procópio,25/10,Florescimento e enchimento,304.59,71.51,243.4,32.31,6.05,28.6,24.88
+Cornélio Procópio,25/10,Maturação,172.03,70.88,105.6,18.07,5.22,14.2,23.87
+Cornélio Procópio,05/11,Dessecação pré-semeadura,139.21,31.44,107.6,14.03,2.37,12.0,29.03
+Cornélio Procópio,05/11,Inicial,81.83,21.08,65.2,8.45,1.66,7.0,26.23
+Cornélio Procópio,05/11,Desenvolvimento,167.0,33.92,140.8,16.86,3.11,15.0,26.76
+Cornélio Procópio,05/11,Florescimento e enchimento,300.72,84.28,240.0,31.83,6.48,27.6,24.57
+Cornélio Procópio,05/11,Maturação,180.03,63.29,136.8,19.03,4.14,16.0,24.98
+Cornélio Procópio,15/11,Dessecação pré-semeadura,131.31,22.82,112.4,12.97,2.18,12.0,27.37
+Cornélio Procópio,15/11,Inicial,82.48,23.51,60.0,8.21,2.18,7.0,26.44
+Cornélio Procópio,15/11,Desenvolvimento,170.52,41.08,131.8,17.59,3.3,16.0,27.33
+Cornélio Procópio,15/11,Florescimento e enchimento,294.76,91.33,218.2,31.0,6.75,25.2,24.08
+Cornélio Procópio,15/11,Maturação,187.69,59.37,131.8,20.31,3.86,16.6,26.04
+Campo Mourão,25/09,Dessecação pré-semeadura,166.83,40.69,130.6,14.38,2.46,12.0,34.76
+Campo Mourão,25/09,Inicial,93.52,31.73,64.8,8.59,2.1,7.0,29.98
+Campo Mourão,25/09,Desenvolvimento,190.76,46.81,157.0,15.93,3.52,13.0,30.6
+Campo Mourão,25/09,Florescimento e enchimento,380.1,68.49,324.4,32.72,4.44,30.6,31.06
+Campo Mourão,25/09,Maturação,187.55,58.05,136.6,18.34,4.75,14.4,26.05
+Campo Mourão,05/10,Dessecação pré-semeadura,154.28,48.39,111.2,13.9,2.97,11.0,32.14
+Campo Mourão,05/10,Inicial,93.86,30.98,67.0,7.93,2.15,6.0,30.12
+Campo Mourão,05/10,Desenvolvimento,195.24,40.59,160.8,16.34,3.0,14.0,31.31
+Campo Mourão,05/10,Florescimento e enchimento,372.14,75.73,328.6,32.55,4.58,30.0,30.4
+Campo Mourão,05/10,Maturação,185.1,60.89,119.6,18.24,4.87,13.6,25.71
+Campo Mourão,15/10,Dessecação pré-semeadura,144.93,36.54,117.2,12.93,2.81,10.0,30.21
+Campo Mourão,15/10,Inicial,95.83,27.72,75.8,8.1,2.04,6.0,30.76
+Campo Mourão,15/10,Desenvolvimento,196.31,41.57,152.6,16.0,3.05,13.2,31.47
+Campo Mourão,15/10,Florescimento e enchimento,354.34,75.89,290.6,32.76,4.91,29.6,28.95
+Campo Mourão,15/10,Maturação,197.66,69.48,131.2,18.69,4.77,15.0,27.45
+Campo Mourão,25/10,Dessecação pré-semeadura,152.03,39.93,118.6,12.76,2.85,10.0,31.72
+Campo Mourão,25/10,Inicial,92.41,28.31,67.6,7.45,2.6,5.0,29.63
+Campo Mourão,25/10,Desenvolvimento,201.1,43.29,172.0,16.59,2.49,14.0,32.23
+Campo Mourão,25/10,Florescimento e enchimento,335.93,78.31,274.2,32.14,6.12,27.2,27.45
+Campo Mourão,25/10,Maturação,195.83,71.6,111.2,18.97,4.25,15.6,27.17
+Campo Mourão,05/11,Dessecação pré-semeadura,145.97,33.71,117.0,12.1,3.0,10.0,30.44
+Campo Mourão,05/11,Inicial,97.03,24.23,71.0,8.31,1.58,7.0,31.1
+Campo Mourão,05/11,Desenvolvimento,195.9,48.81,154.4,16.66,2.96,14.6,31.39
+Campo Mourão,05/11,Florescimento e enchimento,332.45,92.04,261.0,31.76,6.47,25.6,27.16
+Campo Mourão,05/11,Maturação,196.97,68.1,139.6,19.45,4.31,17.0,27.33
+Campo Mourão,15/11,Dessecação pré-semeadura,143.66,29.71,121.8,12.17,2.28,10.0,29.94
+Campo Mourão,15/11,Inicial,102.62,31.17,74.6,8.03,1.97,6.0,32.89
+Campo Mourão,15/11,Desenvolvimento,189.24,47.55,143.0,17.1,3.34,15.0,30.33
+Campo Mourão,15/11,Florescimento e enchimento,330.62,94.74,232.6,31.83,6.75,26.0,27.01
+Campo Mourão,15/11,Maturação,206.45,64.57,150.6,20.55,3.41,18.0,28.64
+Ubiratã,25/09,Dessecação pré-semeadura,185.52,39.0,147.0,15.79,2.38,13.6,38.65
+Ubiratã,25/09,Inicial,106.55,36.03,74.8,9.69,2.21,8.0,34.16
+Ubiratã,25/09,Desenvolvimento,224.93,41.86,186.2,19.66,2.26,18.0,36.08
+Ubiratã,25/09,Florescimento e enchimento,436.03,81.42,372.2,37.97,5.0,34.6,35.63
+Ubiratã,25/09,Maturação,216.31,60.56,161.2,21.21,4.35,17.6,30.04
+Ubiratã,05/10,Dessecação pré-semeadura,175.07,45.83,135.8,15.17,2.67,13.0,36.48
+Ubiratã,05/10,Inicial,109.17,26.04,86.8,10.07,1.75,9.0,35.04
+Ubiratã,05/10,Desenvolvimento,230.55,41.33,203.2,19.72,2.53,17.6,36.97
+Ubiratã,05/10,Florescimento e enchimento,420.52,85.03,365.8,37.38,5.25,36.0,34.36
+Ubiratã,05/10,Maturação,216.0,64.25,157.4,20.97,4.45,17.6,30.0
+Ubiratã,15/10,Dessecação pré-semeadura,168.14,36.95,133.6,15.17,2.39,13.0,35.05
+Ubiratã,15/10,Inicial,109.31,25.38,91.6,9.69,2.02,8.0,35.08
+Ubiratã,15/10,Desenvolvimento,236.62,45.27,209.2,19.45,2.8,16.6,37.93
+Ubiratã,15/10,Florescimento e enchimento,400.31,87.63,341.8,37.55,5.53,34.0,32.71
+Ubiratã,15/10,Maturação,217.48,74.13,135.6,20.66,4.66,16.6,30.21
+Ubiratã,25/10,Dessecação pré-semeadura,175.52,34.16,142.0,15.66,2.26,14.0,36.62
+Ubiratã,25/10,Inicial,112.55,33.02,86.6,9.55,2.16,8.0,36.09
+Ubiratã,25/10,Desenvolvimento,233.69,50.4,189.4,19.24,2.95,16.6,37.45
+Ubiratã,25/10,Florescimento e enchimento,381.69,78.42,316.8,36.83,5.66,31.6,31.18
+Ubiratã,25/10,Maturação,214.52,73.81,152.2,20.34,4.34,17.0,29.77
+Ubiratã,05/11,Dessecação pré-semeadura,172.14,33.73,152.6,14.79,2.18,13.0,35.9
+Ubiratã,05/11,Inicial,115.31,28.17,91.6,9.79,1.93,8.6,36.96
+Ubiratã,05/11,Desenvolvimento,221.52,57.22,175.0,19.1,3.32,16.6,35.5
+Ubiratã,05/11,Florescimento e enchimento,378.59,93.42,294.4,36.34,6.49,29.2,30.93
+Ubiratã,05/11,Maturação,208.59,71.27,130.6,20.34,4.2,16.0,28.94
+Ubiratã,15/11,Dessecação pré-semeadura,172.93,39.28,148.6,14.9,2.32,12.6,36.04
+Ubiratã,15/11,Inicial,120.17,30.64,94.2,9.48,1.77,8.6,38.52
+Ubiratã,15/11,Desenvolvimento,210.66,52.79,177.2,19.45,3.19,17.6,33.76
+Ubiratã,15/11,Florescimento e enchimento,372.24,98.56,291.0,35.93,6.52,28.0,30.41
+Ubiratã,15/11,Maturação,211.9,68.06,152.0,20.72,3.59,17.6,29.4
+Pato Branco,25/09,Dessecação pré-semeadura,125.97,39.07,95.6,12.34,2.94,10.6,26.24
+Pato Branco,25/09,Inicial,72.76,34.0,50.0,7.41,2.64,5.6,23.33
+Pato Branco,25/09,Desenvolvimento,144.69,41.73,104.0,14.79,3.23,12.6,23.21
+Pato Branco,25/09,Florescimento e enchimento,319.66,65.78,267.0,28.07,5.2,24.0,26.12
+Pato Branco,25/09,Maturação,168.72,44.62,134.6,16.66,2.93,14.0,23.43
+Pato Branco,05/10,Dessecação pré-semeadura,116.86,44.42,71.6,11.86,3.53,9.6,24.35
+Pato Branco,05/10,Inicial,68.62,24.7,45.2,7.52,2.23,5.0,22.02
+Pato Branco,05/10,Desenvolvimento,156.17,38.01,124.0,14.97,3.12,12.6,25.04
+Pato Branco,05/10,Florescimento e enchimento,315.31,67.3,261.8,27.48,4.09,23.6,25.76
+Pato Branco,05/10,Maturação,164.59,45.32,133.8,16.93,3.87,14.6,22.86
+Pato Branco,15/10,Dessecação pré-semeadura,110.34,41.46,76.4,11.52,3.19,9.0,23.0
+Pato Branco,15/10,Inicial,70.93,22.21,52.2,7.34,2.11,5.0,22.76
+Pato Branco,15/10,Desenvolvimento,162.1,38.57,131.2,14.38,3.14,12.0,25.98
+Pato Branco,15/10,Florescimento e enchimento,307.79,69.99,242.2,28.28,4.35,25.0,25.15
+Pato Branco,15/10,Maturação,171.66,54.05,123.8,16.93,4.37,14.6,23.84
+Pato Branco,25/10,Dessecação pré-semeadura,112.14,31.04,86.2,11.86,2.59,9.6,23.39
+Pato Branco,25/10,Inicial,74.24,22.99,59.4,6.93,2.05,5.0,23.8
+Pato Branco,25/10,Desenvolvimento,165.79,41.76,141.6,14.28,3.63,11.0,26.57
+Pato Branco,25/10,Florescimento e enchimento,299.07,52.52,245.2,28.24,3.7,26.0,24.43
+Pato Branco,25/10,Maturação,170.24,60.24,103.6,16.79,4.17,13.0,23.62
+Pato Branco,05/11,Dessecação pré-semeadura,113.69,30.78,88.2,11.28,2.64,8.6,23.71
+Pato Branco,05/11,Inicial,79.79,24.13,59.6,7.14,2.6,5.0,25.58
+Pato Branco,05/11,Desenvolvimento,166.17,46.59,125.6,14.21,3.51,10.6,26.63
+Pato Branco,05/11,Florescimento e enchimento,291.24,59.77,229.4,28.55,4.35,23.6,23.79
+Pato Branco,05/11,Maturação,166.17,59.0,118.6,17.14,3.9,14.0,23.05
+Pato Branco,15/11,Dessecação pré-semeadura,117.48,29.61,97.8,11.03,2.46,9.0,24.48
+Pato Branco,15/11,Inicial,87.07,27.03,61.0,7.14,2.15,5.6,27.91
+Pato Branco,15/11,Desenvolvimento,160.66,46.09,131.2,14.21,3.54,12.0,25.75
+Pato Branco,15/11,Florescimento e enchimento,292.38,71.72,225.4,28.69,4.73,25.0,23.89
+Pato Branco,15/11,Maturação,161.83,53.23,117.4,17.69,3.69,14.0,22.45
+Palmas,25/09,Dessecação pré-semeadura,99.9,37.03,68.2,12.38,3.03,10.0,20.81
+Palmas,25/09,Inicial,57.0,26.64,34.6,7.21,2.8,4.0,18.27
+Palmas,25/09,Desenvolvimento,112.38,38.46,75.0,14.9,3.69,11.6,18.03
+Palmas,25/09,Florescimento e enchimento,250.93,57.29,213.6,29.41,4.57,25.0,20.5
+Palmas,25/09,Maturação,121.86,30.31,92.4,16.0,3.01,14.0,16.93
+Palmas,05/10,Dessecação pré-semeadura,93.59,39.34,58.8,11.62,3.29,8.0,19.5
+Palmas,05/10,Inicial,51.93,21.72,33.4,7.1,1.99,5.0,16.66
+Palmas,05/10,Desenvolvimento,122.21,34.74,99.0,15.41,3.21,13.6,19.6
+Palmas,05/10,Florescimento e enchimento,246.1,59.01,200.0,29.38,4.43,25.6,20.11
+Palmas,05/10,Maturação,115.14,32.23,88.8,15.45,3.12,12.6,15.99
+Palmas,15/10,Dessecação pré-semeadura,85.66,31.47,62.4,11.07,3.03,8.0,17.85
+Palmas,15/10,Inicial,53.69,17.08,41.0,7.17,2.33,5.6,17.23
+Palmas,15/10,Desenvolvimento,128.9,32.84,102.0,15.83,3.14,13.6,20.66
+Palmas,15/10,Florescimento e enchimento,233.76,59.29,178.6,28.45,4.73,24.6,19.1
+Palmas,15/10,Maturação,124.0,42.84,91.6,15.72,4.05,13.0,17.22
+Palmas,25/10,Dessecação pré-semeadura,85.17,27.83,62.6,11.45,2.73,9.0,17.77
+Palmas,25/10,Inicial,59.34,23.38,38.8,7.66,2.07,6.0,19.03
+Palmas,25/10,Desenvolvimento,130.66,35.06,97.8,15.28,3.28,12.6,20.94
+Palmas,25/10,Florescimento e enchimento,223.9,40.21,196.2,27.69,4.01,24.6,18.29
+Palmas,25/10,Maturação,120.76,49.36,78.0,15.72,4.4,12.6,16.76
+Palmas,05/11,Dessecação pré-semeadura,88.97,29.05,68.2,11.79,2.86,9.6,18.55
+Palmas,05/11,Inicial,61.66,19.72,45.8,7.48,1.92,6.0,19.76
+Palmas,05/11,Desenvolvimento,131.62,40.86,95.4,15.03,3.27,12.0,21.09
+Palmas,05/11,Florescimento e enchimento,212.14,44.39,168.6,27.55,4.01,23.6,17.33
+Palmas,05/11,Maturação,116.14,41.28,82.6,15.41,3.78,13.0,16.11
+Palmas,15/11,Dessecação pré-semeadura,92.45,27.66,73.0,11.66,2.38,10.0,19.27
+Palmas,15/11,Inicial,70.17,19.61,58.2,7.86,1.71,7.0,22.49
+Palmas,15/11,Desenvolvimento,125.93,42.34,94.0,14.69,3.52,11.0,20.18
+Palmas,15/11,Florescimento e enchimento,210.72,53.53,158.2,27.28,4.57,24.2,17.22
+Palmas,15/11,Maturação,113.1,43.05,78.8,15.93,3.83,13.0,15.69
+Umuarama,25/09,Dessecação pré-semeadura,141.52,34.94,116.4,11.41,3.04,9.0,29.48
+Umuarama,25/09,Inicial,88.86,30.57,64.0,7.52,2.29,5.6,28.49
+Umuarama,25/09,Desenvolvimento,200.03,45.45,177.4,15.21,3.3,12.0,32.09
+Umuarama,25/09,Florescimento e enchimento,401.48,70.45,341.0,30.76,4.64,26.6,32.8
+Umuarama,25/09,Maturação,216.83,51.58,154.0,17.76,4.22,14.0,30.11
+Umuarama,05/10,Dessecação pré-semeadura,143.41,40.3,104.4,11.97,3.13,9.0,29.88
+Umuarama,05/10,Inicial,94.07,27.81,69.0,7.31,2.04,6.0,30.19
+Umuarama,05/10,Desenvolvimento,208.0,43.95,170.8,15.9,3.03,13.6,33.35
+Umuarama,05/10,Florescimento e enchimento,393.9,62.53,350.0,30.17,3.97,26.6,32.18
+Umuarama,05/10,Maturação,215.14,58.0,164.6,17.79,4.57,14.0,29.88
+Umuarama,15/10,Dessecação pré-semeadura,140.03,34.23,109.0,11.52,3.04,9.0,29.19
+Umuarama,15/10,Inicial,99.66,25.68,73.6,7.62,2.21,6.0,31.99
+Umuarama,15/10,Desenvolvimento,207.24,43.52,157.6,15.45,3.24,13.0,33.22
+Umuarama,15/10,Florescimento e enchimento,389.86,63.31,338.4,30.86,4.24,27.0,31.85
+Umuarama,15/10,Maturação,217.52,63.95,167.8,17.62,4.6,13.6,30.21
+Umuarama,25/10,Dessecação pré-semeadura,152.21,35.82,121.0,11.52,2.61,9.6,31.75
+Umuarama,25/10,Inicial,103.07,30.1,77.2,7.79,2.46,5.6,33.05
+Umuarama,25/10,Desenvolvimento,209.1,46.41,181.4,15.31,3.38,12.0,33.51
+Umuarama,25/10,Florescimento e enchimento,376.21,68.22,299.2,30.83,5.63,25.0,30.74
+Umuarama,25/10,Maturação,212.28,63.05,165.4,17.97,3.76,15.0,29.46
+Umuarama,05/11,Dessecação pré-semeadura,156.48,33.23,124.2,11.83,2.94,9.6,32.63
+Umuarama,05/11,Inicial,101.52,26.04,83.6,7.93,2.0,6.0,32.54
+Umuarama,05/11,Desenvolvimento,204.52,45.77,175.4,15.34,3.06,13.0,32.78
+Umuarama,05/11,Florescimento e enchimento,375.38,80.7,293.0,30.48,5.83,25.0,30.67
+Umuarama,05/11,Maturação,215.21,63.28,156.6,18.86,4.02,16.0,29.86
+Umuarama,15/11,Dessecação pré-semeadura,157.31,35.78,132.6,12.14,2.77,10.0,32.78
+Umuarama,15/11,Inicial,105.41,30.7,80.2,7.28,2.4,5.6,33.79
+Umuarama,15/11,Desenvolvimento,201.86,42.25,162.0,16.21,2.85,14.0,32.35
+Umuarama,15/11,Florescimento e enchimento,371.21,85.68,286.6,30.17,6.14,25.0,30.33
+Umuarama,15/11,Maturação,224.62,59.55,162.8,20.03,3.41,16.6,31.16
+Ivaiporã,25/09,Dessecação pré-semeadura,185.31,38.13,159.8,16.17,2.24,14.6,38.61
+Ivaiporã,25/09,Inicial,97.14,31.42,72.4,9.45,2.13,8.0,31.14
+Ivaiporã,25/09,Desenvolvimento,196.38,42.24,160.4,19.03,3.74,16.0,31.5
+Ivaiporã,25/09,Florescimento e enchimento,392.34,75.19,325.6,36.21,4.09,34.0,32.06
+Ivaiporã,25/09,Maturação,191.83,55.86,153.4,18.72,4.79,14.6,26.64
+Ivaiporã,05/10,Dessecação pré-semeadura,159.76,41.54,123.4,15.07,2.95,12.6,33.29
+Ivaiporã,05/10,Inicial,98.72,26.41,83.8,9.24,2.23,7.0,31.68
+Ivaiporã,05/10,Desenvolvimento,201.38,38.38,170.4,19.62,3.18,17.0,32.29
+Ivaiporã,05/10,Florescimento e enchimento,380.86,84.62,335.6,35.0,5.19,32.0,31.12
+Ivaiporã,05/10,Maturação,186.21,52.51,131.4,18.59,4.66,14.0,25.86
+Ivaiporã,15/10,Dessecação pré-semeadura,150.41,36.05,118.0,14.38,2.54,12.0,31.35
+Ivaiporã,15/10,Inicial,97.66,24.57,83.8,9.86,1.96,7.6,31.34
+Ivaiporã,15/10,Desenvolvimento,207.69,45.78,173.4,19.14,3.31,16.6,33.29
+Ivaiporã,15/10,Florescimento e enchimento,358.79,81.38,311.0,33.86,5.15,31.0,29.31
+Ivaiporã,15/10,Maturação,195.31,61.91,139.6,19.1,4.63,14.6,27.13
+Ivaiporã,25/10,Dessecação pré-semeadura,156.1,32.57,132.0,15.0,2.59,13.0,32.57
+Ivaiporã,25/10,Inicial,97.07,28.44,72.4,9.28,2.53,7.0,31.13
+Ivaiporã,25/10,Desenvolvimento,209.41,49.14,169.6,18.69,2.62,16.0,33.56
+Ivaiporã,25/10,Florescimento e enchimento,343.21,79.17,287.8,33.31,6.55,29.6,28.04
+Ivaiporã,25/10,Maturação,191.28,72.18,116.6,19.0,4.68,16.0,26.54
+Ivaiporã,05/11,Dessecação pré-semeadura,151.83,31.06,125.2,14.93,2.71,13.0,31.66
+Ivaiporã,05/11,Inicial,100.83,26.35,76.0,9.52,1.84,7.6,32.32
+Ivaiporã,05/11,Desenvolvimento,204.03,51.03,160.6,18.14,2.71,16.0,32.7
+Ivaiporã,05/11,Florescimento e enchimento,331.66,80.81,269.2,32.62,6.69,27.6,27.1
+Ivaiporã,05/11,Maturação,195.83,71.43,128.2,19.62,4.52,16.6,27.17
+Ivaiporã,15/11,Dessecação pré-semeadura,150.79,34.88,126.4,14.48,2.71,12.0,31.42
+Ivaiporã,15/11,Inicial,106.1,33.02,64.0,9.14,2.03,7.2,34.01
+Ivaiporã,15/11,Desenvolvimento,193.41,49.93,152.4,18.14,3.31,15.0,31.0
+Ivaiporã,15/11,Florescimento e enchimento,330.38,86.38,256.8,32.21,6.34,28.6,26.99
+Ivaiporã,15/11,Maturação,201.28,60.51,146.6,20.24,3.64,18.0,27.92
+Maringá,25/09,Dessecação pré-semeadura,167.21,33.83,135.8,13.79,3.04,11.6,34.83
+Maringá,25/09,Inicial,104.52,28.71,83.6,9.48,1.86,8.0,33.51
+Maringá,25/09,Desenvolvimento,216.34,41.93,183.8,17.97,2.4,16.0,34.7
+Maringá,25/09,Florescimento e enchimento,420.97,75.44,362.2,35.45,4.76,30.6,34.4
+Maringá,25/09,Maturação,206.34,53.24,161.2,20.34,3.84,16.6,28.66
+Maringá,05/10,Dessecação pré-semeadura,168.69,42.36,138.8,14.55,2.84,11.6,35.15
+Maringá,05/10,Inicial,106.24,27.81,83.0,8.97,1.84,7.0,34.09
+Maringá,05/10,Desenvolvimento,219.9,38.7,189.0,18.17,2.67,16.0,35.26
+Maringá,05/10,Florescimento e enchimento,410.24,78.31,367.0,35.52,5.19,31.2,33.52
+Maringá,05/10,Maturação,202.17,60.8,135.6,19.79,4.33,16.6,28.08
+Maringá,15/10,Dessecação pré-semeadura,161.48,33.53,134.6,14.17,2.19,13.0,33.66
+Maringá,15/10,Inicial,108.55,26.84,84.6,9.1,1.88,8.0,34.84
+Maringá,15/10,Desenvolvimento,220.83,42.97,177.6,18.03,2.71,16.0,35.4
+Maringá,15/10,Florescimento e enchimento,388.34,74.14,327.4,34.97,5.49,30.0,31.73
+Maringá,15/10,Maturação,212.24,70.39,156.8,20.31,4.24,17.0,29.48
+Maringá,25/10,Dessecação pré-semeadura,171.24,36.5,140.0,14.28,2.23,13.0,35.72
+Maringá,25/10,Inicial,104.79,27.66,87.8,8.83,1.69,8.0,33.6
+Maringá,25/10,Desenvolvimento,219.45,46.89,181.6,17.76,2.8,16.0,35.17
+Maringá,25/10,Florescimento e enchimento,374.03,73.81,311.0,35.21,5.33,30.0,30.56
+Maringá,25/10,Maturação,209.14,74.02,128.0,19.69,4.3,15.6,29.02
+Maringá,05/11,Dessecação pré-semeadura,167.62,29.47,136.6,13.93,1.98,13.0,34.95
+Maringá,05/11,Inicial,106.97,26.79,85.8,8.79,1.99,7.0,34.29
+Maringá,05/11,Desenvolvimento,215.62,51.59,172.8,18.1,2.77,15.0,34.55
+Maringá,05/11,Florescimento e enchimento,365.0,84.14,289.0,34.69,5.59,30.0,29.82
+Maringá,05/11,Maturação,214.55,71.2,151.6,20.17,4.1,16.6,29.77
+Maringá,15/11,Dessecação pré-semeadura,163.72,33.91,137.8,13.69,2.22,11.0,34.12
+Maringá,15/11,Inicial,111.03,30.88,81.6,8.93,1.94,7.0,35.59
+Maringá,15/11,Desenvolvimento,210.62,50.6,157.8,18.31,3.72,14.0,33.75
+Maringá,15/11,Florescimento e enchimento,356.21,88.75,274.2,34.28,5.53,29.0,29.1
+Maringá,15/11,Maturação,223.79,65.08,169.8,21.1,3.54,18.0,31.05
+São Pedro do Iguaçu,25/09,Dessecação pré-semeadura,118.17,34.37,92.8,10.1,3.1,7.6,24.62
+São Pedro do Iguaçu,25/09,Inicial,72.55,26.93,44.0,6.86,2.12,5.0,23.26
+São Pedro do Iguaçu,25/09,Desenvolvimento,161.24,46.53,117.8,13.79,3.37,10.0,25.87
+São Pedro do Iguaçu,25/09,Florescimento e enchimento,358.93,77.19,295.0,29.45,5.11,25.6,29.33
+São Pedro do Iguaçu,25/09,Maturação,188.28,52.42,142.0,16.69,3.72,14.6,26.15
+São Pedro do Iguaçu,05/10,Dessecação pré-semeadura,119.34,35.75,84.6,10.76,2.63,9.0,24.87
+São Pedro do Iguaçu,05/10,Inicial,73.76,26.86,49.6,6.76,1.77,5.0,23.67
+São Pedro do Iguaçu,05/10,Desenvolvimento,173.59,44.42,145.6,14.28,3.51,11.0,27.84
+São Pedro do Iguaçu,05/10,Florescimento e enchimento,352.28,76.56,300.6,28.97,4.49,26.6,28.78
+São Pedro do Iguaçu,05/10,Maturação,188.03,52.83,147.8,17.14,3.46,14.0,26.12
+São Pedro do Iguaçu,15/10,Dessecação pré-semeadura,113.38,29.37,89.0,10.72,2.66,9.0,23.63
+São Pedro do Iguaçu,15/10,Inicial,77.97,24.33,56.6,6.72,2.42,5.0,25.02
+São Pedro do Iguaçu,15/10,Desenvolvimento,184.14,46.6,148.0,14.45,3.8,11.6,29.52
+São Pedro do Iguaçu,15/10,Florescimento e enchimento,344.55,77.48,292.6,29.1,4.78,26.6,28.15
+São Pedro do Iguaçu,15/10,Maturação,195.59,66.23,135.2,17.31,4.24,14.0,27.16
+São Pedro do Iguaçu,25/10,Dessecação pré-semeadura,121.76,35.04,93.2,10.69,2.39,9.0,25.4
+São Pedro do Iguaçu,25/10,Inicial,86.14,29.49,65.6,7.07,2.56,5.0,27.62
+São Pedro do Iguaçu,25/10,Desenvolvimento,184.9,52.14,144.0,14.66,4.09,12.0,29.63
+São Pedro do Iguaçu,25/10,Florescimento e enchimento,333.31,68.0,277.4,29.07,4.87,24.6,27.23
+São Pedro do Iguaçu,25/10,Maturação,190.79,70.13,127.6,16.62,4.34,13.0,26.48
+São Pedro do Iguaçu,05/11,Dessecação pré-semeadura,128.14,35.06,99.4,10.45,3.01,8.0,26.72
+São Pedro do Iguaçu,05/11,Inicial,89.1,23.54,74.6,7.31,2.27,5.6,28.56
+São Pedro do Iguaçu,05/11,Desenvolvimento,185.9,51.73,132.4,15.21,3.18,12.0,29.79
+São Pedro do Iguaçu,05/11,Florescimento e enchimento,327.86,79.38,240.6,28.9,4.93,24.6,26.79
+São Pedro do Iguaçu,05/11,Maturação,188.24,72.38,124.6,17.0,4.34,13.6,26.12
+São Pedro do Iguaçu,15/11,Dessecação pré-semeadura,132.28,36.39,115.4,10.9,3.04,9.0,27.56
+São Pedro do Iguaçu,15/11,Inicial,97.45,31.51,68.0,7.34,2.38,5.0,31.23
+São Pedro do Iguaçu,15/11,Desenvolvimento,181.52,45.98,149.2,15.38,3.13,13.6,29.09
+São Pedro do Iguaçu,15/11,Florescimento e enchimento,329.28,89.01,230.8,28.69,5.71,24.0,26.9
+São Pedro do Iguaçu,15/11,Maturação,192.17,65.95,132.0,17.72,3.9,13.6,26.66
+Marechal Cândido Rondon,25/09,Dessecação pré-semeadura,135.55,33.52,107.6,11.17,2.77,9.0,28.24
+Marechal Cândido Rondon,25/09,Inicial,81.69,29.17,59.0,6.86,2.17,5.0,26.19
+Marechal Cândido Rondon,25/09,Desenvolvimento,192.21,43.93,163.6,14.86,3.56,11.6,30.83
+Marechal Cândido Rondon,25/09,Florescimento e enchimento,414.76,72.06,363.2,32.1,3.96,28.6,33.89
+Marechal Cândido Rondon,25/09,Maturação,231.72,57.23,173.0,19.76,3.95,17.0,32.18
+Marechal Cândido Rondon,05/10,Dessecação pré-semeadura,135.93,38.36,101.4,11.45,2.76,10.0,28.32
+Marechal Cândido Rondon,05/10,Inicial,87.86,24.71,69.4,7.0,2.42,4.6,28.2
+Marechal Cândido Rondon,05/10,Desenvolvimento,204.03,44.57,180.4,15.62,3.14,13.0,32.72
+Marechal Cândido Rondon,05/10,Florescimento e enchimento,409.03,66.49,362.2,32.03,3.59,29.0,33.42
+Marechal Cândido Rondon,05/10,Maturação,235.69,56.73,191.8,20.31,3.83,17.6,32.73
+Marechal Cândido Rondon,15/10,Dessecação pré-semeadura,130.93,31.56,102.0,10.86,2.97,9.0,27.29
+Marechal Cândido Rondon,15/10,Inicial,92.48,27.23,68.4,7.31,2.33,5.0,29.68
+Marechal Cândido Rondon,15/10,Desenvolvimento,211.59,42.38,179.6,15.66,3.02,13.0,33.92
+Marechal Cândido Rondon,15/10,Florescimento e enchimento,410.66,68.14,363.6,33.34,3.72,31.2,33.55
+Marechal Cândido Rondon,15/10,Maturação,236.24,64.08,182.6,19.86,4.27,18.0,32.81
+Marechal Cândido Rondon,25/10,Dessecação pré-semeadura,142.48,34.64,122.0,11.21,3.12,8.6,29.73
+Marechal Cândido Rondon,25/10,Inicial,102.07,27.92,81.6,7.66,2.22,6.0,32.73
+Marechal Cândido Rondon,25/10,Desenvolvimento,213.52,43.89,184.4,15.97,3.25,14.0,34.22
+Marechal Cândido Rondon,25/10,Florescimento e enchimento,400.76,72.01,354.0,33.41,4.64,31.0,32.74
+Marechal Cândido Rondon,25/10,Maturação,232.93,57.53,186.6,19.28,4.03,15.6,32.32
+Marechal Cândido Rondon,05/11,Dessecação pré-semeadura,150.72,33.82,121.6,11.52,2.97,9.6,31.43
+Marechal Cândido Rondon,05/11,Inicial,104.21,26.07,86.2,8.1,1.82,7.0,33.4
+Marechal Cândido Rondon,05/11,Desenvolvimento,212.34,42.87,182.0,16.1,2.82,14.2,34.03
+Marechal Cândido Rondon,05/11,Florescimento e enchimento,400.59,82.3,335.0,33.79,4.84,29.6,32.73
+Marechal Cândido Rondon,05/11,Maturação,232.93,58.8,173.2,19.31,3.75,16.0,32.32
+Marechal Cândido Rondon,15/11,Dessecação pré-semeadura,156.62,34.83,137.0,12.03,2.31,10.0,32.64
+Marechal Cândido Rondon,15/11,Inicial,109.97,28.03,89.0,7.93,2.15,6.0,35.25
+Marechal Cândido Rondon,15/11,Desenvolvimento,211.66,40.76,186.6,16.76,2.42,15.0,33.92
+Marechal Cândido Rondon,15/11,Florescimento e enchimento,400.93,87.76,302.6,33.72,5.21,30.0,32.76
+Marechal Cândido Rondon,15/11,Maturação,238.07,54.77,183.0,20.07,3.13,18.0,33.03
+Medianeira,25/09,Dessecação pré-semeadura,139.52,33.96,112.0,12.24,3.25,9.6,29.07
+Medianeira,25/09,Inicial,88.17,29.65,62.4,7.9,2.01,7.0,28.27
+Medianeira,25/09,Desenvolvimento,196.1,46.42,155.4,16.59,2.8,14.6,31.46
+Medianeira,25/09,Florescimento e enchimento,420.72,80.13,352.6,34.21,4.88,30.0,34.38
+Medianeira,25/09,Maturação,217.97,58.25,161.4,20.21,3.78,18.0,30.27
+Medianeira,05/10,Dessecação pré-semeadura,143.59,37.02,108.6,12.86,2.66,11.0,29.92
+Medianeira,05/10,Inicial,87.03,26.26,70.2,8.0,2.07,7.0,27.93
+Medianeira,05/10,Desenvolvimento,213.69,47.28,181.8,17.07,2.94,15.2,34.27
+Medianeira,05/10,Florescimento e enchimento,406.21,75.5,348.8,33.76,4.43,30.6,33.19
+Medianeira,05/10,Maturação,221.1,55.01,177.6,20.17,3.91,18.0,30.71
+Medianeira,15/10,Dessecação pré-semeadura,136.48,32.59,101.4,12.48,2.49,10.6,28.45
+Medianeira,15/10,Inicial,96.69,26.28,74.0,8.07,2.03,6.6,31.03
+Medianeira,15/10,Desenvolvimento,220.28,50.81,185.2,17.21,3.36,14.6,35.31
+Medianeira,15/10,Florescimento e enchimento,398.0,77.95,351.6,34.28,4.57,31.6,32.52
+Medianeira,15/10,Maturação,227.17,66.95,162.4,20.07,4.31,16.6,31.55
+Medianeira,25/10,Dessecação pré-semeadura,146.93,33.89,121.6,12.66,2.53,11.0,30.65
+Medianeira,25/10,Inicial,103.59,31.76,80.0,8.41,2.26,7.0,33.21
+Medianeira,25/10,Desenvolvimento,220.45,55.36,188.4,17.24,3.62,14.6,35.33
+Medianeira,25/10,Florescimento e enchimento,383.66,70.1,316.0,34.34,4.13,30.6,31.34
+Medianeira,25/10,Maturação,226.38,68.32,157.0,19.55,4.15,16.0,31.41
+Medianeira,05/11,Dessecação pré-semeadura,156.72,37.07,128.8,12.59,2.54,10.6,32.68
+Medianeira,05/11,Inicial,107.83,28.13,85.8,8.66,2.14,8.0,34.56
+Medianeira,05/11,Desenvolvimento,215.14,49.69,179.6,17.31,2.99,14.6,34.48
+Medianeira,05/11,Florescimento e enchimento,380.9,84.68,288.6,34.1,5.38,29.6,31.12
+Medianeira,05/11,Maturação,220.86,70.65,156.6,20.34,3.76,16.6,30.64
+Medianeira,15/11,Dessecação pré-semeadura,162.31,40.99,142.2,13.07,2.7,11.6,33.82
+Medianeira,15/11,Inicial,111.34,31.14,91.6,8.48,1.99,7.0,35.69
+Medianeira,15/11,Desenvolvimento,209.59,46.75,167.6,17.69,3.32,14.6,33.59
+Medianeira,15/11,Florescimento e enchimento,381.17,92.37,300.8,34.0,5.9,29.8,31.14
+Medianeira,15/11,Maturação,224.83,65.33,156.8,20.93,3.17,18.0,31.19
+São Miguel do Iguaçu,25/09,Dessecação pré-semeadura,149.48,35.26,123.4,12.17,3.02,10.0,31.14
+São Miguel do Iguaçu,25/09,Inicial,92.69,28.64,71.0,8.17,1.67,7.0,29.72
+São Miguel do Iguaçu,25/09,Desenvolvimento,204.79,45.88,158.8,16.45,3.46,14.2,32.85
+São Miguel do Iguaçu,25/09,Florescimento e enchimento,429.79,68.28,364.4,34.1,4.3,31.0,35.12
+São Miguel do Iguaçu,25/09,Maturação,227.72,51.68,177.2,19.45,3.92,16.6,31.63
+São Miguel do Iguaçu,05/10,Dessecação pré-semeadura,150.48,37.28,119.6,13.03,2.71,11.0,31.35
+São Miguel do Iguaçu,05/10,Inicial,93.41,28.99,74.4,8.07,2.19,6.0,29.98
+São Miguel do Iguaçu,05/10,Desenvolvimento,219.34,43.37,185.2,16.97,2.96,15.0,35.17
+São Miguel do Iguaçu,05/10,Florescimento e enchimento,414.69,65.87,357.6,33.38,3.77,31.2,33.88
+São Miguel do Iguaçu,05/10,Maturação,233.28,51.6,189.8,19.83,3.93,16.0,32.4
+São Miguel do Iguaçu,15/10,Dessecação pré-semeadura,143.97,33.82,109.0,12.69,2.35,10.0,30.01
+São Miguel do Iguaçu,15/10,Inicial,101.93,26.89,75.8,8.17,2.38,6.0,32.71
+São Miguel do Iguaçu,15/10,Desenvolvimento,224.86,46.17,185.8,17.03,3.33,14.0,36.04
+São Miguel do Iguaçu,15/10,Florescimento e enchimento,409.21,69.07,353.6,33.69,4.71,30.6,33.43
+São Miguel do Iguaçu,15/10,Maturação,237.24,59.32,180.6,20.14,4.18,16.0,32.95
+São Miguel do Iguaçu,25/10,Dessecação pré-semeadura,154.59,36.4,128.4,12.66,2.79,10.6,32.25
+São Miguel do Iguaçu,25/10,Inicial,107.24,30.98,84.6,8.28,2.02,6.6,34.39
+São Miguel do Iguaçu,25/10,Desenvolvimento,224.38,46.79,201.0,17.28,3.41,15.0,35.96
+São Miguel do Iguaçu,25/10,Florescimento e enchimento,397.1,62.93,343.6,33.52,4.44,29.0,32.44
+São Miguel do Iguaçu,25/10,Maturação,238.48,60.12,180.2,20.03,4.08,17.0,33.09
+São Miguel do Iguaçu,05/11,Dessecação pré-semeadura,162.9,36.84,128.6,12.59,2.86,9.6,33.97
+São Miguel do Iguaçu,05/11,Inicial,109.97,26.49,83.0,8.62,2.43,7.0,35.25
+São Miguel do Iguaçu,05/11,Desenvolvimento,221.79,38.53,200.2,17.55,2.49,15.6,35.54
+São Miguel do Iguaçu,05/11,Florescimento e enchimento,394.48,77.37,313.2,33.21,5.76,27.2,32.23
+São Miguel do Iguaçu,05/11,Maturação,237.24,58.99,177.6,20.69,3.26,18.2,32.91
+São Miguel do Iguaçu,15/11,Dessecação pré-semeadura,165.79,37.14,139.0,12.9,2.48,11.0,34.55
+São Miguel do Iguaçu,15/11,Inicial,115.38,25.67,95.8,8.52,1.86,7.0,36.98
+São Miguel do Iguaçu,15/11,Desenvolvimento,212.83,35.52,185.6,17.59,2.8,14.6,34.11
+São Miguel do Iguaçu,15/11,Florescimento e enchimento,397.9,83.85,315.6,33.48,6.42,27.6,32.51
+São Miguel do Iguaçu,15/11,Maturação,241.31,55.72,186.4,21.62,3.08,19.0,33.48
+Foz do Iguaçu,25/09,Dessecação pré-semeadura,172.0,37.17,145.2,14.34,3.19,12.0,35.83
+Foz do Iguaçu,25/09,Inicial,99.97,30.99,72.4,9.03,1.76,8.0,32.05
+Foz do Iguaçu,25/09,Desenvolvimento,208.62,42.08,176.6,18.41,3.04,16.0,33.47
+Foz do Iguaçu,25/09,Florescimento e enchimento,415.93,70.36,356.8,35.72,4.74,32.2,33.98
+Foz do Iguaçu,25/09,Maturação,202.17,51.55,158.8,18.79,3.51,16.0,28.08
+Foz do Iguaçu,05/10,Dessecação pré-semeadura,165.38,39.06,135.4,14.31,2.93,11.0,34.46
+Foz do Iguaçu,05/10,Inicial,97.62,23.97,73.0,9.17,1.79,7.6,31.33
+Foz do Iguaçu,05/10,Desenvolvimento,222.1,45.65,199.8,18.79,3.02,17.0,35.61
+Foz do Iguaçu,05/10,Florescimento e enchimento,394.34,73.96,344.8,34.07,4.66,30.0,32.22
+Foz do Iguaçu,05/10,Maturação,206.86,49.23,174.0,19.59,3.44,17.0,28.73
+Foz do Iguaçu,15/10,Dessecação pré-semeadura,154.28,39.46,114.4,13.97,2.43,11.6,32.16
+Foz do Iguaçu,15/10,Inicial,103.83,24.85,78.4,9.52,1.68,8.0,33.32
+Foz do Iguaçu,15/10,Desenvolvimento,225.9,43.97,186.2,18.52,3.36,16.0,36.21
+Foz do Iguaçu,15/10,Florescimento e enchimento,377.66,75.39,329.6,33.52,5.46,30.0,30.85
+Foz do Iguaçu,15/10,Maturação,210.24,55.04,168.0,20.03,4.2,17.0,29.2
+Foz do Iguaçu,25/10,Dessecação pré-semeadura,159.97,30.63,138.0,14.34,2.44,13.0,33.37
+Foz do Iguaçu,25/10,Inicial,107.21,30.51,85.2,9.14,1.92,8.0,34.37
+Foz do Iguaçu,25/10,Desenvolvimento,221.03,47.48,191.8,18.52,2.85,17.0,35.42
+Foz do Iguaçu,25/10,Florescimento e enchimento,361.93,69.83,306.8,33.03,4.52,29.2,29.57
+Foz do Iguaçu,25/10,Maturação,215.17,61.34,163.2,20.31,4.42,16.8,29.86
+Foz do Iguaçu,05/11,Dessecação pré-semeadura,163.62,36.86,139.6,14.07,2.56,12.0,34.12
+Foz do Iguaçu,05/11,Inicial,113.45,25.03,88.2,9.55,1.84,8.0,36.37
+Foz do Iguaçu,05/11,Desenvolvimento,207.69,42.07,174.6,17.97,2.98,16.0,33.28
+Foz do Iguaçu,05/11,Florescimento e enchimento,358.79,78.74,276.8,32.9,5.25,28.2,29.31
+Foz do Iguaçu,05/11,Maturação,212.17,58.06,161.0,20.59,3.85,18.0,29.44
+Foz do Iguaçu,15/11,Dessecação pré-semeadura,167.86,37.17,142.0,14.21,2.65,12.6,34.98
+Foz do Iguaçu,15/11,Inicial,112.97,26.48,102.4,9.24,1.66,8.0,36.21
+Foz do Iguaçu,15/11,Desenvolvimento,199.55,38.67,166.2,17.76,3.52,14.6,31.98
+Foz do Iguaçu,15/11,Florescimento e enchimento,355.34,81.74,278.6,33.07,5.82,28.0,29.03
+Foz do Iguaçu,15/11,Maturação,216.1,60.01,155.6,21.0,3.18,17.6,29.98
+Matelândia,25/09,Dessecação pré-semeadura,139.17,33.78,110.6,12.31,3.26,9.6,28.99
+Matelândia,25/09,Inicial,87.97,29.63,61.8,8.03,2.08,7.0,28.2
+Matelândia,25/09,Desenvolvimento,198.31,46.21,156.6,16.93,2.67,15.0,31.81
+Matelândia,25/09,Florescimento e enchimento,428.52,79.91,361.4,34.79,4.72,30.0,35.01
+Matelândia,25/09,Maturação,228.31,58.84,170.4,20.72,3.85,19.0,31.71
+Matelândia,05/10,Dessecação pré-semeadura,142.86,37.07,106.0,12.9,2.7,11.0,29.77
+Matelândia,05/10,Inicial,88.24,26.69,70.2,8.28,2.02,7.0,28.32
+Matelândia,05/10,Desenvolvimento,216.0,47.27,185.0,17.21,2.86,15.2,34.64
+Matelândia,05/10,Florescimento e enchimento,415.52,74.26,360.4,34.48,4.24,31.0,33.95
+Matelândia,05/10,Maturação,231.9,57.17,187.2,20.79,3.98,19.0,32.21
+Matelândia,15/10,Dessecação pré-semeadura,136.9,32.87,101.8,12.76,2.52,11.0,28.53
+Matelândia,15/10,Inicial,97.76,26.28,76.6,8.14,1.98,6.6,31.38
+Matelândia,15/10,Desenvolvimento,222.1,50.79,183.8,17.52,3.17,15.0,35.6
+Matelândia,15/10,Florescimento e enchimento,411.1,77.59,366.2,35.07,4.17,32.6,33.59
+Matelândia,15/10,Maturação,237.31,70.18,166.8,20.48,4.21,17.2,32.96
+Matelândia,25/10,Dessecação pré-semeadura,148.52,34.41,124.6,12.93,2.56,11.0,30.98
+Matelândia,25/10,Inicial,104.93,32.03,83.2,8.55,2.2,7.0,33.64
+Matelândia,25/10,Desenvolvimento,222.86,54.87,190.0,17.48,3.55,15.6,35.72
+Matelândia,25/10,Florescimento e enchimento,398.83,70.22,325.8,35.21,3.9,32.0,32.58
+Matelândia,25/10,Maturação,234.97,69.73,159.4,20.03,4.17,16.0,32.6
+Matelândia,05/11,Dessecação pré-semeadura,158.41,37.04,134.2,12.72,2.43,10.0,33.04
+Matelândia,05/11,Inicial,108.55,28.14,85.2,8.76,2.15,8.0,34.8
+Matelândia,05/11,Desenvolvimento,219.38,50.6,181.0,17.48,3.04,14.6,35.16
+Matelândia,05/11,Florescimento e enchimento,397.38,85.65,305.4,35.17,5.18,31.0,32.47
+Matelândia,05/11,Maturação,229.24,70.67,169.0,20.76,3.72,16.6,31.8
+Matelândia,15/11,Dessecação pré-semeadura,164.21,40.76,145.8,13.21,2.64,11.0,34.22
+Matelândia,15/11,Inicial,111.86,31.68,93.0,8.72,2.09,7.0,35.85
+Matelândia,15/11,Desenvolvimento,215.69,47.44,177.8,18.03,2.99,14.6,34.57
+Matelândia,15/11,Florescimento e enchimento,398.14,93.97,315.8,34.83,5.83,31.2,32.53
+Matelândia,15/11,Maturação,233.48,66.67,164.0,21.34,3.12,18.6,32.39
+Santa Helena,25/09,Dessecação pré-semeadura,135.93,33.84,107.6,11.07,2.63,9.0,28.32
+Santa Helena,25/09,Inicial,83.48,26.51,54.2,7.14,1.77,5.0,26.76
+Santa Helena,25/09,Desenvolvimento,186.03,42.37,148.0,14.28,3.09,11.0,29.84
+Santa Helena,25/09,Florescimento e enchimento,389.38,72.44,312.8,28.93,4.93,24.6,31.81
+Santa Helena,25/09,Maturação,209.79,47.66,164.6,17.03,3.77,14.0,29.14
+Santa Helena,05/10,Dessecação pré-semeadura,135.55,35.01,107.6,11.28,2.22,9.6,28.24
+Santa Helena,05/10,Inicial,87.17,22.86,69.0,7.14,1.92,6.0,27.97
+Santa Helena,05/10,Desenvolvimento,194.52,42.77,156.2,14.41,3.15,11.0,31.19
+Santa Helena,05/10,Florescimento e enchimento,379.72,66.96,306.6,28.41,4.52,24.6,31.02
+Santa Helena,05/10,Maturação,213.93,48.01,171.6,17.69,4.09,15.0,29.71
+Santa Helena,15/10,Dessecação pré-semeadura,132.14,28.71,102.8,11.28,2.28,9.0,27.54
+Santa Helena,15/10,Inicial,90.14,27.47,65.4,6.79,2.29,5.0,28.93
+Santa Helena,15/10,Desenvolvimento,202.34,42.93,164.2,14.45,3.1,11.6,32.43
+Santa Helena,15/10,Florescimento e enchimento,375.79,68.83,328.4,29.14,4.75,25.0,30.7
+Santa Helena,15/10,Maturação,217.9,54.62,175.6,17.93,3.85,15.2,30.26
+Santa Helena,25/10,Dessecação pré-semeadura,139.28,31.6,113.2,11.0,2.84,9.6,29.05
+Santa Helena,25/10,Inicial,97.83,27.63,78.4,7.14,1.98,5.6,31.37
+Santa Helena,25/10,Desenvolvimento,202.97,49.2,174.0,14.55,4.04,10.6,32.53
+Santa Helena,25/10,Florescimento e enchimento,364.45,63.48,307.2,29.1,4.71,24.0,29.78
+Santa Helena,25/10,Maturação,218.03,54.74,166.4,17.86,4.14,14.2,30.25
+Santa Helena,05/11,Dessecação pré-semeadura,144.59,35.27,107.8,10.69,2.59,8.6,30.15
+Santa Helena,05/11,Inicial,99.72,26.63,75.6,7.34,1.97,5.6,31.97
+Santa Helena,05/11,Desenvolvimento,200.45,40.03,167.8,14.55,3.18,13.0,32.12
+Santa Helena,05/11,Florescimento e enchimento,362.03,71.85,286.8,29.45,5.97,23.6,29.58
+Santa Helena,05/11,Maturação,219.83,51.85,160.6,18.31,3.32,15.0,30.5
+Santa Helena,15/11,Dessecação pré-semeadura,149.1,34.99,128.0,10.97,2.63,9.0,31.07
+Santa Helena,15/11,Inicial,105.83,28.46,85.0,7.24,2.2,5.6,33.92
+Santa Helena,15/11,Desenvolvimento,193.83,36.17,165.6,14.93,2.81,12.0,31.06
+Santa Helena,15/11,Florescimento e enchimento,366.03,75.99,280.8,29.76,5.54,25.0,29.9
+Santa Helena,15/11,Maturação,225.48,46.0,184.6,19.28,2.75,18.0,31.28
+Guaíra,25/09,Dessecação pré-semeadura,181.48,36.08,149.2,15.38,3.0,13.0,37.81
+Guaíra,25/09,Inicial,103.79,30.99,77.0,8.86,2.22,7.6,33.28
+Guaíra,25/09,Desenvolvimento,215.76,41.79,180.4,18.17,3.4,16.0,34.61
+Guaíra,25/09,Florescimento e enchimento,415.1,73.02,340.2,35.0,4.58,30.6,33.92
+Guaíra,25/09,Maturação,204.03,50.88,145.0,19.38,3.16,16.6,28.34
+Guaíra,05/10,Dessecação pré-semeadura,170.38,40.48,130.2,14.28,3.24,12.0,35.5
+Guaíra,05/10,Inicial,107.14,25.38,83.6,9.34,1.99,7.6,34.38
+Guaíra,05/10,Desenvolvimento,219.07,42.11,174.6,18.17,3.79,15.2,35.13
+Guaíra,05/10,Florescimento e enchimento,398.28,66.91,332.0,34.21,3.37,31.0,32.54
+Guaíra,05/10,Maturação,203.28,51.0,154.4,19.55,3.02,16.0,28.23
+Guaíra,15/10,Dessecação pré-semeadura,163.1,35.32,138.6,13.97,2.98,12.0,34.0
+Guaíra,15/10,Inicial,106.59,26.68,90.2,8.97,1.97,7.0,34.21
+Guaíra,15/10,Desenvolvimento,220.66,40.02,191.6,17.86,3.43,14.6,35.37
+Guaíra,15/10,Florescimento e enchimento,384.28,72.95,339.2,34.45,4.4,31.6,31.4
+Guaíra,15/10,Maturação,204.21,57.57,146.0,19.21,3.78,15.6,28.36
+Guaíra,25/10,Dessecação pré-semeadura,170.21,33.36,140.6,14.38,2.68,12.0,35.51
+Guaíra,25/10,Inicial,105.59,29.15,83.0,8.86,2.4,6.6,33.86
+Guaíra,25/10,Desenvolvimento,221.69,46.52,175.6,17.72,3.19,15.0,35.53
+Guaíra,25/10,Florescimento e enchimento,363.62,71.64,302.6,33.83,4.12,30.6,29.71
+Guaíra,25/10,Maturação,204.07,61.72,150.0,19.28,3.88,15.6,28.32
+Guaíra,05/11,Dessecação pré-semeadura,163.66,32.67,130.2,13.55,2.91,11.6,34.13
+Guaíra,05/11,Inicial,110.45,28.45,87.0,8.97,2.18,7.0,35.4
+Guaíra,05/11,Desenvolvimento,210.34,42.6,187.0,17.76,2.63,16.0,33.71
+Guaíra,05/11,Florescimento e enchimento,356.97,76.9,275.4,33.45,4.27,29.0,29.16
+Guaíra,05/11,Maturação,198.38,65.22,139.6,19.28,3.88,16.0,27.52
+Guaíra,15/11,Dessecação pré-semeadura,164.24,37.4,141.2,13.66,3.14,11.6,34.23
+Guaíra,15/11,Inicial,113.07,26.31,96.2,8.76,1.86,7.0,36.24
+Guaíra,15/11,Desenvolvimento,201.28,40.98,171.6,17.9,2.58,16.0,32.26
+Guaíra,15/11,Florescimento e enchimento,350.9,79.97,269.2,32.93,4.24,28.6,28.67
+Guaíra,15/11,Maturação,198.66,58.34,145.2,19.86,3.56,17.6,27.56
+Paraná (média),25/09,Dessecação pré-semeadura,144.97,28.76,116.3,13.53,1.8,12.41,30.2
+Paraná (média),25/09,Inicial,80.98,25.12,56.6,8.15,1.78,6.59,25.96
+Paraná (média),25/09,Desenvolvimento,171.12,35.96,138.65,16.66,2.51,14.66,27.45
+Paraná (média),25/09,Florescimento e enchimento,343.88,59.62,304.48,32.44,3.59,30.08,28.1
+Paraná (média),25/09,Maturação,169.7,42.92,135.75,17.78,3.57,15.25,23.57
+Paraná (média),05/10,Dessecação pré-semeadura,134.01,34.98,99.51,13.04,2.3,11.06,27.92
+Paraná (média),05/10,Inicial,83.09,21.94,64.54,8.23,1.5,6.99,26.67
+Paraná (média),05/10,Desenvolvimento,176.4,32.31,149.09,16.93,2.06,15.01,28.29
+Paraná (média),05/10,Florescimento e enchimento,335.58,62.42,293.44,32.08,3.72,30.29,27.42
+Paraná (média),05/10,Maturação,165.47,45.82,123.72,17.34,3.64,14.25,22.98
+Paraná (média),15/10,Dessecação pré-semeadura,127.13,27.94,107.22,12.67,1.93,11.3,26.5
+Paraná (média),15/10,Inicial,83.67,18.83,73.03,8.3,1.45,7.06,26.85
+Paraná (média),15/10,Desenvolvimento,179.35,35.31,150.93,16.73,2.41,14.08,28.75
+Paraná (média),15/10,Florescimento e enchimento,320.98,61.39,279.82,31.64,3.98,30.34,26.22
+Paraná (média),15/10,Maturação,174.46,54.1,125.16,17.66,3.78,15.0,24.23
+Paraná (média),25/10,Dessecação pré-semeadura,133.51,27.85,112.84,13.1,2.02,11.31,27.85
+Paraná (média),25/10,Inicial,85.46,23.87,66.55,8.14,1.72,6.55,27.4
+Paraná (média),25/10,Desenvolvimento,179.86,36.55,153.8,16.59,2.17,14.62,28.82
+Paraná (média),25/10,Florescimento e enchimento,306.19,57.92,262.31,31.04,4.56,26.65,25.02
+Paraná (média),25/10,Maturação,172.04,58.74,109.61,17.5,3.66,14.26,23.87
+Paraná (média),05/11,Dessecação pré-semeadura,132.03,26.22,106.19,12.8,1.89,10.92,27.53
+Paraná (média),05/11,Inicial,87.55,19.44,69.14,8.3,1.34,7.26,28.07
+Paraná (média),05/11,Desenvolvimento,176.34,40.9,139.33,16.4,2.3,13.92,28.26
+Paraná (média),05/11,Florescimento e enchimento,298.52,66.38,235.39,30.58,4.9,25.72,24.39
+Paraná (média),05/11,Maturação,172.85,57.62,121.61,17.98,3.62,15.29,23.98
+Paraná (média),15/11,Dessecação pré-semeadura,132.19,26.9,112.88,12.67,1.79,10.99,27.55
+Paraná (média),15/11,Inicial,92.12,24.42,71.49,8.28,1.5,7.12,29.52
+Paraná (média),15/11,Desenvolvimento,171.92,40.02,135.2,16.5,2.64,14.05,27.55
+Paraná (média),15/11,Florescimento e enchimento,295.42,72.05,235.14,30.3,5.16,25.81,24.14
+Paraná (média),15/11,Maturação,175.32,53.62,132.79,18.56,3.19,15.91,24.32
+Oeste (média),25/09,Dessecação pré-semeadura,141.29,31.22,118.01,11.92,2.47,9.7,29.43
+Oeste (média),25/09,Inicial,85.18,26.44,58.39,7.6,1.66,6.6,27.31
+Oeste (média),25/09,Desenvolvimento,187.97,42.25,151.32,15.72,2.81,13.2,30.15
+Oeste (média),25/09,Florescimento e enchimento,397.76,69.91,329.97,32.22,4.07,28.77,32.5
+Oeste (média),25/09,Maturação,207.76,50.53,155.71,18.6,3.18,16.78,28.86
+Oeste (média),05/10,Dessecação pré-semeadura,139.8,35.63,110.32,12.15,2.41,10.27,29.13
+Oeste (média),05/10,Inicial,87.15,23.33,67.12,7.71,1.58,6.46,27.97
+Oeste (média),05/10,Desenvolvimento,200.15,41.55,171.82,16.17,2.73,14.07,32.09
+Oeste (média),05/10,Florescimento e enchimento,386.2,67.59,327.99,31.67,3.32,29.5,31.55
+Oeste (média),05/10,Maturação,209.86,49.83,166.89,18.96,3.16,16.52,29.15
+Oeste (média),15/10,Dessecação pré-semeadura,133.54,28.49,105.93,11.93,2.12,10.31,27.83
+Oeste (média),15/10,Inicial,91.98,23.93,71.4,7.72,1.85,6.13,29.52
+Oeste (média),15/10,Desenvolvimento,207.35,42.46,172.34,16.18,3.01,13.44,33.24
+Oeste (média),15/10,Florescimento e enchimento,378.55,70.31,329.48,32.09,3.83,29.8,30.93
+Oeste (média),15/10,Maturação,214.53,58.98,157.36,18.96,3.53,16.76,29.8
+Oeste (média),25/10,Dessecação pré-semeadura,142.5,31.3,119.63,12.11,2.25,10.23,29.73
+Oeste (média),25/10,Inicial,98.17,27.73,75.0,7.96,1.91,6.67,31.48
+Oeste (média),25/10,Desenvolvimento,207.44,46.61,176.11,16.22,3.12,13.84,33.24
+Oeste (média),25/10,Florescimento e enchimento,365.7,65.31,307.16,31.99,3.83,29.59,29.88
+Oeste (média),25/10,Maturação,213.14,60.85,150.22,18.66,3.56,15.44,29.58
+Oeste (média),05/11,Dessecação pré-semeadura,147.71,32.97,122.46,11.98,2.38,10.0,30.8
+Oeste (média),05/11,Inicial,102.2,23.91,83.98,8.2,1.87,7.18,32.76
+Oeste (média),05/11,Desenvolvimento,203.54,42.69,169.77,16.31,2.39,14.13,32.62
+Oeste (média),05/11,Florescimento e enchimento,361.89,76.31,280.06,31.96,4.59,27.58,29.57
+Oeste (média),05/11,Maturação,210.93,61.84,150.44,19.03,3.24,16.58,29.26
+Oeste (média),15/11,Dessecação pré-semeadura,152.22,34.38,134.52,12.34,2.33,10.47,31.72
+Oeste (média),15/11,Inicial,107.03,27.2,85.11,8.05,1.66,6.72,34.31
+Oeste (média),15/11,Desenvolvimento,197.98,38.91,171.03,16.61,2.43,14.92,31.73
+Oeste (média),15/11,Florescimento e enchimento,362.11,82.25,269.12,31.88,4.84,27.56,29.58
+Oeste (média),15/11,Maturação,214.53,57.27,156.57,19.72,2.62,17.6,29.76

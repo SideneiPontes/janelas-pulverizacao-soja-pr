@@ -1,0 +1,49 @@
+﻿cenario,regiao,versao_C1,alternativa,descricao,CC,posicao,peso_C1,peso_C2,peso_C3,peso_C4,peso_C5
+base_AHP,Oeste (média),corrigido_estacoes,A2,Pontas de indução de ar (antideriva),0.9005,1,0.3689,0.1093,0.2063,0.1093,0.2063
+base_AHP,Oeste (média),corrigido_estacoes,A1,Pulverização noturna,0.7093,2,0.3689,0.1093,0.2063,0.1093,0.2063
+base_AHP,Oeste (média),corrigido_estacoes,A5,Estação meteorológica + sistema de suporte à decisão,0.5081,3,0.3689,0.1093,0.2063,0.1093,0.2063
+base_AHP,Oeste (média),corrigido_estacoes,A3,Adjuvante que reduz o tempo mínimo sem chuva,0.3026,4,0.3689,0.1093,0.2063,0.1093,0.2063
+base_AHP,Oeste (média),corrigido_estacoes,A6,Aumento da capacidade operacional (mais pulverizadores/terceirização),0.2414,5,0.3689,0.1093,0.2063,0.1093,0.2063
+base_AHP,Oeste (média),corrigido_estacoes,A4,Pulverização com drone,0.0671,6,0.3689,0.1093,0.2063,0.1093,0.2063
+base_AHP,Paraná (média),corrigido_estacoes,A2,Pontas de indução de ar (antideriva),0.936,1,0.3689,0.1093,0.2063,0.1093,0.2063
+base_AHP,Paraná (média),corrigido_estacoes,A1,Pulverização noturna,0.6726,2,0.3689,0.1093,0.2063,0.1093,0.2063
+base_AHP,Paraná (média),corrigido_estacoes,A5,Estação meteorológica + sistema de suporte à decisão,0.6022,3,0.3689,0.1093,0.2063,0.1093,0.2063
+base_AHP,Paraná (média),corrigido_estacoes,A3,Adjuvante que reduz o tempo mínimo sem chuva,0.3193,4,0.3689,0.1093,0.2063,0.1093,0.2063
+base_AHP,Paraná (média),corrigido_estacoes,A6,Aumento da capacidade operacional (mais pulverizadores/terceirização),0.2423,5,0.3689,0.1093,0.2063,0.1093,0.2063
+base_AHP,Paraná (média),corrigido_estacoes,A4,Pulverização com drone,0.0679,6,0.3689,0.1093,0.2063,0.1093,0.2063
+pequeno_produtor,Oeste (média),corrigido_estacoes,A2,Pontas de indução de ar (antideriva),0.9146,1,0.25,0.25,0.15,0.25,0.1
+pequeno_produtor,Oeste (média),corrigido_estacoes,A1,Pulverização noturna,0.7278,2,0.25,0.25,0.15,0.25,0.1
+pequeno_produtor,Oeste (média),corrigido_estacoes,A5,Estação meteorológica + sistema de suporte à decisão,0.5108,3,0.25,0.25,0.15,0.25,0.1
+pequeno_produtor,Oeste (média),corrigido_estacoes,A3,Adjuvante que reduz o tempo mínimo sem chuva,0.4663,4,0.25,0.25,0.15,0.25,0.1
+pequeno_produtor,Oeste (média),corrigido_estacoes,A6,Aumento da capacidade operacional (mais pulverizadores/terceirização),0.2006,5,0.25,0.25,0.15,0.25,0.1
+pequeno_produtor,Oeste (média),corrigido_estacoes,A4,Pulverização com drone,0.0859,6,0.25,0.25,0.15,0.25,0.1
+pequeno_produtor,Paraná (média),corrigido_estacoes,A2,Pontas de indução de ar (antideriva),0.9423,1,0.25,0.25,0.15,0.25,0.1
+pequeno_produtor,Paraná (média),corrigido_estacoes,A1,Pulverização noturna,0.7022,2,0.25,0.25,0.15,0.25,0.1
+pequeno_produtor,Paraná (média),corrigido_estacoes,A5,Estação meteorológica + sistema de suporte à decisão,0.5781,3,0.25,0.25,0.15,0.25,0.1
+pequeno_produtor,Paraná (média),corrigido_estacoes,A3,Adjuvante que reduz o tempo mínimo sem chuva,0.4795,4,0.25,0.25,0.15,0.25,0.1
+pequeno_produtor,Paraná (média),corrigido_estacoes,A6,Aumento da capacidade operacional (mais pulverizadores/terceirização),0.2007,5,0.25,0.25,0.15,0.25,0.1
+pequeno_produtor,Paraná (média),corrigido_estacoes,A4,Pulverização com drone,0.0866,6,0.25,0.25,0.15,0.25,0.1
+ambiental_saude,Oeste (média),corrigido_estacoes,A2,Pontas de indução de ar (antideriva),0.8533,1,0.2,0.1,0.35,0.1,0.25
+ambiental_saude,Oeste (média),corrigido_estacoes,A5,Estação meteorológica + sistema de suporte à decisão,0.6849,2,0.2,0.1,0.35,0.1,0.25
+ambiental_saude,Oeste (média),corrigido_estacoes,A3,Adjuvante que reduz o tempo mínimo sem chuva,0.4632,3,0.2,0.1,0.35,0.1,0.25
+ambiental_saude,Oeste (média),corrigido_estacoes,A1,Pulverização noturna,0.4617,4,0.2,0.1,0.35,0.1,0.25
+ambiental_saude,Oeste (média),corrigido_estacoes,A6,Aumento da capacidade operacional (mais pulverizadores/terceirização),0.4151,5,0.2,0.1,0.35,0.1,0.25
+ambiental_saude,Oeste (média),corrigido_estacoes,A4,Pulverização com drone,0.1373,6,0.2,0.1,0.35,0.1,0.25
+ambiental_saude,Paraná (média),corrigido_estacoes,A2,Pontas de indução de ar (antideriva),0.8647,1,0.2,0.1,0.35,0.1,0.25
+ambiental_saude,Paraná (média),corrigido_estacoes,A5,Estação meteorológica + sistema de suporte à decisão,0.7383,2,0.2,0.1,0.35,0.1,0.25
+ambiental_saude,Paraná (média),corrigido_estacoes,A3,Adjuvante que reduz o tempo mínimo sem chuva,0.4734,3,0.2,0.1,0.35,0.1,0.25
+ambiental_saude,Paraná (média),corrigido_estacoes,A1,Pulverização noturna,0.4298,4,0.2,0.1,0.35,0.1,0.25
+ambiental_saude,Paraná (média),corrigido_estacoes,A6,Aumento da capacidade operacional (mais pulverizadores/terceirização),0.4169,5,0.2,0.1,0.35,0.1,0.25
+ambiental_saude,Paraná (média),corrigido_estacoes,A4,Pulverização com drone,0.1381,6,0.2,0.1,0.35,0.1,0.25
+pesos_iguais,Oeste (média),corrigido_estacoes,A2,Pontas de indução de ar (antideriva),0.8959,1,0.2,0.2,0.2,0.2,0.2
+pesos_iguais,Oeste (média),corrigido_estacoes,A1,Pulverização noturna,0.612,2,0.2,0.2,0.2,0.2,0.2
+pesos_iguais,Oeste (média),corrigido_estacoes,A5,Estação meteorológica + sistema de suporte à decisão,0.5799,3,0.2,0.2,0.2,0.2,0.2
+pesos_iguais,Oeste (média),corrigido_estacoes,A3,Adjuvante que reduz o tempo mínimo sem chuva,0.4839,4,0.2,0.2,0.2,0.2,0.2
+pesos_iguais,Oeste (média),corrigido_estacoes,A6,Aumento da capacidade operacional (mais pulverizadores/terceirização),0.2851,5,0.2,0.2,0.2,0.2,0.2
+pesos_iguais,Oeste (média),corrigido_estacoes,A4,Pulverização com drone,0.1038,6,0.2,0.2,0.2,0.2,0.2
+pesos_iguais,Paraná (média),corrigido_estacoes,A2,Pontas de indução de ar (antideriva),0.9137,1,0.2,0.2,0.2,0.2,0.2
+pesos_iguais,Paraná (média),corrigido_estacoes,A5,Estação meteorológica + sistema de suporte à decisão,0.6349,2,0.2,0.2,0.2,0.2,0.2
+pesos_iguais,Paraná (média),corrigido_estacoes,A1,Pulverização noturna,0.5869,3,0.2,0.2,0.2,0.2,0.2
+pesos_iguais,Paraná (média),corrigido_estacoes,A3,Adjuvante que reduz o tempo mínimo sem chuva,0.4959,4,0.2,0.2,0.2,0.2,0.2
+pesos_iguais,Paraná (média),corrigido_estacoes,A6,Aumento da capacidade operacional (mais pulverizadores/terceirização),0.2859,5,0.2,0.2,0.2,0.2,0.2
+pesos_iguais,Paraná (média),corrigido_estacoes,A4,Pulverização com drone,0.1046,6,0.2,0.2,0.2,0.2,0.2
