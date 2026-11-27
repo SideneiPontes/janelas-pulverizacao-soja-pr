@@ -6,7 +6,7 @@ Este repositório traz o código e os resultados de uma análise das janelas met
 - **critério A:** Delta T entre 2 e 8 °C, vento a 2 m entre 3 e 10 km/h, temperatura abaixo de 30 °C, umidade relativa de pelo menos 50 % e ausência de chuva na hora e nas 2 horas seguintes;
 - **critério B:** o de Silva, Oliveira e Gandolfo (2018).
 
-Com essas horas são calculados janelas, dias aptos por fase operacional (dessecação, pós-emergência, fungicidas e pré-colheita) e épocas de semeadura. Sobre esses indicadores aplicam-se cadeias de Markov, tendências de Mann-Kendall/Sen e agrupamento k-means. O ERA5 foi validado com 7 estações automáticas do INMET a até 30 km dos municípios (A835 Maringá, A819 Castro, A820 Marechal Cândido Rondon, A846 Foz do Iguaçu, B803 Campina da Lagoa, A816 Novo Horizonte-SC e A842 Nova Fátima), em 98 estação-safras válidas entre 2006/07 e 2025/26 (set–abr, com pelo menos 70 % de horas válidas em temperatura, umidade e vento). As estratégias para ampliar a janela no período de fungicidas foram priorizadas por AHP-TOPSIS, com o critério de ganho de horas corrigido pelas estações. Pontas de indução de ar (antideriva) ficaram em 1º lugar em todos os cenários de pesos.
+Com essas horas são calculados janelas, dias aptos por fase operacional (dessecação, pós-emergência, fungicidas e pré-colheita) e épocas de semeadura. Sobre esses indicadores aplicam-se cadeias de Markov, tendências de Mann-Kendall/Sen e agrupamento k-means. O ERA5 foi validado com 7 estações automáticas do INMET a até 30 km dos municípios (A835 Maringá, A819 Castro, A820 Marechal Cândido Rondon, A846 Foz do Iguaçu, B803 Campina da Lagoa, A816 Novo Horizonte-SC e A842 Nova Fátima), em 98 estação-safras válidas entre 2006/07 e 2025/26 (set–abr, com pelo menos 70 % de horas válidas em temperatura, umidade e vento). As estratégias para ampliar a janela no período de fungicidas foram priorizadas por AHP-TOPSIS, com o critério de ganho de horas corrigido pelas estações. Com as notas dos autores, pontas de indução de ar (antideriva) ficaram em 1º lugar em todos os cenários de pesos; com as notas de um painel de 3 especialistas (versão principal), a pulverização noturna passa ao 1º lugar e as pontas antideriva ao 2º (ver [outputs/RESUMO_PAINEL.md](outputs/RESUMO_PAINEL.md)).
 
 ## Fontes dos dados
 
@@ -67,6 +67,7 @@ pip install -r requirements-lock.txt   # versões exatas usadas no artigo
 | 10 | `python src/documentacao.py` | Dicionário de variáveis e relatório de qualidade |
 | 11 | `python src/mapa_final.py` | CSVs do My Maps, mapa de apresentação (F8), mapa interativo e versão final de F1 e F5 |
 | 12 | `python src/resumo_v4.py` | Comparação v3 × v4 → `outputs/RESUMO_V4.md` |
+| 13 | `python src/painel_especialistas.py` | Notas C2–C5 do painel de especialistas (Google Forms, anonimizado): concordância (W de Kendall), TOPSIS com a mediana do painel (versão principal) × notas dos autores, sensibilidade e comparação de versões → T14–T15c, F6b, F9, `outputs/RESUMO_PAINEL.md` |
 
 Depois do passo 9, rode de novo o passo 8 (a T13d usa a T8).
 

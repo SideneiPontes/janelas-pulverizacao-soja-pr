@@ -1,0 +1,55 @@
+﻿versao,descricao_versao,versao_notas,versao_C1,cenario,regiao,alternativa,CC,posicao,ordem,primeiro
+a,notas dos autores + C1 corrigido (resultado anterior),autores,corrigido_estacoes,base_AHP,Paraná (média),A1,0.6993,2,A2 > A1 > A5 > A3 > A6 > A4,A2
+a,notas dos autores + C1 corrigido (resultado anterior),autores,corrigido_estacoes,base_AHP,Paraná (média),A2,0.9356,1,A2 > A1 > A5 > A3 > A6 > A4,A2
+a,notas dos autores + C1 corrigido (resultado anterior),autores,corrigido_estacoes,base_AHP,Paraná (média),A3,0.3305,4,A2 > A1 > A5 > A3 > A6 > A4,A2
+a,notas dos autores + C1 corrigido (resultado anterior),autores,corrigido_estacoes,base_AHP,Paraná (média),A4,0.0683,6,A2 > A1 > A5 > A3 > A6 > A4,A2
+a,notas dos autores + C1 corrigido (resultado anterior),autores,corrigido_estacoes,base_AHP,Paraná (média),A5,0.5797,3,A2 > A1 > A5 > A3 > A6 > A4,A2
+a,notas dos autores + C1 corrigido (resultado anterior),autores,corrigido_estacoes,base_AHP,Paraná (média),A6,0.257,5,A2 > A1 > A5 > A3 > A6 > A4,A2
+b,mediana do painel principal + C1 corrigido (resultado principal),painel_mediana,corrigido_estacoes,base_AHP,Paraná (média),A1,0.9478,1,A1 > A2 > A5 > A3 > A6 > A4,A1
+b,mediana do painel principal + C1 corrigido (resultado principal),painel_mediana,corrigido_estacoes,base_AHP,Paraná (média),A2,0.909,2,A1 > A2 > A5 > A3 > A6 > A4,A1
+b,mediana do painel principal + C1 corrigido (resultado principal),painel_mediana,corrigido_estacoes,base_AHP,Paraná (média),A3,0.3419,4,A1 > A2 > A5 > A3 > A6 > A4,A1
+b,mediana do painel principal + C1 corrigido (resultado principal),painel_mediana,corrigido_estacoes,base_AHP,Paraná (média),A4,0.1075,6,A1 > A2 > A5 > A3 > A6 > A4,A1
+b,mediana do painel principal + C1 corrigido (resultado principal),painel_mediana,corrigido_estacoes,base_AHP,Paraná (média),A5,0.4844,3,A1 > A2 > A5 > A3 > A6 > A4,A1
+b,mediana do painel principal + C1 corrigido (resultado principal),painel_mediana,corrigido_estacoes,base_AHP,Paraná (média),A6,0.2063,5,A1 > A2 > A5 > A3 > A6 > A4,A1
+c,média do painel principal + C1 corrigido,painel_media,corrigido_estacoes,base_AHP,Paraná (média),A1,0.9377,1,A1 > A2 > A5 > A3 > A6 > A4,A1
+c,média do painel principal + C1 corrigido,painel_media,corrigido_estacoes,base_AHP,Paraná (média),A2,0.9298,2,A1 > A2 > A5 > A3 > A6 > A4,A1
+c,média do painel principal + C1 corrigido,painel_media,corrigido_estacoes,base_AHP,Paraná (média),A3,0.3303,4,A1 > A2 > A5 > A3 > A6 > A4,A1
+c,média do painel principal + C1 corrigido,painel_media,corrigido_estacoes,base_AHP,Paraná (média),A4,0.0195,6,A1 > A2 > A5 > A3 > A6 > A4,A1
+c,média do painel principal + C1 corrigido,painel_media,corrigido_estacoes,base_AHP,Paraná (média),A5,0.4839,3,A1 > A2 > A5 > A3 > A6 > A4,A1
+c,média do painel principal + C1 corrigido,painel_media,corrigido_estacoes,base_AHP,Paraná (média),A6,0.2057,5,A1 > A2 > A5 > A3 > A6 > A4,A1
+d,mediana de todos os respondentes + C1 corrigido,todos_mediana,corrigido_estacoes,base_AHP,Paraná (média),A1,0.9646,1,A1 > A2 > A5 > A3 > A6 > A4,A1
+d,mediana de todos os respondentes + C1 corrigido,todos_mediana,corrigido_estacoes,base_AHP,Paraná (média),A2,0.8805,2,A1 > A2 > A5 > A3 > A6 > A4,A1
+d,mediana de todos os respondentes + C1 corrigido,todos_mediana,corrigido_estacoes,base_AHP,Paraná (média),A3,0.336,4,A1 > A2 > A5 > A3 > A6 > A4,A1
+d,mediana de todos os respondentes + C1 corrigido,todos_mediana,corrigido_estacoes,base_AHP,Paraná (média),A4,0.0426,6,A1 > A2 > A5 > A3 > A6 > A4,A1
+d,mediana de todos os respondentes + C1 corrigido,todos_mediana,corrigido_estacoes,base_AHP,Paraná (média),A5,0.488,3,A1 > A2 > A5 > A3 > A6 > A4,A1
+d,mediana de todos os respondentes + C1 corrigido,todos_mediana,corrigido_estacoes,base_AHP,Paraná (média),A6,0.222,5,A1 > A2 > A5 > A3 > A6 > A4,A1
+e,mediana do painel principal + C1 só ERA5,painel_mediana,ERA5,base_AHP,Paraná (média),A1,0.9632,1,A1 > A2 > A5 > A3 > A6 > A4,A1
+e,mediana do painel principal + C1 só ERA5,painel_mediana,ERA5,base_AHP,Paraná (média),A2,0.5772,2,A1 > A2 > A5 > A3 > A6 > A4,A1
+e,mediana do painel principal + C1 só ERA5,painel_mediana,ERA5,base_AHP,Paraná (média),A3,0.2966,4,A1 > A2 > A5 > A3 > A6 > A4,A1
+e,mediana do painel principal + C1 só ERA5,painel_mediana,ERA5,base_AHP,Paraná (média),A4,0.0865,6,A1 > A2 > A5 > A3 > A6 > A4,A1
+e,mediana do painel principal + C1 só ERA5,painel_mediana,ERA5,base_AHP,Paraná (média),A5,0.3871,3,A1 > A2 > A5 > A3 > A6 > A4,A1
+e,mediana do painel principal + C1 só ERA5,painel_mediana,ERA5,base_AHP,Paraná (média),A6,0.205,5,A1 > A2 > A5 > A3 > A6 > A4,A1
+f1,"mediana do painel, com C2 dos autores + C1 corrigido",painel_mediana_C2_autores,corrigido_estacoes,base_AHP,Paraná (média),A1,0.9522,1,A1 > A2 > A5 > A3 > A6 > A4,A1
+f1,"mediana do painel, com C2 dos autores + C1 corrigido",painel_mediana_C2_autores,corrigido_estacoes,base_AHP,Paraná (média),A2,0.9177,2,A1 > A2 > A5 > A3 > A6 > A4,A1
+f1,"mediana do painel, com C2 dos autores + C1 corrigido",painel_mediana_C2_autores,corrigido_estacoes,base_AHP,Paraná (média),A3,0.3504,4,A1 > A2 > A5 > A3 > A6 > A4,A1
+f1,"mediana do painel, com C2 dos autores + C1 corrigido",painel_mediana_C2_autores,corrigido_estacoes,base_AHP,Paraná (média),A4,0.1074,6,A1 > A2 > A5 > A3 > A6 > A4,A1
+f1,"mediana do painel, com C2 dos autores + C1 corrigido",painel_mediana_C2_autores,corrigido_estacoes,base_AHP,Paraná (média),A5,0.4916,3,A1 > A2 > A5 > A3 > A6 > A4,A1
+f1,"mediana do painel, com C2 dos autores + C1 corrigido",painel_mediana_C2_autores,corrigido_estacoes,base_AHP,Paraná (média),A6,0.1999,5,A1 > A2 > A5 > A3 > A6 > A4,A1
+f2,"mediana do painel, com C3 dos autores + C1 corrigido",painel_mediana_C3_autores,corrigido_estacoes,base_AHP,Paraná (média),A1,0.7222,2,A2 > A1 > A5 > A3 > A6 > A4,A2
+f2,"mediana do painel, com C3 dos autores + C1 corrigido",painel_mediana_C3_autores,corrigido_estacoes,base_AHP,Paraná (média),A2,0.89,1,A2 > A1 > A5 > A3 > A6 > A4,A2
+f2,"mediana do painel, com C3 dos autores + C1 corrigido",painel_mediana_C3_autores,corrigido_estacoes,base_AHP,Paraná (média),A3,0.295,4,A2 > A1 > A5 > A3 > A6 > A4,A2
+f2,"mediana do painel, com C3 dos autores + C1 corrigido",painel_mediana_C3_autores,corrigido_estacoes,base_AHP,Paraná (média),A4,0.1234,6,A2 > A1 > A5 > A3 > A6 > A4,A2
+f2,"mediana do painel, com C3 dos autores + C1 corrigido",painel_mediana_C3_autores,corrigido_estacoes,base_AHP,Paraná (média),A5,0.5661,3,A2 > A1 > A5 > A3 > A6 > A4,A2
+f2,"mediana do painel, com C3 dos autores + C1 corrigido",painel_mediana_C3_autores,corrigido_estacoes,base_AHP,Paraná (média),A6,0.2599,5,A2 > A1 > A5 > A3 > A6 > A4,A2
+f3,"mediana do painel, com C4 dos autores + C1 corrigido",painel_mediana_C4_autores,corrigido_estacoes,base_AHP,Paraná (média),A1,0.9314,2,A2 > A1 > A5 > A3 > A6 > A4,A2
+f3,"mediana do painel, com C4 dos autores + C1 corrigido",painel_mediana_C4_autores,corrigido_estacoes,base_AHP,Paraná (média),A2,0.9431,1,A2 > A1 > A5 > A3 > A6 > A4,A2
+f3,"mediana do painel, com C4 dos autores + C1 corrigido",painel_mediana_C4_autores,corrigido_estacoes,base_AHP,Paraná (média),A3,0.3523,4,A2 > A1 > A5 > A3 > A6 > A4,A2
+f3,"mediana do painel, com C4 dos autores + C1 corrigido",painel_mediana_C4_autores,corrigido_estacoes,base_AHP,Paraná (média),A4,0.0824,6,A2 > A1 > A5 > A3 > A6 > A4,A2
+f3,"mediana do painel, com C4 dos autores + C1 corrigido",painel_mediana_C4_autores,corrigido_estacoes,base_AHP,Paraná (média),A5,0.4802,3,A2 > A1 > A5 > A3 > A6 > A4,A2
+f3,"mediana do painel, com C4 dos autores + C1 corrigido",painel_mediana_C4_autores,corrigido_estacoes,base_AHP,Paraná (média),A6,0.1927,5,A2 > A1 > A5 > A3 > A6 > A4,A2
+f4,"mediana do painel, com C5 dos autores + C1 corrigido",painel_mediana_C5_autores,corrigido_estacoes,base_AHP,Paraná (média),A1,0.8358,2,A2 > A1 > A5 > A3 > A6 > A4,A2
+f4,"mediana do painel, com C5 dos autores + C1 corrigido",painel_mediana_C5_autores,corrigido_estacoes,base_AHP,Paraná (média),A2,0.9188,1,A2 > A1 > A5 > A3 > A6 > A4,A2
+f4,"mediana do painel, com C5 dos autores + C1 corrigido",painel_mediana_C5_autores,corrigido_estacoes,base_AHP,Paraná (média),A3,0.3518,4,A2 > A1 > A5 > A3 > A6 > A4,A2
+f4,"mediana do painel, com C5 dos autores + C1 corrigido",painel_mediana_C5_autores,corrigido_estacoes,base_AHP,Paraná (média),A4,0.0747,6,A2 > A1 > A5 > A3 > A6 > A4,A2
+f4,"mediana do painel, com C5 dos autores + C1 corrigido",painel_mediana_C5_autores,corrigido_estacoes,base_AHP,Paraná (média),A5,0.5011,3,A2 > A1 > A5 > A3 > A6 > A4,A2
+f4,"mediana do painel, com C5 dos autores + C1 corrigido",painel_mediana_C5_autores,corrigido_estacoes,base_AHP,Paraná (média),A6,0.2243,5,A2 > A1 > A5 > A3 > A6 > A4,A2

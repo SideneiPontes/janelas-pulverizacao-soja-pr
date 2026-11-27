@@ -1,0 +1,9 @@
+﻿grupo,criterio,descricao,n_avaliadores,n_alternativas,W_kendall,qui2,gl,p_valor,respondentes
+painel principal (>= 1 ano),C2,Custo de implantação,3,6,0.7867,11.8,5,0.0376,"E1, E3, E4"
+painel principal (>= 1 ano),C3,"Risco ambiental, à saúde e de deriva",3,6,0.8763,13.1443,5,0.0221,"E1, E3, E4"
+painel principal (>= 1 ano),C4,Facilidade de adoção e inclusão de pequenos produtores,3,6,0.1505,2.2581,5,0.8124,"E1, E3, E4"
+painel principal (>= 1 ano),C5,Conformidade regulatória e segurança do aplicador,3,6,0.0337,0.5051,5,0.9919,"E1, E3, E4"
+todos os respondentes,C2,Custo de implantação,4,6,0.7056,14.1129,5,0.0149,"E1, E2, E3, E4"
+todos os respondentes,C3,"Risco ambiental, à saúde e de deriva",4,6,0.5393,10.7851,5,0.0558,"E1, E2, E3, E4"
+todos os respondentes,C4,Facilidade de adoção e inclusão de pequenos produtores,4,6,0.1129,2.2581,5,0.8124,"E1, E2, E3, E4"
+todos os respondentes,C5,Conformidade regulatória e segurança do aplicador,4,6,0.0253,0.5051,5,0.9919,"E1, E2, E3, E4"

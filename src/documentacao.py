@@ -207,6 +207,30 @@ def dicionario() -> pd.DataFrame:
     add("ganho_estacao, ganho_era5_mesmos_pontos, razao, C1_corrigido", "C1 corrigido pelas estações "
         "(razão estação/ERA5 do ganho de cada alternativa nos mesmos pontos e horas)", "h/safra; razão",
         "derivado", per, "alternativa; região", "A6 = 0", T + "T8b_C1_corrigido.csv")
+
+    # --- painel de especialistas (Google Forms)
+    PF = "Painel de especialistas (Google Forms), respostas anonimizadas E1-E4"
+    add("respondente, formacao, anos_experiencia, onde_atua, incluido, alternativa, criterio, nota",
+        "Respostas do painel em formato longo; incluído = >= 1 ano de experiência com aplicação de defensivos",
+        "-; anos; nota 1-9", PF, "-", "respondente x alternativa x critério",
+        "sem data/hora e sem nomes; C2/C3: 9 = custo/risco muito alto; C4/C5: 9 = muito fácil/conforme",
+        T + "T14_painel_respostas.csv")
+    add("nota_autores, mediana/media/minimo/maximo_painel, mediana_todos", "Resumo das notas C2-C5 por "
+        "alternativa e critério: autores x painel principal x todos os respondentes", "nota 1-9", PF, "-",
+        "alternativa x critério", "estatísticas do painel principal (n = 3)", T + "T14b_painel_resumo.csv")
+    add("W_kendall, qui2, gl, p_valor", "Concordância entre avaliadores (W de Kendall com correção para "
+        "empates; p pelo qui-quadrado com n-1 gl)", "0-1; -", PF, "-", "critério; grupo",
+        "notas convertidas em postos por avaliador", T + "T14c_concordancia_kendall.csv")
+    add("CC, posicao (versao_notas, versao_C1)", "TOPSIS com as notas do painel (mediana) e dos autores, "
+        "4 cenários de pesos, Paraná e Oeste", "0-1", "derivado", "-", "cenário x região x versão",
+        "C1 corrigido pelas estações; pesos AHP e cenários inalterados", T + "T15_topsis_painel.csv")
+    add("CC_A1..A6, primeiro, primeiro_mudou", "Sensibilidade do TOPSIS (notas do painel) a -50 % a +50 % "
+        "no peso de cada critério", "0-1", "derivado", "-", "região x critério x variação",
+        "demais pesos renormalizados", T + "T15b_sensibilidade_painel.csv")
+    add("versao (a-f), CC, posicao, ordem", "Comparação de versões das notas e do C1 (cenário base, Paraná)",
+        "0-1", "derivado", "-", "versão x alternativa", "a autores; b painel mediana (principal); c painel média; "
+        "d todos mediana; e painel + C1 ERA5; f1-f4 painel com um critério dos autores",
+        T + "T15c_comparacao_versoes.csv")
     return pd.DataFrame(L)
 
 
@@ -267,11 +291,43 @@ def qualidade() -> pd.DataFrame:
     return pd.DataFrame(linhas)
 
 
+def qualidade_painel() -> pd.DataFrame:
+    """Seção 'Painel de especialistas' do relatório de qualidade (a partir da T14, já anonimizada)."""
+    f = TAB / "T14_painel_respostas.csv"
+    if not f.exists():
+        return pd.DataFrame()
+    t = pd.read_csv(f, encoding="utf-8-sig")
+    resp = t.drop_duplicates("respondente")
+    fora = resp[resp["incluido"] == "não"]
+    obs = (f"{len(resp)} respondentes (E1-E{len(resp)}); critério de inclusão no painel principal: >= 1 ano "
+           f"de experiência com aplicação de defensivos; incluídos: {', '.join(resp.loc[resp['incluido'] == 'sim', 'respondente'])}; "
+           "fora do painel principal: " + ("; ".join(f"{r.respondente} ({r.formacao}, {r.anos_experiencia:g} anos de "
+                                                      "experiência com aplicação de defensivos; entra só na "
+                                                      "sensibilidade com todos os respondentes)"
+                                                      for r in fora.itertuples()) or "nenhum")
+           + f"; notas faltantes: {int(t['nota'].isna().sum())}; campos de perfil faltantes: "
+           f"{int(resp[['formacao', 'anos_experiencia', 'onde_atua']].isna().sum().sum())}")
+    linhas = [{"fonte": "Painel de especialistas", "municipio": "-", "estacao": "-", "variavel": "respondentes",
+               "unidade": "-", "periodo": "-", "n_registros": len(resp), "n_esperado": len(resp),
+               "observacao": obs}]
+    for c, g in t.groupby("criterio"):
+        v = g["nota"]
+        nan = int(v.isna().sum())
+        linhas.append({"fonte": "Painel de especialistas", "municipio": "-", "estacao": "todos os respondentes",
+                       "variavel": f"nota {c}", "unidade": "1-9", "periodo": "-", "n_registros": len(v),
+                       "n_esperado": len(v), "horarios_ausentes": 0, "duplicidades": 0,
+                       "faltantes_total": nan, "pct_faltantes": 100 * nan / len(v), "n_nan": nan,
+                       "fora_limites": int(((v < 1) | (v > 9)).sum()), "limite_inferior": 1,
+                       "limite_superior": 9, "minimo": v.min(), "maximo": v.max(),
+                       "observacao": f"{g['respondente'].nunique()} respondentes x {g['alternativa'].nunique()} alternativas"})
+    return pd.DataFrame(linhas)
+
+
 def main() -> None:
     pd.set_option("display.width", 230)
     d = dicionario()
     d.to_csv(TAB / "dicionario_variaveis.csv", index=False, encoding="utf-8-sig")
-    q = qualidade().round(3)
+    q = pd.concat([qualidade(), qualidade_painel()], ignore_index=True).round(3)
     q.to_csv(TAB / "relatorio_qualidade.csv", index=False, encoding="utf-8-sig")
     print(f"dicionario_variaveis.csv: {len(d)} entradas")
     print(f"relatorio_qualidade.csv: {len(q)} linhas")

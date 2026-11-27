@@ -386,8 +386,9 @@ def fig_F6(T11, alts, lider0, provisorio):
     plt.close(fig)
 
 
-def fig_F6b(t: pd.DataFrame, alts: list[str]):
-    """Barras agrupadas: CC por alternativa, um grupo por cenário (Paraná)."""
+def fig_F6b(t: pd.DataFrame, alts: list[str], notas_rotulo: str = "notas dos autores"):
+    """Barras agrupadas: CC por alternativa, um grupo por cenário (Paraná).
+    src/painel_especialistas.py refaz esta figura com as notas do painel (versão principal)."""
     import matplotlib
     matplotlib.use("Agg")
     import matplotlib.pyplot as plt
@@ -419,8 +420,8 @@ def fig_F6b(t: pd.DataFrame, alts: list[str]):
     ax.set_ylabel("Coeficiente de proximidade (TOPSIS)")
     ax.grid(axis="y")
     ax.legend(ncol=2, loc="upper center", bbox_to_anchor=(0.5, -0.2), fontsize=7.5)
-    ax.set_title("Ranking TOPSIS das estratégias sob diferentes cenários de pesos — Paraná "
-                 "(C1 corrigido pelas estações INMET)", loc="left")
+    ax.set_title("Ranking TOPSIS das estratégias sob diferentes cenários de pesos — Paraná\n"
+                 f"(C1 corrigido pelas estações INMET; {notas_rotulo})", loc="left")
     fig.tight_layout()
     FIG.mkdir(parents=True, exist_ok=True)
     fig.savefig(FIG / "F6b_cenarios_topsis.png", dpi=300)

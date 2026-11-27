@@ -42,3 +42,6 @@ desktop.ini
 Anos Complementares/
 outputs_v3_1995-2024/
 outputs/err_*.txt
+
+# Painel de especialistas: respostas originais (com data/hora) não vão para o repositório
+data/raw/painel_especialistas.csv
