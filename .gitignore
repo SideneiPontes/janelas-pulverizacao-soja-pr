@@ -45,3 +45,6 @@ outputs/err_*.txt
 
 # Painel de especialistas: respostas originais (com data/hora) não vão para o repositório
 data/raw/painel_especialistas.csv
+
+# Questionário do painel (formulário em branco, público)
+!docs/questionario_painel.pdf
